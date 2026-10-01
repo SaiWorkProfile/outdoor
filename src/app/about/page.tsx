@@ -29,7 +29,7 @@ export default function AboutPage() {
           user-entered cost estimates and practical shopping lists — and be honest about everything those numbers
           depend on.
         </p>
-        <p className="page-updated">Last updated: September 30, 2026</p>
+        <p className="page-updated">Last updated: October 1, 2026</p>
       </header>
 
       <div className="content-page-grid">
@@ -72,8 +72,9 @@ export default function AboutPage() {
               a missing price stays missing.
             </p>
             <p>
-              The calculators currently operate without advertising, accounts or third-party analytics. If
-              monetization or analytics is introduced later, the relevant privacy disclosures will be updated.
+              There is no advertising and there are no accounts. The only third-party service is Google
+              Analytics, which measures anonymous, aggregate traffic; the{' '}
+              <Link href="/privacy">privacy page</Link> documents exactly what it collects.
             </p>
             <p>
               There is no manufactured authority either — no fake bylines, no review counts, no star ratings. The

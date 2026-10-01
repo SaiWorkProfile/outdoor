@@ -690,6 +690,7 @@
         "/projects",
         "/",
         "/methodology",
+        "/privacy",
         "mailto:measuretobuild@gmail.com",
         "/how-it-works",
         "/guides",
@@ -729,12 +730,12 @@
       "route": "/privacy",
       "status": 200,
       "title": "Privacy | MeasureToBuild",
-      "description": "How this site handles data: calculator inputs stay in your browser, Project Mode uses local storage only, and there are currently no accounts, ads or trackers.",
+      "description": "How this site handles data: calculator inputs stay in your browser, Project Mode uses local storage only, and Google Analytics measures anonymous, aggregate traffic.",
       "canonical": "http://localhost:3100/privacy",
       "canonicalCount": 1,
       "robotsMeta": "index, follow",
       "ogTitle": "Privacy",
-      "ogDescription": "How this site handles data: calculator inputs stay in your browser, Project Mode uses local storage only, and there are currently no accounts, ads or trackers.",
+      "ogDescription": "How this site handles data: calculator inputs stay in your browser, Project Mode uses local storage only, and Google Analytics measures anonymous, aggregate traffic.",
       "ogUrl": "http://localhost:3100/privacy",
       "ogType": "website",
       "viewport": "width=device-width, initial-scale=1",
@@ -6524,7 +6525,7 @@
     "About MeasureToBuild: one tested calculation engine, visible assumptions, no invented prices — and the limits it will not hide from you.": [
       "/about"
     ],
-    "How this site handles data: calculator inputs stay in your browser, Project Mode uses local storage only, and there are currently no accounts, ads or trackers.": [
+    "How this site handles data: calculator inputs stay in your browser, Project Mode uses local storage only, and Google Analytics measures anonymous, aggregate traffic.": [
       "/privacy"
     ],
     "Terms of use: estimates are planning aids, you verify quantities before purchase, and Project Mode data lives only in your browser.": [

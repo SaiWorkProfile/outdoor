@@ -1,0 +1,261 @@
+{
+  "generatedAt": "2026-10-01T13:44:50.209Z",
+  "base": "https://www.measuretobuild.in",
+  "measurementId": "G-HK72FDCSWW",
+  "source": {
+    "gtagFiles": [
+      "src\\components\\analytics\\GoogleTag.tsx"
+    ],
+    "gtmFiles": [],
+    "measurementIds": [
+      "G-HK72FDCSWW"
+    ],
+    "measurementIdCorrect": true
+  },
+  "html": [
+    {
+      "route": "/",
+      "status": 200,
+      "loaders": 0,
+      "inHead": false,
+      "hasSrc": false,
+      "configCalls": 0,
+      "configInHead": 0,
+      "gtm": 0,
+      "otherG": [],
+      "ok": false
+    },
+    {
+      "route": "/calculators",
+      "status": 200,
+      "loaders": 0,
+      "inHead": false,
+      "hasSrc": false,
+      "configCalls": 0,
+      "configInHead": 0,
+      "gtm": 0,
+      "otherG": [],
+      "ok": false
+    },
+    {
+      "route": "/calculators/gravel-calculator",
+      "status": 200,
+      "loaders": 0,
+      "inHead": false,
+      "hasSrc": false,
+      "configCalls": 0,
+      "configInHead": 0,
+      "gtm": 0,
+      "otherG": [],
+      "ok": false
+    },
+    {
+      "route": "/calculators/concrete-calculator",
+      "status": 200,
+      "loaders": 0,
+      "inHead": false,
+      "hasSrc": false,
+      "configCalls": 0,
+      "configInHead": 0,
+      "gtm": 0,
+      "otherG": [],
+      "ok": false
+    },
+    {
+      "route": "/calculators/fence-cost-calculator",
+      "status": 200,
+      "loaders": 0,
+      "inHead": false,
+      "hasSrc": false,
+      "configCalls": 0,
+      "configInHead": 0,
+      "gtm": 0,
+      "otherG": [],
+      "ok": false
+    },
+    {
+      "route": "/projects",
+      "status": 200,
+      "loaders": 0,
+      "inHead": false,
+      "hasSrc": false,
+      "configCalls": 0,
+      "configInHead": 0,
+      "gtm": 0,
+      "otherG": [],
+      "ok": false
+    },
+    {
+      "route": "/guides",
+      "status": 200,
+      "loaders": 0,
+      "inHead": false,
+      "hasSrc": false,
+      "configCalls": 0,
+      "configInHead": 0,
+      "gtm": 0,
+      "otherG": [],
+      "ok": false
+    },
+    {
+      "route": "/about",
+      "status": 200,
+      "loaders": 0,
+      "inHead": false,
+      "hasSrc": false,
+      "configCalls": 0,
+      "configInHead": 0,
+      "gtm": 0,
+      "otherG": [],
+      "ok": false
+    },
+    {
+      "route": "/privacy",
+      "status": 200,
+      "loaders": 0,
+      "inHead": false,
+      "hasSrc": false,
+      "configCalls": 0,
+      "configInHead": 0,
+      "gtm": 0,
+      "otherG": [],
+      "ok": false
+    },
+    {
+      "route": "/terms",
+      "status": 200,
+      "loaders": 0,
+      "inHead": false,
+      "hasSrc": false,
+      "configCalls": 0,
+      "configInHead": 0,
+      "gtm": 0,
+      "otherG": [],
+      "ok": false
+    },
+    {
+      "route": "/methodology",
+      "status": 200,
+      "loaders": 0,
+      "inHead": false,
+      "hasSrc": false,
+      "configCalls": 0,
+      "configInHead": 0,
+      "gtm": 0,
+      "otherG": [],
+      "ok": false
+    },
+    {
+      "route": "/how-it-works",
+      "status": 200,
+      "loaders": 0,
+      "inHead": false,
+      "hasSrc": false,
+      "configCalls": 0,
+      "configInHead": 0,
+      "gtm": 0,
+      "otherG": [],
+      "ok": false
+    }
+  ],
+  "browser": {
+    "gtagStatus": "NOT RUN",
+    "beaconStatus": "NOT RUN",
+    "domLoaders": 0,
+    "dataLayerIsArray": false,
+    "dataLayerLength": -1,
+    "gtagType": "undefined",
+    "network": [],
+    "nav": [
+      {
+        "target": "/calculators/gravel-calculator",
+        "clientSide": true,
+        "path": "/calculators/gravel-calculator",
+        "domLoaders": 0,
+        "dataLayerLength": -1,
+        "analyticsConsoleErrors": 0
+      },
+      {
+        "target": "/projects",
+        "clientSide": true,
+        "path": "/projects",
+        "domLoaders": 0,
+        "dataLayerLength": -1,
+        "analyticsConsoleErrors": 0
+      },
+      {
+        "target": "/guides",
+        "clientSide": true,
+        "path": "/guides",
+        "domLoaders": 0,
+        "dataLayerLength": -1,
+        "analyticsConsoleErrors": 0
+      },
+      {
+        "target": "/about",
+        "clientSide": true,
+        "path": "/about",
+        "domLoaders": 0,
+        "dataLayerLength": -1,
+        "analyticsConsoleErrors": 0
+      }
+    ],
+    "consoleErrors": [],
+    "pageErrors": []
+  },
+  "notes": [
+    "/project is not an application route; the task list was satisfied with /projects (the real route)."
+  ],
+  "warnings": [],
+  "errors": [
+    "/: no gtag.js loader script found",
+    "/: expected gtag.js URL https://www.googletagmanager.com/gtag/js?id=G-HK72FDCSWW not found",
+    "/: 0 executable gtag('config', 'G-HK72FDCSWW') call(s) in <head>, expected 1",
+    "/calculators: no gtag.js loader script found",
+    "/calculators: expected gtag.js URL https://www.googletagmanager.com/gtag/js?id=G-HK72FDCSWW not found",
+    "/calculators: 0 executable gtag('config', 'G-HK72FDCSWW') call(s) in <head>, expected 1",
+    "/calculators/gravel-calculator: no gtag.js loader script found",
+    "/calculators/gravel-calculator: expected gtag.js URL https://www.googletagmanager.com/gtag/js?id=G-HK72FDCSWW not found",
+    "/calculators/gravel-calculator: 0 executable gtag('config', 'G-HK72FDCSWW') call(s) in <head>, expected 1",
+    "/calculators/concrete-calculator: no gtag.js loader script found",
+    "/calculators/concrete-calculator: expected gtag.js URL https://www.googletagmanager.com/gtag/js?id=G-HK72FDCSWW not found",
+    "/calculators/concrete-calculator: 0 executable gtag('config', 'G-HK72FDCSWW') call(s) in <head>, expected 1",
+    "/calculators/fence-cost-calculator: no gtag.js loader script found",
+    "/calculators/fence-cost-calculator: expected gtag.js URL https://www.googletagmanager.com/gtag/js?id=G-HK72FDCSWW not found",
+    "/calculators/fence-cost-calculator: 0 executable gtag('config', 'G-HK72FDCSWW') call(s) in <head>, expected 1",
+    "/projects: no gtag.js loader script found",
+    "/projects: expected gtag.js URL https://www.googletagmanager.com/gtag/js?id=G-HK72FDCSWW not found",
+    "/projects: 0 executable gtag('config', 'G-HK72FDCSWW') call(s) in <head>, expected 1",
+    "/guides: no gtag.js loader script found",
+    "/guides: expected gtag.js URL https://www.googletagmanager.com/gtag/js?id=G-HK72FDCSWW not found",
+    "/guides: 0 executable gtag('config', 'G-HK72FDCSWW') call(s) in <head>, expected 1",
+    "/about: no gtag.js loader script found",
+    "/about: expected gtag.js URL https://www.googletagmanager.com/gtag/js?id=G-HK72FDCSWW not found",
+    "/about: 0 executable gtag('config', 'G-HK72FDCSWW') call(s) in <head>, expected 1",
+    "/privacy: no gtag.js loader script found",
+    "/privacy: expected gtag.js URL https://www.googletagmanager.com/gtag/js?id=G-HK72FDCSWW not found",
+    "/privacy: 0 executable gtag('config', 'G-HK72FDCSWW') call(s) in <head>, expected 1",
+    "/terms: no gtag.js loader script found",
+    "/terms: expected gtag.js URL https://www.googletagmanager.com/gtag/js?id=G-HK72FDCSWW not found",
+    "/terms: 0 executable gtag('config', 'G-HK72FDCSWW') call(s) in <head>, expected 1",
+    "/methodology: no gtag.js loader script found",
+    "/methodology: expected gtag.js URL https://www.googletagmanager.com/gtag/js?id=G-HK72FDCSWW not found",
+    "/methodology: 0 executable gtag('config', 'G-HK72FDCSWW') call(s) in <head>, expected 1",
+    "/how-it-works: no gtag.js loader script found",
+    "/how-it-works: expected gtag.js URL https://www.googletagmanager.com/gtag/js?id=G-HK72FDCSWW not found",
+    "/how-it-works: 0 executable gtag('config', 'G-HK72FDCSWW') call(s) in <head>, expected 1",
+    "navigation /calculators/gravel-calculator: 0 gtag loaders in the DOM (expected 1)",
+    "navigation /projects: 0 gtag loaders in the DOM (expected 1)",
+    "navigation /guides: 0 gtag loaders in the DOM (expected 1)",
+    "navigation /about: 0 gtag loaders in the DOM (expected 1)",
+    "browser DOM has 0 gtag loader script(s), expected 1",
+    "window.dataLayer is not an array",
+    "typeof window.gtag is undefined, expected 'function'"
+  ],
+  "summary": {
+    "routesChecked": 12,
+    "routesPass": 0,
+    "errors": 43,
+    "warnings": 0
+  }
+}

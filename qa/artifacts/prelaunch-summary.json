@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-10-01T10:11:43.053Z",
+  "generatedAt": "2026-10-01T13:25:30.087Z",
   "baseUrl": "http://localhost:3100",
-  "buildId": "TS1H-2SmnWk_bjTtAYTKW",
+  "buildId": "KeIrcs5ZoQHtdwpoUvFxf",
   "only": [],
-  "seconds": 427.9,
+  "seconds": 484.6,
   "results": [
     {
       "name": "typecheck",
       "status": "PASS",
       "details": [
-        "ok in 4984ms"
+        "ok in 5952ms"
       ],
       "critical": true,
       "meta": {
-        "ms": 4984
+        "ms": 5952
       }
     },
     {
@@ -24,7 +24,7 @@
       ],
       "critical": true,
       "meta": {
-        "ms": 10355,
+        "ms": 5159,
         "counts": "ℹ tests 139 ℹ suites 17 ℹ pass 139 ℹ fail 0"
       }
     },
@@ -60,20 +60,20 @@
       "name": "production build",
       "status": "PASS",
       "details": [
-        "BUILD_ID TS1H-2SmnWk_bjTtAYTKW in 52458ms (site url http://localhost:3100)"
+        "BUILD_ID KeIrcs5ZoQHtdwpoUvFxf in 50862ms (site url http://localhost:3100)"
       ],
       "critical": true,
       "meta": {
-        "buildId": "TS1H-2SmnWk_bjTtAYTKW",
+        "buildId": "KeIrcs5ZoQHtdwpoUvFxf",
         "siteUrl": "http://localhost:3100",
-        "ms": 52458
+        "ms": 50862
       }
     },
     {
       "name": "production server",
       "status": "PASS",
       "details": [
-        "fresh build TS1H-2SmnWk_bjTtAYTKW serving on http://localhost:3100"
+        "fresh build KeIrcs5ZoQHtdwpoUvFxf serving on http://localhost:3100"
       ],
       "critical": true,
       "meta": {}
@@ -145,14 +145,16 @@
       "name": "performance",
       "status": "PASS",
       "details": [
-        "INFO:9 \"use client\" modules vs 101 server modules",
+        "INFO:9 \"use client\" modules vs 102 server modules",
+        "INFO:sanctioned Google tag (googletagmanager.com) in src\\components\\analytics\\GoogleTag.tsx",
         "INFO:.next/static holds 22 files, 1150 kB total, largest JS/CSS chunk 219 kB",
         "INFO:0 file(s) in public/"
       ],
       "critical": true,
       "meta": {
         "infos": [
-          "INFO:9 \"use client\" modules vs 101 server modules",
+          "INFO:9 \"use client\" modules vs 102 server modules",
+          "INFO:sanctioned Google tag (googletagmanager.com) in src\\components\\analytics\\GoogleTag.tsx",
           "INFO:.next/static holds 22 files, 1150 kB total, largest JS/CSS chunk 219 kB",
           "INFO:0 file(s) in public/"
         ]

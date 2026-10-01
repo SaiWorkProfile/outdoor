@@ -468,9 +468,29 @@ function evaluatePerformance(buildLog) {
   const serverCount = sourceFiles.length - clientComponents.length;
   findings.push(`INFO:${clientComponents.length} "use client" modules vs ${serverCount} server modules`);
 
-  const withExternalScripts = sourceFiles.filter((f) => /<script[^>]+src=["']https?:\/\//i.test(fs.readFileSync(f, 'utf8')));
-  if (withExternalScripts.length) {
-    findings.push(`FAIL:third-party script tags in ${withExternalScripts.map((f) => path.relative(ROOT, f)).join(', ')}`);
+  // Third-party <script src> tags. Any external script fails the gate EXCEPT an explicitly
+  // sanctioned one — currently only the Google tag (Google Analytics), which the site owner
+  // enabled and /privacy discloses. Unapproved external scripts still fail. The src value is
+  // matched in any form: src="...", src='...', src={`...`} or src={"..."}.
+  const ALLOWED_EXTERNAL_SCRIPTS = [/^https:\/\/www\.googletagmanager\.com\//];
+  const EXTERNAL_SRC = /<(?:script|Script)\b[^>]*\bsrc=(?:"([^"]*)"|'([^']*)'|\{`([^`]*)`\}|\{["']([^"']*)["']\})/g;
+  const unapprovedScripts = [];
+  const googleTagFiles = [];
+  for (const f of sourceFiles) {
+    const source = fs.readFileSync(f, 'utf8');
+    const srcs = [...source.matchAll(EXTERNAL_SRC)]
+      .map((m) => m[1] ?? m[2] ?? m[3] ?? m[4])
+      .filter((src) => src && /^https?:\/\//.test(src));
+    if (!srcs.length) continue;
+    const unapproved = srcs.filter((src) => !ALLOWED_EXTERNAL_SCRIPTS.some((re) => re.test(src)));
+    if (unapproved.length) unapprovedScripts.push(`${path.relative(ROOT, f)} (${unapproved.join(', ')})`);
+    else googleTagFiles.push(path.relative(ROOT, f));
+  }
+  if (unapprovedScripts.length) {
+    findings.push(`FAIL:unapproved third-party script tags in ${unapprovedScripts.join('; ')}`);
+  }
+  if (googleTagFiles.length) {
+    findings.push(`INFO:sanctioned Google tag (googletagmanager.com) in ${googleTagFiles.join(', ')}`);
   }
 
   const packageJson = JSON.parse(fs.readFileSync(path.join(ROOT, 'package.json'), 'utf8'));

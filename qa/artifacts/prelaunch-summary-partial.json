@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-10-01T10:01:21.213Z",
+  "generatedAt": "2026-10-01T13:04:35.340Z",
   "baseUrl": "http://localhost:3100",
   "buildId": null,
   "only": [
-    "site-url"
+    "performance"
   ],
-  "seconds": 1.1,
+  "seconds": 0.2,
   "results": [
     {
-      "name": "production site url",
+      "name": "performance",
       "status": "PASS",
       "details": [
-        ".env.production NEXT_PUBLIC_SITE_URL=https://www.measuretobuild.in",
-        ".env.production NEXT_PUBLIC_SITE_URL=https://www.measuretobuild.in",
-        "src/lib/seo.ts fallback origin = https://www.measuretobuild.in",
-        "src/lib/seo.ts derives SITE_URL from NEXT_PUBLIC_SITE_URL"
+        "INFO:9 \"use client\" modules vs 102 server modules",
+        "INFO:sanctioned Google tag (googletagmanager.com) in src\\components\\analytics\\GoogleTag.tsx",
+        "INFO:.next/static holds 22 files, 1154 kB total, largest JS/CSS chunk 218 kB",
+        "INFO:0 file(s) in public/"
       ],
       "critical": true,
       "meta": {
-        "info": [
-          ".env.production NEXT_PUBLIC_SITE_URL=https://www.measuretobuild.in",
-          "src/lib/seo.ts fallback origin = https://www.measuretobuild.in",
-          "src/lib/seo.ts derives SITE_URL from NEXT_PUBLIC_SITE_URL",
-          "ambient NEXT_PUBLIC_SITE_URL is unset; releases resolve via .env.production to https://www.measuretobuild.in"
+        "infos": [
+          "INFO:9 \"use client\" modules vs 102 server modules",
+          "INFO:sanctioned Google tag (googletagmanager.com) in src\\components\\analytics\\GoogleTag.tsx",
+          "INFO:.next/static holds 22 files, 1154 kB total, largest JS/CSS chunk 218 kB",
+          "INFO:0 file(s) in public/"
         ]
       }
     }

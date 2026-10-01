@@ -6,6 +6,7 @@ import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { CurrencyProvider } from '@/components/currency/CurrencyProvider';
 import { SITE_DESCRIPTION, SITE_NAME, SITE_TAGLINE, SITE_URL, absoluteUrl } from '@/lib/seo';
+import { GoogleTag } from '@/components/analytics/GoogleTag';
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -18,5 +19,15 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
-  return <html lang="en"><body><CurrencyProvider><Header/><main className="page">{children}</main><Footer/></CurrencyProvider></body></html>;
+  return (
+    <html lang="en">
+      <head>
+        {/* Google tag — rendered into the document <head> on every page, once. */}
+        <GoogleTag />
+      </head>
+      <body>
+        <CurrencyProvider><Header/><main className="page">{children}</main><Footer/></CurrencyProvider>
+      </body>
+    </html>
+  );
 }

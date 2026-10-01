@@ -188,7 +188,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_b1quav5ubtb_",
+          "id": "_R_1c7bpbsnpflb_",
           "name": "Price per cubic yard",
           "source": "label[for]",
           "ok": true
@@ -316,7 +316,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_2mquav5ubtb_",
+          "id": "_R_arbpbsnpflb_",
           "name": "Fence length",
           "source": "label[for]",
           "ok": true
@@ -324,7 +324,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_4mquav5ubtb_",
+          "id": "_R_irbpbsnpflb_",
           "name": "Post spacing",
           "source": "label[for]",
           "ok": true
@@ -332,7 +332,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_6mquav5ubtb_",
+          "id": "_R_qrbpbsnpflb_",
           "name": "Corners",
           "source": "label[for]",
           "ok": true
@@ -340,7 +340,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_8mquav5ubtb_",
+          "id": "_R_12rbpbsnpflb_",
           "name": "Ends",
           "source": "label[for]",
           "ok": true
@@ -348,7 +348,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_amquav5ubtb_",
+          "id": "_R_1arbpbsnpflb_",
           "name": "Gate count",
           "source": "label[for]",
           "ok": true
@@ -356,7 +356,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_cmquav5ubtb_",
+          "id": "_R_1irbpbsnpflb_",
           "name": "Gate width",
           "source": "label[for]",
           "ok": true
@@ -364,7 +364,7 @@
         {
           "tag": "select",
           "type": null,
-          "id": "_R_36quav5ubtb_",
+          "id": "_R_crbpbsnpflb_",
           "name": "Fence type",
           "source": "label[for]",
           "ok": true
@@ -372,7 +372,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_56quav5ubtb_",
+          "id": "_R_krbpbsnpflb_",
           "name": "Fence height",
           "source": "label[for]",
           "ok": true
@@ -380,7 +380,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_76quav5ubtb_",
+          "id": "_R_srbpbsnpflb_",
           "name": "Waste",
           "source": "label[for]",
           "ok": true
@@ -388,7 +388,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_96quav5ubtb_",
+          "id": "_R_14rbpbsnpflb_",
           "name": "Picket width",
           "source": "label[for]",
           "ok": true
@@ -396,7 +396,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_b6quav5ubtb_",
+          "id": "_R_1crbpbsnpflb_",
           "name": "Picket spacing",
           "source": "label[for]",
           "ok": true
@@ -404,7 +404,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_d6quav5ubtb_",
+          "id": "_R_1krbpbsnpflb_",
           "name": "Panel width",
           "source": "label[for]",
           "ok": true
@@ -412,7 +412,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_f6quav5ubtb_",
+          "id": "_R_1srbpbsnpflb_",
           "name": "Rails / section",
           "source": "label[for]",
           "ok": true
@@ -420,7 +420,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_h6quav5ubtb_",
+          "id": "_R_24rbpbsnpflb_",
           "name": "Rail stock length",
           "source": "label[for]",
           "ok": true
@@ -428,7 +428,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_j6quav5ubtb_",
+          "id": "_R_2crbpbsnpflb_",
           "name": "Post-hole diameter",
           "source": "label[for]",
           "ok": true
@@ -436,7 +436,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_l6quav5ubtb_",
+          "id": "_R_2krbpbsnpflb_",
           "name": "Post-hole depth",
           "source": "label[for]",
           "ok": true
@@ -584,7 +584,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_b3quav5ubtb_",
+          "id": "_R_1cfbpbsnpflb_",
           "name": "Paver length",
           "source": "label[for]",
           "ok": true
@@ -592,7 +592,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_j3quav5ubtb_",
+          "id": "_R_2cfbpbsnpflb_",
           "name": "Paver width",
           "source": "label[for]",
           "ok": true
@@ -600,7 +600,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_r3quav5ubtb_",
+          "id": "_R_3cfbpbsnpflb_",
           "name": "Joint width",
           "source": "label[for]",
           "ok": true
@@ -608,7 +608,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_133quav5ubtb_",
+          "id": "_R_4cfbpbsnpflb_",
           "name": "Base depth",
           "source": "label[for]",
           "ok": true
@@ -616,7 +616,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_1b3quav5ubtb_",
+          "id": "_R_5cfbpbsnpflb_",
           "name": "Bedding sand depth",
           "source": "label[for]",
           "ok": true
@@ -624,7 +624,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_1j3quav5ubtb_",
+          "id": "_R_6cfbpbsnpflb_",
           "name": "Waste",
           "source": "label[for]",
           "ok": true
@@ -632,7 +632,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_1r3quav5ubtb_",
+          "id": "_R_7cfbpbsnpflb_",
           "name": "Edge length",
           "source": "label[for]",
           "ok": true
@@ -640,7 +640,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_233quav5ubtb_",
+          "id": "_R_8cfbpbsnpflb_",
           "name": "Paver price / piece",
           "source": "label[for]",
           "ok": true
@@ -648,7 +648,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_2b3quav5ubtb_",
+          "id": "_R_9cfbpbsnpflb_",
           "name": "Base / cubic yard",
           "source": "label[for]",
           "ok": true
@@ -656,7 +656,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_2j3quav5ubtb_",
+          "id": "_R_acfbpbsnpflb_",
           "name": "Bedding sand / cubic yard",
           "source": "label[for]",
           "ok": true
@@ -664,7 +664,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_2r3quav5ubtb_",
+          "id": "_R_bcfbpbsnpflb_",
           "name": "Edging / linear ft",
           "source": "label[for]",
           "ok": true
@@ -784,7 +784,7 @@
         {
           "tag": "select",
           "type": null,
-          "id": "_R_3clquav5ubtb_",
+          "id": "_R_dinbpbsnpflb_",
           "name": "Type",
           "source": "label[for]",
           "ok": true
@@ -792,7 +792,7 @@
         {
           "tag": "input",
           "type": "text",
-          "id": "_R_5clquav5ubtb_",
+          "id": "_R_linbpbsnpflb_",
           "name": "Label",
           "source": "label[for]",
           "ok": true
@@ -800,7 +800,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_nclquav5ubtb_",
+          "id": "_R_2tinbpbsnpflb_",
           "name": "Length",
           "source": "label[for]",
           "ok": true
@@ -808,7 +808,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_17clquav5ubtb_",
+          "id": "_R_4tinbpbsnpflb_",
           "name": "Width",
           "source": "label[for]",
           "ok": true
@@ -816,7 +816,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_1nclquav5ubtb_",
+          "id": "_R_6tinbpbsnpflb_",
           "name": "Thickness",
           "source": "label[for]",
           "ok": true
@@ -824,7 +824,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_35quav5ubtb_",
+          "id": "_R_cnbpbsnpflb_",
           "name": "Waste",
           "source": "label[for]",
           "ok": true
@@ -832,7 +832,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_55quav5ubtb_",
+          "id": "_R_knbpbsnpflb_",
           "name": "Concrete density",
           "source": "label[for]",
           "ok": true
@@ -952,7 +952,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_2oquav5ubtb_",
+          "id": "_R_b3bpbsnpflb_",
           "name": "Deck length",
           "source": "label[for]",
           "ok": true
@@ -960,7 +960,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_4oquav5ubtb_",
+          "id": "_R_j3bpbsnpflb_",
           "name": "Deck width",
           "source": "label[for]",
           "ok": true
@@ -968,7 +968,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_6oquav5ubtb_",
+          "id": "_R_r3bpbsnpflb_",
           "name": "Waste",
           "source": "label[for]",
           "ok": true
@@ -976,7 +976,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_8oquav5ubtb_",
+          "id": "_R_133bpbsnpflb_",
           "name": "Board width",
           "source": "label[for]",
           "ok": true
@@ -984,7 +984,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_aoquav5ubtb_",
+          "id": "_R_1b3bpbsnpflb_",
           "name": "Board stock length",
           "source": "label[for]",
           "ok": true
@@ -992,7 +992,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_coquav5ubtb_",
+          "id": "_R_1j3bpbsnpflb_",
           "name": "Board gap",
           "source": "label[for]",
           "ok": true
@@ -1000,7 +1000,7 @@
         {
           "tag": "select",
           "type": null,
-          "id": "_R_eoquav5ubtb_",
+          "id": "_R_1r3bpbsnpflb_",
           "name": "Board run",
           "source": "label[for]",
           "ok": true
@@ -1008,7 +1008,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_goquav5ubtb_",
+          "id": "_R_233bpbsnpflb_",
           "name": "Joist spacing",
           "source": "label[for]",
           "ok": true
@@ -1016,7 +1016,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_ioquav5ubtb_",
+          "id": "_R_2b3bpbsnpflb_",
           "name": "Joist width",
           "source": "label[for]",
           "ok": true
@@ -1024,7 +1024,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_koquav5ubtb_",
+          "id": "_R_2j3bpbsnpflb_",
           "name": "Joist depth",
           "source": "label[for]",
           "ok": true
@@ -1032,7 +1032,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_moquav5ubtb_",
+          "id": "_R_2r3bpbsnpflb_",
           "name": "Joist stock length",
           "source": "label[for]",
           "ok": true
@@ -1040,7 +1040,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_ooquav5ubtb_",
+          "id": "_R_333bpbsnpflb_",
           "name": "Fasteners / board / joist",
           "source": "label[for]",
           "ok": true
@@ -1048,7 +1048,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_qoquav5ubtb_",
+          "id": "_R_3b3bpbsnpflb_",
           "name": "Beam count",
           "source": "label[for]",
           "ok": true
@@ -1056,7 +1056,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_soquav5ubtb_",
+          "id": "_R_3j3bpbsnpflb_",
           "name": "Beam length",
           "source": "label[for]",
           "ok": true
@@ -1064,7 +1064,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_uoquav5ubtb_",
+          "id": "_R_3r3bpbsnpflb_",
           "name": "Beam stock length",
           "source": "label[for]",
           "ok": true
@@ -1072,7 +1072,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_10oquav5ubtb_",
+          "id": "_R_433bpbsnpflb_",
           "name": "Post count",
           "source": "label[for]",
           "ok": true
@@ -1080,7 +1080,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_12oquav5ubtb_",
+          "id": "_R_4b3bpbsnpflb_",
           "name": "Post height",
           "source": "label[for]",
           "ok": true
@@ -1088,7 +1088,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_d8quav5ubtb_",
+          "id": "_R_1l3bpbsnpflb_",
           "name": "Decking / board",
           "source": "label[for]",
           "ok": true
@@ -1096,7 +1096,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_l8quav5ubtb_",
+          "id": "_R_2l3bpbsnpflb_",
           "name": "Joist / piece",
           "source": "label[for]",
           "ok": true
@@ -1104,7 +1104,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_t8quav5ubtb_",
+          "id": "_R_3l3bpbsnpflb_",
           "name": "Beam / piece",
           "source": "label[for]",
           "ok": true
@@ -1112,7 +1112,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_158quav5ubtb_",
+          "id": "_R_4l3bpbsnpflb_",
           "name": "Post / each",
           "source": "label[for]",
           "ok": true
@@ -1120,7 +1120,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_1d8quav5ubtb_",
+          "id": "_R_5l3bpbsnpflb_",
           "name": "Fastener / each",
           "source": "label[for]",
           "ok": true
@@ -1128,7 +1128,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_1l8quav5ubtb_",
+          "id": "_R_6l3bpbsnpflb_",
           "name": "Rim joist / linear ft",
           "source": "label[for]",
           "ok": true
@@ -1275,7 +1275,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_32quav5ubtb_",
+          "id": "_R_cbbpbsnpflb_",
           "name": "Base depth",
           "source": "label[for]",
           "ok": true
@@ -1283,7 +1283,7 @@
         {
           "tag": "select",
           "type": null,
-          "id": "_R_52quav5ubtb_",
+          "id": "_R_kbbpbsnpflb_",
           "name": "Use case",
           "source": "label[for]",
           "ok": true
@@ -1291,7 +1291,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_72quav5ubtb_",
+          "id": "_R_sbbpbsnpflb_",
           "name": "Waste",
           "source": "label[for]",
           "ok": true
@@ -1299,7 +1299,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_92quav5ubtb_",
+          "id": "_R_14bbpbsnpflb_",
           "name": "Supplier density",
           "source": "label[for]",
           "ok": true
@@ -1307,7 +1307,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_b2quav5ubtb_",
+          "id": "_R_1cbbpbsnpflb_",
           "name": "Compaction",
           "source": "label[for]",
           "ok": true
@@ -1315,7 +1315,7 @@
         {
           "tag": "input",
           "type": "number",
-          "id": "_R_d2quav5ubtb_",
+          "id": "_R_1kbbpbsnpflb_",
           "name": "Price per cubic yard",
           "source": "label[for]",
           "ok": true
