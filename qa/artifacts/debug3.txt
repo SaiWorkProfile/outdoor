@@ -1,0 +1,13 @@
+  >>> NAVIGATED to http://localhost:3000/calculators/fence-cost-calculator
+  >>> NAVIGATED to http://localhost:3000/calculators/fence-cost-calculator
+loaded: /calculators/fence-cost-calculator
+after setFirstNumberInput: /calculators/fence-cost-calculator
+  (miss: no field labelled "Waste allowance" (#0) )
+after waste-allowance attempt: /calculators/fence-cost-calculator
+waste selector: [data-qa-id="qa-f8gj64k0"]
+after click, active = INPUT#_R_76quav5ubtb_ url= /calculators/fence-cost-calculator
+after ctrl+a, url= /calculators/fence-cost-calculator value= 10
+after Backspace, url= /calculators/fence-cost-calculator value= 
+after type -5, url= /calculators/fence-cost-calculator value= -5
+after blur, url= /calculators/fence-cost-calculator
+console: []

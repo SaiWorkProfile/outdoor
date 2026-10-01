@@ -1,0 +1,160 @@
+{
+  "generatedAt": "2026-10-01T06:16:15.073Z",
+  "baseUrl": "http://localhost:3100",
+  "buildId": "9ogD8cvGWIBAbX7JWaCjX",
+  "only": [],
+  "seconds": 580,
+  "results": [
+    {
+      "name": "typecheck",
+      "status": "PASS",
+      "details": [
+        "ok in 5253ms"
+      ],
+      "critical": true,
+      "meta": {
+        "ms": 5253
+      }
+    },
+    {
+      "name": "unit tests",
+      "status": "PASS",
+      "details": [
+        "ℹ tests 171 ℹ suites 23 ℹ pass 171 ℹ fail 0"
+      ],
+      "critical": true,
+      "meta": {
+        "ms": 14793,
+        "counts": "ℹ tests 171 ℹ suites 23 ℹ pass 171 ℹ fail 0"
+      }
+    },
+    {
+      "name": "content tests",
+      "status": "PASS",
+      "details": [
+        "28 content pages, 49259 words"
+      ],
+      "critical": true,
+      "meta": {}
+    },
+    {
+      "name": "production build",
+      "status": "PASS",
+      "details": [
+        "BUILD_ID 9ogD8cvGWIBAbX7JWaCjX in 51218ms (site url http://localhost:3100)"
+      ],
+      "critical": true,
+      "meta": {
+        "buildId": "9ogD8cvGWIBAbX7JWaCjX",
+        "siteUrl": "http://localhost:3100",
+        "ms": 51218
+      }
+    },
+    {
+      "name": "production server",
+      "status": "PASS",
+      "details": [
+        "fresh build 9ogD8cvGWIBAbX7JWaCjX serving on http://localhost:3100"
+      ],
+      "critical": true,
+      "meta": {}
+    },
+    {
+      "name": "seo",
+      "status": "PASS",
+      "details": [],
+      "critical": true,
+      "meta": {
+        "infos": []
+      }
+    },
+    {
+      "name": "route and link audit",
+      "status": "PASS",
+      "details": [],
+      "critical": true,
+      "meta": {
+        "infos": []
+      }
+    },
+    {
+      "name": "calculator contract audit",
+      "status": "PASS",
+      "details": [],
+      "critical": true,
+      "meta": {
+        "infos": []
+      }
+    },
+    {
+      "name": "project mode and printable plan",
+      "status": "PASS",
+      "details": [],
+      "critical": true,
+      "meta": {
+        "infos": []
+      }
+    },
+    {
+      "name": "accessibility",
+      "status": "PASS",
+      "details": [],
+      "critical": true,
+      "meta": {
+        "infos": []
+      }
+    },
+    {
+      "name": "content accessibility",
+      "status": "PASS",
+      "details": [],
+      "critical": true,
+      "meta": {
+        "infos": []
+      }
+    },
+    {
+      "name": "mobile layout",
+      "status": "PASS",
+      "details": [],
+      "critical": true,
+      "meta": {
+        "infos": []
+      }
+    },
+    {
+      "name": "performance",
+      "status": "PASS",
+      "details": [
+        "INFO:9 \"use client\" modules vs 103 server modules",
+        "INFO:.next/static holds 22 files, 1149 kB total, largest JS/CSS chunk 219 kB",
+        "INFO:0 file(s) in public/"
+      ],
+      "critical": true,
+      "meta": {
+        "infos": [
+          "INFO:9 \"use client\" modules vs 103 server modules",
+          "INFO:.next/static holds 22 files, 1149 kB total, largest JS/CSS chunk 219 kB",
+          "INFO:0 file(s) in public/"
+        ]
+      }
+    },
+    {
+      "name": "production environment",
+      "status": "WARN",
+      "details": [
+        "WARN:the tested build was made with the placeholder origin http://localhost:3100 — a release build must set NEXT_PUBLIC_SITE_URL to the production https origin.",
+        "WARN:NEXT_PUBLIC_CONTACT_EMAIL is unset — /about, /privacy and /terms render their fallback contact copy.",
+        "WARN:no web app manifest present (optional).",
+        "WARN:sitemap urls point at localhost in this build (see NEXT_PUBLIC_SITE_URL).",
+        "WARN:robots.txt sitemap url points at localhost in this build.",
+        "WARN:canonical urls point at localhost in this build."
+      ],
+      "critical": true,
+      "meta": {
+        "infos": []
+      }
+    }
+  ],
+  "verdict": "READY WITH NON-BLOCKING WARNINGS"
+}

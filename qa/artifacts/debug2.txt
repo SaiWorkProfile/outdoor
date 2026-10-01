@@ -1,0 +1,8 @@
+start {"url":"/calculators/fence-cost-calculator","buttons":["Calculate","Reset"],"fields":26,"bodyLen":3042,"caretInInput":"BODY#-"}
+after setFirstNumberInput(0) {"url":"/calculators/fence-cost-calculator","buttons":["Calculate","Reset"],"fields":26,"bodyLen":3042,"caretInInput":"BODY#-"}
+  (waste allowance miss: no field labelled "Waste allowance" (#0) )
+after waste allowance attempt {"url":"/calculators/fence-cost-calculator","buttons":["Calculate","Reset"],"fields":26,"bodyLen":3042,"caretInInput":"BODY#-"}
+after waste -5 {"url":"/calculators/fence-cost-calculator","buttons":["Calculate","Reset"],"fields":26,"bodyLen":3042,"caretInInput":"BODY#-"}
+calculate clicked
+after calculate: {"metrics":0,"summary":["This calculation could not runWaste allowance — wastePercent must be between 0 and 100.","Planning estimateMaterial densities, product yields, local conditions, installation systems and supplier packaging can d"],"highlighted":["Waste"],"ariaInvalid":["_R_76quav5ubtb_"]}
+console: [] pageErrors: []

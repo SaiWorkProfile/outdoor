@@ -1,0 +1,196 @@
+{
+  "fence-calculator": {
+    "finalUrl": "http://localhost:3000/calculators/fence-calculator",
+    "scores": {
+      "performance": 80,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "FCP_ms": 1190.9911499999998,
+      "LCP_ms": 2809.9823,
+      "TBT_ms": 620.0000000000005,
+      "CLS": 0,
+      "SI_ms": 1697.9778114729065,
+      "TTI_ms": 3200.5323
+    },
+    "totalByteWeightKb": 194,
+    "unusedJsKb": 28,
+    "mainThreadMs": 3486.275999999995,
+    "scriptEvalMs": 1480.5879999999986,
+    "renderBlocking": "none",
+    "lcpElement": null,
+    "layoutShiftElements": [],
+    "perfBinaryFails": [],
+    "a11yBinaryFails": [],
+    "bestPracticeFails": [],
+    "seoBinaryFails": [],
+    "a11yScoreDetails": [],
+    "lhVersion": "13.5.0",
+    "testedAt": "2026-09-29T16:06:07.895Z"
+  },
+  "gravel-before": {
+    "finalUrl": "http://localhost:3000/calculators/gravel-calculator",
+    "scores": {
+      "performance": 83,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "FCP_ms": 1128.56,
+      "LCP_ms": 2596.12,
+      "TBT_ms": 570.9999999999998,
+      "CLS": 0,
+      "SI_ms": 1469.7702005599258,
+      "TTI_ms": 3124.42
+    },
+    "totalByteWeightKb": 195,
+    "unusedJsKb": 28,
+    "mainThreadMs": 3075.707999999996,
+    "scriptEvalMs": 1226.679999999999,
+    "renderBlocking": "none",
+    "lcpElement": null,
+    "layoutShiftElements": [],
+    "perfBinaryFails": [],
+    "a11yBinaryFails": [
+      "label-content-name-mismatch"
+    ],
+    "bestPracticeFails": [],
+    "seoBinaryFails": [],
+    "a11yScoreDetails": [
+      "label-content-name-mismatch (Elements with visible text labels do not have matching accessible names.)"
+    ],
+    "lhVersion": "13.5.0",
+    "testedAt": "2026-09-29T15:37:10.377Z"
+  },
+  "gravel-calculator": {
+    "finalUrl": "http://localhost:3000/calculators/gravel-calculator",
+    "scores": {
+      "performance": 76,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "FCP_ms": 1197.9279999999999,
+      "LCP_ms": 2839.856,
+      "TBT_ms": 846.0000000000002,
+      "CLS": 0,
+      "SI_ms": 2018.312632543905,
+      "TTI_ms": 3323.8559999999998
+    },
+    "totalByteWeightKb": 195,
+    "unusedJsKb": 28,
+    "mainThreadMs": 3625.9679999999958,
+    "scriptEvalMs": 1411.9159999999988,
+    "renderBlocking": "none",
+    "lcpElement": null,
+    "layoutShiftElements": [],
+    "perfBinaryFails": [],
+    "a11yBinaryFails": [],
+    "bestPracticeFails": [],
+    "seoBinaryFails": [],
+    "a11yScoreDetails": [],
+    "lhVersion": "13.5.0",
+    "testedAt": "2026-09-29T16:05:28.919Z"
+  },
+  "homepage": {
+    "finalUrl": "http://localhost:3000/",
+    "scores": {
+      "performance": 79,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "FCP_ms": 1137.6288,
+      "LCP_ms": 2660.2576,
+      "TBT_ms": 688.5,
+      "CLS": 0,
+      "SI_ms": 1704.276063285282,
+      "TTI_ms": 3149.4575999999997
+    },
+    "totalByteWeightKb": 189,
+    "unusedJsKb": 57,
+    "mainThreadMs": 3308.2919999999935,
+    "scriptEvalMs": 1473.9759999999974,
+    "renderBlocking": "none",
+    "lcpElement": null,
+    "layoutShiftElements": [],
+    "perfBinaryFails": [],
+    "a11yBinaryFails": [],
+    "bestPracticeFails": [],
+    "seoBinaryFails": [],
+    "a11yScoreDetails": [],
+    "lhVersion": "13.5.0",
+    "testedAt": "2026-09-29T16:04:59.410Z"
+  },
+  "paver-before": {
+    "finalUrl": "http://localhost:3000/calculators/paver-calculator",
+    "scores": {
+      "performance": 70,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "FCP_ms": 1428.76755,
+      "LCP_ms": 3063.5351,
+      "TBT_ms": 1221,
+      "CLS": 0,
+      "SI_ms": 2075.209942512656,
+      "TTI_ms": 3451.5351
+    },
+    "totalByteWeightKb": 194,
+    "unusedJsKb": 28,
+    "mainThreadMs": 4933.563999999997,
+    "scriptEvalMs": 1881.6159999999982,
+    "renderBlocking": "none",
+    "lcpElement": null,
+    "layoutShiftElements": [],
+    "perfBinaryFails": [],
+    "a11yBinaryFails": [
+      "label-content-name-mismatch"
+    ],
+    "bestPracticeFails": [],
+    "seoBinaryFails": [],
+    "a11yScoreDetails": [
+      "label-content-name-mismatch (Elements with visible text labels do not have matching accessible names.)"
+    ],
+    "lhVersion": "13.5.0",
+    "testedAt": "2026-09-29T15:37:54.297Z"
+  },
+  "paver-calculator": {
+    "finalUrl": "http://localhost:3000/calculators/paver-calculator",
+    "scores": {
+      "performance": 83,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "FCP_ms": 1277.2629,
+      "LCP_ms": 2808.5258,
+      "TBT_ms": 501.4999999999998,
+      "CLS": 0,
+      "SI_ms": 1692.6033211359133,
+      "TTI_ms": 3098.4758
+    },
+    "totalByteWeightKb": 194,
+    "unusedJsKb": 28,
+    "mainThreadMs": 3138.443999999996,
+    "scriptEvalMs": 1237.371999999999,
+    "renderBlocking": "none",
+    "lcpElement": null,
+    "layoutShiftElements": [],
+    "perfBinaryFails": [],
+    "a11yBinaryFails": [],
+    "bestPracticeFails": [],
+    "seoBinaryFails": [],
+    "a11yScoreDetails": [],
+    "lhVersion": "13.5.0",
+    "testedAt": "2026-09-29T16:06:34.151Z"
+  }
+}

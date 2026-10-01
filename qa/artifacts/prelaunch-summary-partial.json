@@ -1,0 +1,44 @@
+{
+  "generatedAt": "2026-10-01T05:02:39.053Z",
+  "baseUrl": "http://localhost:3100",
+  "buildId": "_NbK_ufoQUvRp6TPpIOFt",
+  "only": [
+    "build",
+    "mobile"
+  ],
+  "seconds": 307.6,
+  "results": [
+    {
+      "name": "production build",
+      "status": "PASS",
+      "details": [
+        "BUILD_ID _NbK_ufoQUvRp6TPpIOFt in 82161ms (site url http://localhost:3100)"
+      ],
+      "critical": true,
+      "meta": {
+        "buildId": "_NbK_ufoQUvRp6TPpIOFt",
+        "siteUrl": "http://localhost:3100",
+        "ms": 82161
+      }
+    },
+    {
+      "name": "production server",
+      "status": "PASS",
+      "details": [
+        "fresh build _NbK_ufoQUvRp6TPpIOFt serving on http://localhost:3100"
+      ],
+      "critical": true,
+      "meta": {}
+    },
+    {
+      "name": "mobile layout",
+      "status": "PASS",
+      "details": [],
+      "critical": true,
+      "meta": {
+        "infos": []
+      }
+    }
+  ],
+  "verdict": "READY FOR PRODUCTION"
+}

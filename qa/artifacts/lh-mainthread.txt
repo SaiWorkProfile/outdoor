@@ -1,0 +1,42 @@
+
+=== mainthread-work-breakdown (4.9 s) ===
+  {"group":"scriptEvaluation","groupLabel":"Script Evaluation","duration":1831.1519999999978}
+  {"group":"styleLayout","groupLabel":"Style & Layout","duration":1536.9719999999998}
+  {"group":"other","groupLabel":"Other","duration":1031.2719999999993}
+  {"group":"parseHTML","groupLabel":"Parse HTML & CSS","duration":197.24799999999996}
+  {"group":"scriptParseCompile","groupLabel":"Script Parsing & Compilation","duration":169.064}
+  {"group":"paintCompositeRender","groupLabel":"Rendering","duration":167.85600000000005}
+
+=== bootup-time (1.9 s) ===
+  {"url":"http://localhost:3000/calculators/paver-calculator","total":2194.0559999999996,"scripting":41.12799999999999,"scriptParseCompile":18.119999999999997}
+  {"url":"http://localhost:3000/_next/static/chunks/cc759f7c2413b7ff.js","total":1413.1119999999983,"scripting":1340.3759999999982,"scriptParseCompile":49}
+  {"url":"Unattributable","total":782.0879999999997,"scripting":96.80000000000003,"scriptParseCompile":0}
+  {"url":"http://localhost:3000/_next/static/chunks/4dd28bc3f722184a.js","total":280.20000000000005,"scripting":190.36800000000005,"scriptParseCompile":26.896}
+  {"url":"http://localhost:3000/_next/static/chunks/turbopack-492cd776fed59e0e.js","total":119.82799999999999,"scripting":115.21599999999998,"scriptParseCompile":3.7119999999999997}
+
+=== unused-javascript (Est savings of 28 KiB) ===
+  {"url":"http://localhost:3000/_next/static/chunks/cc759f7c2413b7ff.js","totalBytes":70214,"wastedBytes":28565,"wastedPercent":40.68291337216287}
+
+=== total-byte-weight (Total size was 194 KiB) ===
+  {"url":"http://localhost:3000/_next/static/chunks/cc759f7c2413b7ff.js","totalBytes":70594}
+  {"url":"http://localhost:3000/_next/static/chunks/4dd28bc3f722184a.js","totalBytes":36166}
+  {"url":"http://localhost:3000/_next/static/chunks/c857b67e7ef15254.js","totalBytes":30172}
+  {"url":"http://localhost:3000/_next/static/chunks/aa0a7c5c022cbeb9.js","totalBytes":8770}
+  {"url":"http://localhost:3000/_next/static/chunks/7340adf74ff47ec0.js","totalBytes":7836}
+  {"url":"http://localhost:3000/calculators/paver-calculator","totalBytes":6573}
+  {"url":"http://localhost:3000/_next/static/chunks/b8b4607fd77583ec.js","totalBytes":5136}
+  {"url":"http://localhost:3000/_next/static/chunks/turbopack-492cd776fed59e0e.js","totalBytes":4413}
+  {"url":"http://localhost:3000/_next/static/chunks/796e69ae18b2784c.js","totalBytes":3968}
+  {"url":"http://localhost:3000/_next/static/chunks/ebc9737ccab8f7a6.css","totalBytes":3806}
+
+=== network-requests () ===
+  {"url":"http://localhost:3000/calculators/paver-calculator","sessionTargetType":"page","protocol":"http/1.1","cache":"none","rendererStartTime":0,"networkRequestTime":11.190999984741211,"networkEndTime":44.26299995183945,"finished":true,"transferSize":6573,"re
+  {"url":"http://localhost:3000/_next/static/chunks/ebc9737ccab8f7a6.css","sessionTargetType":"page","protocol":"http/1.1","cache":"none","rendererStartTime":97.94800001382828,"networkRequestTime":115.5329999923706,"networkEndTime":138.64399999380112,"finished":
+  {"url":"http://localhost:3000/_next/static/chunks/cbd55ab9639e1e66.js","sessionTargetType":"page","protocol":"http/1.1","cache":"none","rendererStartTime":100.89299994707108,"networkRequestTime":116.47299998998642,"networkEndTime":143.6899999976158,"finished":
+  {"url":"http://localhost:3000/_next/static/chunks/aa0a7c5c022cbeb9.js","sessionTargetType":"page","protocol":"http/1.1","cache":"none","rendererStartTime":101.79100000858307,"networkRequestTime":117.7519999742508,"networkEndTime":162.8509999513626,"finished":t
+  {"url":"http://localhost:3000/_next/static/chunks/cc759f7c2413b7ff.js","sessionTargetType":"page","protocol":"http/1.1","cache":"none","rendererStartTime":102.73400002717972,"networkRequestTime":118.3309999704361,"networkEndTime":223.74499994516373,"finished":
+  {"url":"http://localhost:3000/_next/static/chunks/4dd28bc3f722184a.js","sessionTargetType":"page","protocol":"http/1.1","cache":"none","rendererStartTime":103.48399996757507,"networkRequestTime":118.72299998998642,"networkEndTime":191.70999997854233,"finished"
+  {"url":"http://localhost:3000/_next/static/chunks/turbopack-492cd776fed59e0e.js","sessionTargetType":"page","protocol":"http/1.1","cache":"none","rendererStartTime":103.90399998426437,"networkRequestTime":119.2849999666214,"networkEndTime":161.5359999537468,"f
+  {"url":"http://localhost:3000/_next/static/chunks/796e69ae18b2784c.js","sessionTargetType":"page","protocol":"http/1.1","cache":"none","rendererStartTime":104.19799995422363,"networkRequestTime":139.60399997234344,"networkEndTime":160.63999998569489,"finished"
+  {"url":"http://localhost:3000/_next/static/chunks/ff1a16fafef87110.js","sessionTargetType":"page","protocol":"http/1.1","cache":"none","rendererStartTime":104.49399995803833,"networkRequestTime":144.50800001621246,"networkEndTime":168.091000020504,"finished":t
+  {"url":"http://localhost:3000/_next/static/chunks/7340adf74ff47ec0.js","sessionTargetType":"page","protocol":"http/1.1","cache":"none","rendererStartTime":104.70899999141693,"networkRequestTime":163.81900000572205,"networkEndTime":225.44800001382828,"finished"

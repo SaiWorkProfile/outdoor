@@ -1,0 +1,90 @@
+
+=== concrete-calculator :: initial ===
+Type = slab
+Label = Slab 1
+Length = 20
+Width = 30
+Thickness = 4
+Waste = 10
+Concrete density = 
+selector for "Length": [data-qa-id="qa-r5wzgddq"]
+
+=== concrete-calculator :: after typing 10 into "Length" ===
+Type = slab
+Label = Slab 1
+Length = 210
+Width = 30
+Thickness = 4
+Waste = 10
+Concrete density = 
+console: [{"type":"error","text":"Failed to load resource: the server responded with a status of 404 (Not Found)","url":"http://localhost:3000/favicon.ico"}]
+
+=== paver-patio-calculator :: initial ===
+Shape = rectangle
+Length = 20
+Width = 30
+Paver length = 6
+Paver width = 6
+Joint width = .125
+Base depth = 6
+Bedding sand depth = 1
+Waste = 10
+Edge length = 
+Paver price / piece = 
+Base / cubic yard = 
+Bedding sand / cubic yard = 
+Edging / linear ft = 
+Patio name = My Paver Patio
+selector for "Length": [data-qa-id="qa-kkg8q2dj"]
+
+=== paver-patio-calculator :: after typing 10 into "Length" ===
+Shape = rectangle
+Length = 210
+Width = 30
+Paver length = 6
+Paver width = 6
+Joint width = .125
+Base depth = 6
+Bedding sand depth = 1
+Waste = 10
+Edge length = 
+Paver price / piece = 
+Base / cubic yard = 
+Bedding sand / cubic yard = 
+Edging / linear ft = 
+Patio name = My Paver Patio
+console: []
+
+=== deck-material-calculator :: initial ===
+Deck length = 20
+Deck width = 30
+Waste = 10
+Board width = 5.5
+Board stock length = 16
+Board gap = .125
+Board run = length
+Joist spacing = 16
+Joist width = 1.5
+Joist depth = 7.25
+Joist stock length = 
+Fasteners / board / joist = 2
+Beam count = 0
+Beam length = 
+Beam stock length = 
+Post count = 0
+Post height = 
+Decking / board = 
+Joist / piece = 
+Beam / piece = 
+Post / each = 
+Fastener / each = 
+Rim joist / linear ft = 
+C:\Users\saiww\Downloads\outdoor-project-calculator-ui-v0.3.0\outdoor-calc\qa\lib.cjs:94
+  if (!selectors[occurrence]) throw new Error(`no field labelled "${labelText}" (#${occurrence})`);
+                                    ^
+
+Error: no field labelled "Length" (#0)
+    at labelSelector (C:\Users\saiww\Downloads\outdoor-project-calculator-ui-v0.3.0\outdoor-calc\qa\lib.cjs:94:37)
+    at async C:\Users\saiww\Downloads\outdoor-project-calculator-ui-v0.3.0\outdoor-calc\qa\debug1.cjs:21:17
+
+Node.js v24.11.1

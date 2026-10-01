@@ -1,0 +1,13 @@
+start url = /calculators/fence-cost-calculator
+after setFirstNumberInput url = /calculators/fence-cost-calculator
+  miss ok
+after waste-allowance miss url = /calculators/fence-cost-calculator
+waste selector = [data-qa-id="qa-u39la1n6"]
+waste box = {"x":574.890625,"y":20.34375,"w":197.953125,"h":45,"scrollY":669,"value":"10"}
+  >>> NAVIGATED http://localhost:3000/projects
+after click url = /calculators/fence-cost-calculator active = A#-
+after ctrl+a url = /projects
+after Backspace url = /projects
+after type url = /projects
+after blur url = /projects
+console: [] pageErrors: []

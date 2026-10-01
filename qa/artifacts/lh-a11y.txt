@@ -1,0 +1,50 @@
+label-content-name-mismatch: score=0 mode=binary 
+{
+ "type": "table",
+ "headings": [
+  {
+   "key": "node",
+   "valueType": "node",
+   "subItemsHeading": {
+    "key": "relatedNode",
+    "valueType": "node"
+   },
+   "label": "Failing Elements"
+  }
+ ],
+ "items": [
+  {
+   "node": {
+    "type": "node",
+    "lhId": "1-0-A",
+    "path": "2,HTML,1,BODY,1,HEADER,0,DIV,0,A",
+    "selector": "body > header.site-header > div.site-header-inner > a.brand",
+    "boundingRect": {
+     "top": 16,
+     "bottom": 56,
+     "left": 11,
+     "right": 167,
+     "width": 156,
+     "height": 40
+    },
+    "snippet": "<a class=\"brand\" aria-label=\"Outdoor Project Calculator home\" href=\"/\">",
+    "nodeLabel": "Outdoor Project\nCalculator",
+    "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+   }
+  }
+ ],
+ "debugData": {
+  "type": "debugdata",
+  "impact": "serious",
+  "tags": [
+   "cat.semantics",
+   "wcag21a",
+   "wcag253",
+   "EN-301-549",
+   "EN-9.2.5.3",
+   "RGAAv4",
+   "RGAA-6.1.5",
+   "experimental"
+  ]
+ }
+}

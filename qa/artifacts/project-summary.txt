@@ -1,0 +1,30 @@
+﻿failures: []
+steps:
+  PASS all three calculations added to the project
+  PASS invalid project area rejected with a message
+  PASS project name saved
+  PASS 3 material result groups listed
+  PASS 18 quantity rows shown
+  PASS 11 shopping list items
+  PASS 8 assumption rows shown
+  PASS localStorage holds 3 materials, 16 quantities, 11 shopping items
+  PASS calculator results survive a browser refresh
+  PASS project name survives refresh
+  PASS print plan shows the project name
+  PASS print plan sections: Project dimensions | Materials | Estimated costs | Shopping list | Assumptions | Notes & methodology
+  PASS print plan includes the methodology disclaimer
+  PASS print utility page is noindex
+  PASS print page has a unique title: Printable Project Plan | Outdoor Project Calculator
+  PASS printed output hides navigation, footer and print toolbar
+  PASS no interactive controls inside the printed sheet
+  PASS no horizontal overflow or clipped tables in the print layout
+  PASS Chrome printed a 2-page PDF (73549 bytes)
+  PASS Clear project removes materials
+  PASS Clear project resets storage
+printView.sections: ["Project dimensions","Materials","Estimated costs","Shopping list","Assumptions","Notes & methodology"]
+printView.tableCount: 5 rows: [3,4,1,12,12]
+printed: {"navVisible":0,"footerVisible":0,"toolbarVisible":0,"interactiveInSheet":0,"wideTables":0,"overflowing":0,"scrollWidth":1440,"clientWidth":1440,"tableCount":5}
+pageCount: 2 pdfBytes: 73549
+storedSummary: {"name":"Backyard Refresh 2026","materials":3,"areas":2,"shopping":11,"assumptions":11,"quantities":16,"costs":{"total":0,"complete":false}}
+afterReload: {"projectName":"Backyard Refresh 2026","materialHeadings":["Gravel (crushed stone)","Fence Project","Deck Project"],"shoppingItems":11,"assumptions":11,"qtyRows":18}
+consoleErrors: [] pageErrors: []

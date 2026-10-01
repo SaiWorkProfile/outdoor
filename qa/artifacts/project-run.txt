@@ -1,0 +1,154 @@
+{
+  "steps": [
+    "PASS all three calculations added to the project",
+    "PASS invalid project area rejected with a message",
+    "PASS project name saved",
+    "PASS 3 material result groups listed",
+    "PASS 18 quantity rows shown",
+    "PASS 11 shopping list items",
+    "PASS 8 assumption rows shown",
+    "PASS localStorage holds 3 materials, 16 quantities, 11 shopping items",
+    "PASS calculator results survive a browser refresh",
+    "PASS project name survives refresh",
+    "PASS print plan shows the project name",
+    "PASS print plan sections: Project dimensions | Materials | Estimated costs | Shopping list | Assumptions | Notes & methodology",
+    "PASS print plan includes the methodology disclaimer",
+    "PASS print utility page is noindex",
+    "PASS print page has a unique title: Printable Project Plan | Outdoor Project Calculator",
+    "PASS printed output hides navigation, footer and print toolbar",
+    "PASS no interactive controls inside the printed sheet",
+    "PASS no horizontal overflow or clipped tables in the print layout",
+    "PASS Chrome printed a 2-page PDF (73546 bytes)",
+    "PASS Clear project removes materials",
+    "PASS Clear project resets storage"
+  ],
+  "failures": [],
+  "projectView": {
+    "heading": "One plan, all your calculations.",
+    "projectName": "Backyard Refresh 2026",
+    "materialHeadings": [
+      "Gravel (crushed stone)",
+      "Fence Project",
+      "Deck Project"
+    ],
+    "qtyRows": [
+      "Gravel area 120 × 30 ft",
+      "Patio Area12 × 20 ft",
+      "Area600 sq ft",
+      "Cubic yards6.25 cubic yards",
+      "Tons8.56 tons",
+      "0.5 cu ft bags330 bags",
+      "Truckloads1 loads",
+      "Total posts15 posts",
+      "Rails27 rails",
+      "Pickets226 pickets",
+      "Post-hole concrete1.25 cubic yards",
+      "Hardware995 each",
+      "Decking boards142 pieces",
+      "Decking linear feet2272 linear ft",
+      "Joists27 pieces",
+      "Beams0 pieces",
+      "Posts0 posts",
+      "Fasteners6759 each"
+    ],
+    "assumptionRows": [
+      "Waste allowance10 %",
+      "Compaction factor1 ×",
+      "Density used1.4 tons/cu yd",
+      "Waste allowance10 %",
+      "Rails per section2",
+      "Required rail length192 ft",
+      "Waste allowance10 %",
+      "Decking board width5.5 in"
+    ],
+    "shoppingItems": [
+      "Gravel (crushed stone) — Cubic yards6.25 cubic yards",
+      "Gravel (crushed stone) — 0.5 cu ft bags330 bags",
+      "Gravel (crushed stone) — Truckloads1 loads",
+      "Fence Project — Total posts15 posts",
+      "Fence Project — Rails27 rails",
+      "Fence Project — Pickets226 pickets",
+      "Fence Project — Post-hole concrete1.25 cubic yards",
+      "Fence Project — Hardware995 each",
+      "Deck Project — Decking boards142 pieces",
+      "Deck Project — Joists27 pieces",
+      "Deck Project — Fasteners6759 each"
+    ],
+    "totals": [
+      "Add prices in calculators"
+    ],
+    "metrics": [
+      "Materials=3",
+      "Areas=2",
+      "Shopping items=11"
+    ],
+    "printLinks": 2
+  },
+  "storedSummary": {
+    "name": "Backyard Refresh 2026",
+    "materials": 3,
+    "areas": 2,
+    "shopping": 11,
+    "assumptions": 11,
+    "quantities": 16,
+    "costs": {
+      "total": 0,
+      "complete": false
+    }
+  },
+  "afterReload": {
+    "projectName": "Backyard Refresh 2026",
+    "materialHeadings": [
+      "Gravel (crushed stone)",
+      "Fence Project",
+      "Deck Project"
+    ],
+    "shoppingItems": 11,
+    "assumptions": 11,
+    "qtyRows": 18
+  },
+  "printView": {
+    "h1": "Backyard Refresh 2026",
+    "meta": "Prepared 9/29/2026 · Planning estimate",
+    "sections": [
+      "Project dimensions",
+      "Materials",
+      "Estimated costs",
+      "Shopping list",
+      "Assumptions",
+      "Notes & methodology"
+    ],
+    "tableCount": 5,
+    "rowCounts": [
+      3,
+      4,
+      1,
+      12,
+      12
+    ],
+    "disclaimer": true,
+    "title": "Printable Project Plan | Outdoor Project Calculator",
+    "robots": "noindex, follow",
+    "sampleShopping": [
+      "□ Gravel (crushed stone) — Cubic yards6.25 cubic yards",
+      "□ Gravel (crushed stone) — 0.5 cu ft bags330 bags",
+      "□ Gravel (crushed stone) — Truckloads1 load",
+      "□ Fence Project — Total posts15 posts"
+    ]
+  },
+  "printed": {
+    "navVisible": 0,
+    "footerVisible": 0,
+    "toolbarVisible": 0,
+    "interactiveInSheet": 0,
+    "wideTables": 0,
+    "overflowing": 0,
+    "scrollWidth": 1440,
+    "clientWidth": 1440,
+    "tableCount": 5
+  },
+  "pageCount": 2,
+  "pdfBytes": 73546,
+  "consoleErrors": [],
+  "pageErrors": []
+}

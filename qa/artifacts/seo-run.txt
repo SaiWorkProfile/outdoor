@@ -1,0 +1,653 @@
+{
+  "pageCount": 51,
+  "duplicateTitles": [],
+  "duplicateDescriptions": [],
+  "missingDescription": [],
+  "canonicalUrls": {
+    "http://localhost:3000": [
+      "/"
+    ],
+    "http://localhost:3000/calculators": [
+      "/calculators"
+    ],
+    "http://localhost:3000/projects": [
+      "/projects"
+    ],
+    "http://localhost:3000/projects/print": [
+      "/projects/print"
+    ],
+    "http://localhost:3000/how-it-works": [
+      "/how-it-works"
+    ],
+    "http://localhost:3000/methodology": [
+      "/methodology"
+    ],
+    "http://localhost:3000/about": [
+      "/about"
+    ],
+    "http://localhost:3000/calculators/gravel-calculator": [
+      "/calculators/gravel-calculator"
+    ],
+    "http://localhost:3000/calculators/mulch-calculator": [
+      "/calculators/mulch-calculator"
+    ],
+    "http://localhost:3000/calculators/topsoil-calculator": [
+      "/calculators/topsoil-calculator"
+    ],
+    "http://localhost:3000/calculators/soil-calculator": [
+      "/calculators/soil-calculator"
+    ],
+    "http://localhost:3000/calculators/sand-calculator": [
+      "/calculators/sand-calculator"
+    ],
+    "http://localhost:3000/calculators/pea-gravel-calculator": [
+      "/calculators/pea-gravel-calculator"
+    ],
+    "http://localhost:3000/calculators/landscape-rock-calculator": [
+      "/calculators/landscape-rock-calculator"
+    ],
+    "http://localhost:3000/calculators/paver-base-calculator": [
+      "/calculators/paver-base-calculator"
+    ],
+    "http://localhost:3000/calculators/driveway-gravel-calculator": [
+      "/calculators/driveway-gravel-calculator"
+    ],
+    "http://localhost:3000/calculators/concrete-calculator": [
+      "/calculators/concrete-calculator"
+    ],
+    "http://localhost:3000/calculators/paver-calculator": [
+      "/calculators/paver-calculator"
+    ],
+    "http://localhost:3000/calculators/paver-patio-calculator": [
+      "/calculators/paver-patio-calculator"
+    ],
+    "http://localhost:3000/calculators/fence-calculator": [
+      "/calculators/fence-calculator"
+    ],
+    "http://localhost:3000/calculators/fence-cost-calculator": [
+      "/calculators/fence-cost-calculator"
+    ],
+    "http://localhost:3000/calculators/fence-post-calculator": [
+      "/calculators/fence-post-calculator"
+    ],
+    "http://localhost:3000/calculators/deck-material-calculator": [
+      "/calculators/deck-material-calculator"
+    ],
+    "http://localhost:3000/projects/how-much-gravel-do-i-need": [
+      "/projects/how-much-gravel-do-i-need"
+    ],
+    "http://localhost:3000/projects/how-to-calculate-mulch": [
+      "/projects/how-to-calculate-mulch"
+    ],
+    "http://localhost:3000/projects/how-much-topsoil-do-i-need": [
+      "/projects/how-much-topsoil-do-i-need"
+    ],
+    "http://localhost:3000/projects/how-to-calculate-landscaping-materials": [
+      "/projects/how-to-calculate-landscaping-materials"
+    ],
+    "http://localhost:3000/projects/how-to-plan-a-gravel-driveway": [
+      "/projects/how-to-plan-a-gravel-driveway"
+    ],
+    "http://localhost:3000/projects/how-to-plan-a-fence": [
+      "/projects/how-to-plan-a-fence"
+    ],
+    "http://localhost:3000/projects/how-to-calculate-fence-materials": [
+      "/projects/how-to-calculate-fence-materials"
+    ],
+    "http://localhost:3000/projects/how-to-plan-a-paver-patio": [
+      "/projects/how-to-plan-a-paver-patio"
+    ],
+    "http://localhost:3000/projects/how-to-calculate-paver-materials": [
+      "/projects/how-to-calculate-paver-materials"
+    ],
+    "http://localhost:3000/projects/how-to-calculate-concrete-for-a-slab": [
+      "/projects/how-to-calculate-concrete-for-a-slab"
+    ],
+    "http://localhost:3000/projects/how-to-estimate-deck-materials": [
+      "/projects/how-to-estimate-deck-materials"
+    ],
+    "http://localhost:3000/projects/outdoor-project-cost-planning": [
+      "/projects/outdoor-project-cost-planning"
+    ],
+    "http://localhost:3000/materials/gravel": [
+      "/materials/gravel"
+    ],
+    "http://localhost:3000/materials/pea-gravel": [
+      "/materials/pea-gravel"
+    ],
+    "http://localhost:3000/materials/mulch": [
+      "/materials/mulch"
+    ],
+    "http://localhost:3000/materials/topsoil": [
+      "/materials/topsoil"
+    ],
+    "http://localhost:3000/materials/sand": [
+      "/materials/sand"
+    ],
+    "http://localhost:3000/materials/paver-base": [
+      "/materials/paver-base"
+    ],
+    "http://localhost:3000/materials/concrete": [
+      "/materials/concrete"
+    ],
+    "http://localhost:3000/materials/fence-materials": [
+      "/materials/fence-materials"
+    ],
+    "http://localhost:3000/materials/decking-materials": [
+      "/materials/decking-materials"
+    ],
+    "http://localhost:3000/costs/gravel-cost": [
+      "/costs/gravel-cost"
+    ],
+    "http://localhost:3000/costs/mulch-cost": [
+      "/costs/mulch-cost"
+    ],
+    "http://localhost:3000/costs/fence-cost": [
+      "/costs/fence-cost"
+    ],
+    "http://localhost:3000/costs/paver-patio-cost": [
+      "/costs/paver-patio-cost"
+    ],
+    "http://localhost:3000/costs/gravel-driveway-cost": [
+      "/costs/gravel-driveway-cost"
+    ],
+    "http://localhost:3000/costs/deck-cost": [
+      "/costs/deck-cost"
+    ],
+    "http://localhost:3000/costs/landscaping-project-cost": [
+      "/costs/landscaping-project-cost"
+    ]
+  },
+  "missingCanonical": [],
+  "multipleCanonical": [],
+  "missingOg": [],
+  "h1Problems": [],
+  "noBreadcrumb": [
+    "/",
+    "/projects/print"
+  ],
+  "robotsMeta": [
+    [
+      "/",
+      "index, follow"
+    ],
+    [
+      "/calculators",
+      "index, follow"
+    ],
+    [
+      "/projects",
+      "index, follow"
+    ],
+    [
+      "/projects/print",
+      "noindex, follow"
+    ],
+    [
+      "/how-it-works",
+      "index, follow"
+    ],
+    [
+      "/methodology",
+      "index, follow"
+    ],
+    [
+      "/about",
+      "index, follow"
+    ],
+    [
+      "/calculators/gravel-calculator",
+      "index, follow"
+    ],
+    [
+      "/calculators/mulch-calculator",
+      "index, follow"
+    ],
+    [
+      "/calculators/topsoil-calculator",
+      "index, follow"
+    ],
+    [
+      "/calculators/soil-calculator",
+      "index, follow"
+    ],
+    [
+      "/calculators/sand-calculator",
+      "index, follow"
+    ],
+    [
+      "/calculators/pea-gravel-calculator",
+      "index, follow"
+    ],
+    [
+      "/calculators/landscape-rock-calculator",
+      "index, follow"
+    ],
+    [
+      "/calculators/paver-base-calculator",
+      "index, follow"
+    ],
+    [
+      "/calculators/driveway-gravel-calculator",
+      "index, follow"
+    ],
+    [
+      "/calculators/concrete-calculator",
+      "index, follow"
+    ],
+    [
+      "/calculators/paver-calculator",
+      "index, follow"
+    ],
+    [
+      "/calculators/paver-patio-calculator",
+      "index, follow"
+    ],
+    [
+      "/calculators/fence-calculator",
+      "index, follow"
+    ],
+    [
+      "/calculators/fence-cost-calculator",
+      "index, follow"
+    ],
+    [
+      "/calculators/fence-post-calculator",
+      "index, follow"
+    ],
+    [
+      "/calculators/deck-material-calculator",
+      "index, follow"
+    ],
+    [
+      "/projects/how-much-gravel-do-i-need",
+      "index, follow"
+    ],
+    [
+      "/projects/how-to-calculate-mulch",
+      "index, follow"
+    ],
+    [
+      "/projects/how-much-topsoil-do-i-need",
+      "index, follow"
+    ],
+    [
+      "/projects/how-to-calculate-landscaping-materials",
+      "index, follow"
+    ],
+    [
+      "/projects/how-to-plan-a-gravel-driveway",
+      "index, follow"
+    ],
+    [
+      "/projects/how-to-plan-a-fence",
+      "index, follow"
+    ],
+    [
+      "/projects/how-to-calculate-fence-materials",
+      "index, follow"
+    ],
+    [
+      "/projects/how-to-plan-a-paver-patio",
+      "index, follow"
+    ],
+    [
+      "/projects/how-to-calculate-paver-materials",
+      "index, follow"
+    ],
+    [
+      "/projects/how-to-calculate-concrete-for-a-slab",
+      "index, follow"
+    ],
+    [
+      "/projects/how-to-estimate-deck-materials",
+      "index, follow"
+    ],
+    [
+      "/projects/outdoor-project-cost-planning",
+      "index, follow"
+    ],
+    [
+      "/materials/gravel",
+      "index, follow"
+    ],
+    [
+      "/materials/pea-gravel",
+      "index, follow"
+    ],
+    [
+      "/materials/mulch",
+      "index, follow"
+    ],
+    [
+      "/materials/topsoil",
+      "index, follow"
+    ],
+    [
+      "/materials/sand",
+      "index, follow"
+    ],
+    [
+      "/materials/paver-base",
+      "index, follow"
+    ],
+    [
+      "/materials/concrete",
+      "index, follow"
+    ],
+    [
+      "/materials/fence-materials",
+      "index, follow"
+    ],
+    [
+      "/materials/decking-materials",
+      "index, follow"
+    ],
+    [
+      "/costs/gravel-cost",
+      "index, follow"
+    ],
+    [
+      "/costs/mulch-cost",
+      "index, follow"
+    ],
+    [
+      "/costs/fence-cost",
+      "index, follow"
+    ],
+    [
+      "/costs/paver-patio-cost",
+      "index, follow"
+    ],
+    [
+      "/costs/gravel-driveway-cost",
+      "index, follow"
+    ],
+    [
+      "/costs/deck-cost",
+      "index, follow"
+    ],
+    [
+      "/costs/landscaping-project-cost",
+      "index, follow"
+    ]
+  ],
+  "consoleProblems": [],
+  "non200Links": [],
+  "sitemap": {
+    "status": 200,
+    "contentType": "application/xml",
+    "count": 50
+  },
+  "robots": {
+    "status": 200,
+    "contentType": "text/plain",
+    "body": "User-Agent: *\nAllow: /\n\nSitemap: http://localhost:3000/sitemap.xml\n"
+  },
+  "non200SitemapUrls": [],
+  "notFound": {
+    "status": 404,
+    "title": "Page not found | Outdoor Project Calculator",
+    "h1": [
+      "That page does not exist."
+    ],
+    "robots": "noindex"
+  },
+  "favicon": [
+    [
+      "/",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/calculators",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/projects",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/projects/print",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/how-it-works",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/methodology",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/about",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/calculators/gravel-calculator",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/calculators/mulch-calculator",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/calculators/topsoil-calculator",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/calculators/soil-calculator",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/calculators/sand-calculator",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/calculators/pea-gravel-calculator",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/calculators/landscape-rock-calculator",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/calculators/paver-base-calculator",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/calculators/driveway-gravel-calculator",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/calculators/concrete-calculator",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/calculators/paver-calculator",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/calculators/paver-patio-calculator",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/calculators/fence-calculator",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/calculators/fence-cost-calculator",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/calculators/fence-post-calculator",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/calculators/deck-material-calculator",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/projects/how-much-gravel-do-i-need",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/projects/how-to-calculate-mulch",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/projects/how-much-topsoil-do-i-need",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/projects/how-to-calculate-landscaping-materials",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/projects/how-to-plan-a-gravel-driveway",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/projects/how-to-plan-a-fence",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/projects/how-to-calculate-fence-materials",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/projects/how-to-plan-a-paver-patio",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/projects/how-to-calculate-paver-materials",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/projects/how-to-calculate-concrete-for-a-slab",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/projects/how-to-estimate-deck-materials",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/projects/outdoor-project-cost-planning",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/materials/gravel",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/materials/pea-gravel",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/materials/mulch",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/materials/topsoil",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/materials/sand",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/materials/paver-base",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/materials/concrete",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/materials/fence-materials",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/materials/decking-materials",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/costs/gravel-cost",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/costs/mulch-cost",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/costs/fence-cost",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/costs/paver-patio-cost",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/costs/gravel-driveway-cost",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/costs/deck-cost",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ],
+    [
+      "/costs/landscaping-project-cost",
+      true,
+      "/favicon.ico?favicon.36f7df76.ico"
+    ]
+  ]
+}

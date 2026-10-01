@@ -1,0 +1,19 @@
+
+=== fence-calculator ===
+  after checkCalculator url = /calculators/fence-calculator
+  after edgeCases url = /calculators/fence-calculator
+  failures: []
+  console: [] pageErrors: []
+
+=== fence-cost-calculator ===
+  after checkCalculator url = /calculators/fence-cost-calculator
+  >>> NAVIGATED http://localhost:3000/projects
+  EDGE ERROR: button not found: Calculate :: {"url":"/projects","buttons":["Clear project","Add area"],"fields":4,"text":"Outdoor Project\nCalculator\nCalculators\nProjects\nHow It Works\nMethodology\nAbout\nProjec
+  failures: []
+  console: [] pageErrors: []
+
+=== fence-post-calculator ===
+  after checkCalculator url = /calculators/fence-post-calculator
+  after edgeCases url = /calculators/fence-post-calculator
+  failures: []
+  console: [] pageErrors: []

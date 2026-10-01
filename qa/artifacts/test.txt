@@ -1,0 +1,61 @@
+
+> outdoor-project-calculators@0.3.0 test
+> tsx --test "src/**/*.test.ts"
+
+✔ existing bulk engine rejects non-finite or overflow-sized projects (16.7822ms)
+✔ existing driveway rejects per-load delivery fee without capacity (2.6716ms)
+✔ existing concrete catches huge intermediate overflow (0.7783ms)
+✔ zero waste and decimal inputs remain valid in shared calculators (0.7664ms)
+✔ gravel worked example: 20x30 ft at 3 in, no waste (4.2212ms)
+✔ default 10% waste is applied (0.7819ms)
+✔ compaction factor increases order volume (0.62ms)
+✔ multiple areas and circles are summed (2.319ms)
+✔ density override changes tons and warns when out of range (1.2941ms)
+✔ costs come only from user-supplied prices (5.2083ms)
+✔ truckloads (1.4039ms)
+✔ purchase advice thresholds (1.4782ms)
+✔ mulch depth comparison and coverage (3.5292ms)
+✔ use-case warnings (7.5511ms)
+✔ invalid input is rejected with the offending field (2.2396ms)
+✔ editable bag size assumption is used in bag counts (0.4597ms)
+✔ 10 x 10 ft slab at 4 in (9.2539ms)
+✔ post holes, footings and multiple parts (3.0987ms)
+✔ exact bag yields are not rounded up by float noise (0.978ms)
+✔ thin slab and tiny waste produce warnings (0.683ms)
+✔ invalid input (3.3605ms)
+✔ concrete density, bag yield and ready-mix increment are editable (1.2388ms)
+✔ 20 x 12 deck produces decking, joist and fastener quantities (6.3073ms)
+✔ stock lengths convert framing linear feet into pieces (0.8731ms)
+✔ deck prices are optional and never invented (3.4445ms)
+✔ invalid deck inputs are rejected (2.8055ms)
+✔ default 3-layer driveway: 10 x 50 ft (9.4638ms)
+✔ delivery loads and fees (1.6869ms)
+✔ pricing per layer produces a complete total (2.2519ms)
+✔ partial pricing is flagged (4.808ms)
+✔ thin driveway warns; conflicting prices and empty layers throw (7.423ms)
+✔ multiple sections (main drive + parking pad) add up (3.5604ms)
+✔ 100 ft fence at 8 ft spacing with two ends (5.2719ms)
+✔ gates reduce run and add separate gate posts (1.6161ms)
+✔ gate width arrays are validated (4.4334ms)
+✔ picket fence returns posts, rails, pickets, concrete and shopping list (11.8054ms)
+✔ panel and chain-link modes use different quantity outputs (1.1584ms)
+✔ fence cost uses only entered prices (1.8789ms)
+✔ missing fence prices do not fabricate a total-complete result (1.2459ms)
+✔ invalid fence values are rejected (4.427ms)
+✔ 12 x 20 paver patio calculates pavers, base, sand and edging (11.8216ms)
+✔ multiple shapes and manual edge length work (1.6689ms)
+✔ paver pricing is user-entered only (5.4237ms)
+✔ paver input validation highlights the field (3.0769ms)
+✔ printable project plan preserves project structure without PDF dependencies (6.871ms)
+✔ length conversions (3.5972ms)
+✔ volume conversions (0.9464ms)
+✔ ceilTo rounds up to steps and ignores float noise (1.5182ms)
+✔ round (0.6748ms)
+ℹ tests 49
+ℹ suites 0
+ℹ pass 49
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 5651.0837

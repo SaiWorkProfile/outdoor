@@ -1,0 +1,142 @@
+{
+  "fence-calculator": {
+    "finalUrl": "http://localhost:3000/calculators/fence-calculator",
+    "scores": {
+      "performance": 80,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "FCP_ms": 1155.0753,
+      "LCP_ms": 2673.1506,
+      "TBT_ms": 676.5,
+      "CLS": 0,
+      "SI_ms": 1549.591829910043,
+      "TTI_ms": 3221.1006
+    },
+    "totalByteWeightKb": 194,
+    "unusedJsKb": 28,
+    "mainThreadMs": 3374.964,
+    "scriptEvalMs": 1405.1719999999996,
+    "renderBlocking": "none",
+    "lcpElement": null,
+    "layoutShiftElements": [],
+    "perfBinaryFails": [],
+    "a11yBinaryFails": [
+      "label-content-name-mismatch"
+    ],
+    "bestPracticeFails": [],
+    "seoBinaryFails": [],
+    "a11yScoreDetails": [
+      "label-content-name-mismatch (Elements with visible text labels do not have matching accessible names.)"
+    ],
+    "lhVersion": "13.5.0",
+    "testedAt": "2026-09-29T15:37:31.648Z"
+  },
+  "gravel-calculator": {
+    "finalUrl": "http://localhost:3000/calculators/gravel-calculator",
+    "scores": {
+      "performance": 83,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "FCP_ms": 1128.56,
+      "LCP_ms": 2596.12,
+      "TBT_ms": 570.9999999999998,
+      "CLS": 0,
+      "SI_ms": 1469.7702005599258,
+      "TTI_ms": 3124.42
+    },
+    "totalByteWeightKb": 195,
+    "unusedJsKb": 28,
+    "mainThreadMs": 3075.707999999996,
+    "scriptEvalMs": 1226.679999999999,
+    "renderBlocking": "none",
+    "lcpElement": null,
+    "layoutShiftElements": [],
+    "perfBinaryFails": [],
+    "a11yBinaryFails": [
+      "label-content-name-mismatch"
+    ],
+    "bestPracticeFails": [],
+    "seoBinaryFails": [],
+    "a11yScoreDetails": [
+      "label-content-name-mismatch (Elements with visible text labels do not have matching accessible names.)"
+    ],
+    "lhVersion": "13.5.0",
+    "testedAt": "2026-09-29T15:37:10.377Z"
+  },
+  "homepage": {
+    "finalUrl": "http://localhost:3000/",
+    "scores": {
+      "performance": 87,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "FCP_ms": 977.3701,
+      "LCP_ms": 2479.7401999999997,
+      "TBT_ms": 417.49999999999966,
+      "CLS": 0,
+      "SI_ms": 1539.3872689798175,
+      "TTI_ms": 2829.3902
+    },
+    "totalByteWeightKb": 189,
+    "unusedJsKb": 57,
+    "mainThreadMs": 2514.619999999999,
+    "scriptEvalMs": 1091.5719999999992,
+    "renderBlocking": "none",
+    "lcpElement": null,
+    "layoutShiftElements": [],
+    "perfBinaryFails": [],
+    "a11yBinaryFails": [
+      "label-content-name-mismatch"
+    ],
+    "bestPracticeFails": [],
+    "seoBinaryFails": [],
+    "a11yScoreDetails": [
+      "label-content-name-mismatch (Elements with visible text labels do not have matching accessible names.)"
+    ],
+    "lhVersion": "13.5.0",
+    "testedAt": "2026-09-29T15:36:25.656Z"
+  },
+  "paver-calculator": {
+    "finalUrl": "http://localhost:3000/calculators/paver-calculator",
+    "scores": {
+      "performance": 70,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "FCP_ms": 1428.76755,
+      "LCP_ms": 3063.5351,
+      "TBT_ms": 1221,
+      "CLS": 0,
+      "SI_ms": 2075.209942512656,
+      "TTI_ms": 3451.5351
+    },
+    "totalByteWeightKb": 194,
+    "unusedJsKb": 28,
+    "mainThreadMs": 4933.563999999997,
+    "scriptEvalMs": 1881.6159999999982,
+    "renderBlocking": "none",
+    "lcpElement": null,
+    "layoutShiftElements": [],
+    "perfBinaryFails": [],
+    "a11yBinaryFails": [
+      "label-content-name-mismatch"
+    ],
+    "bestPracticeFails": [],
+    "seoBinaryFails": [],
+    "a11yScoreDetails": [
+      "label-content-name-mismatch (Elements with visible text labels do not have matching accessible names.)"
+    ],
+    "lhVersion": "13.5.0",
+    "testedAt": "2026-09-29T15:37:54.297Z"
+  }
+}

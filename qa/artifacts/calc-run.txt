@@ -1,0 +1,945 @@
+[
+  {
+    "slug": "gravel-calculator",
+    "status": 200,
+    "fields": 9,
+    "units": 7,
+    "misassociatedLabels": 0,
+    "metrics": [
+      "Cubic yards = 6.25",
+      "Tons = 8.56",
+      "Square feet = 600.00",
+      "Waste = 10%"
+    ],
+    "mismatches": [],
+    "reset": {
+      "hasResultCard": false,
+      "errors": 0,
+      "highlighted": 0
+    },
+    "huge": {
+      "crashed": false,
+      "hasNaN": false
+    },
+    "empty": {
+      "summary": [
+        "This calculation could not runDepth — depthIn must be a valid number."
+      ],
+      "highlighted": [
+        "Depth"
+      ],
+      "hasResult": false,
+      "bodyHasNaN": false
+    },
+    "multiSection": {
+      "fields": 12,
+      "subCards": 2
+    },
+    "decimal": [
+      "Cubic yards=2.75",
+      "Tons=3.61",
+      "Square feet=253.13"
+    ],
+    "hydration": 0,
+    "pageErrors": [],
+    "faviconNoise": 0,
+    "related": [
+      [
+        "/calculators/pea-gravel-calculator",
+        200
+      ],
+      [
+        "/calculators/paver-base-calculator",
+        200
+      ],
+      [
+        "/calculators/driveway-gravel-calculator",
+        200
+      ],
+      [
+        "/calculators/sand-calculator",
+        200
+      ]
+    ],
+    "failures": []
+  },
+  {
+    "slug": "mulch-calculator",
+    "status": 200,
+    "fields": 9,
+    "units": 7,
+    "misassociatedLabels": 0,
+    "metrics": [
+      "Cubic yards = 6.25",
+      "Tons = 2.14",
+      "Square feet = 600.00",
+      "Waste = 10%"
+    ],
+    "mismatches": [],
+    "reset": {
+      "hasResultCard": false,
+      "errors": 0,
+      "highlighted": 0
+    },
+    "huge": {
+      "crashed": false,
+      "hasNaN": false
+    },
+    "empty": {
+      "summary": [
+        "This calculation could not runDepth — depthIn must be a valid number."
+      ],
+      "highlighted": [
+        "Depth"
+      ],
+      "hasResult": false,
+      "bodyHasNaN": false
+    },
+    "multiSection": {
+      "fields": 12,
+      "subCards": 2
+    },
+    "decimal": [
+      "Cubic yards=2.75",
+      "Tons=0.90",
+      "Square feet=253.13"
+    ],
+    "hydration": 0,
+    "pageErrors": [],
+    "faviconNoise": 0,
+    "related": [
+      [
+        "/calculators/topsoil-calculator",
+        200
+      ],
+      [
+        "/calculators/soil-calculator",
+        200
+      ],
+      [
+        "/calculators/landscape-rock-calculator",
+        200
+      ]
+    ],
+    "failures": []
+  },
+  {
+    "slug": "topsoil-calculator",
+    "status": 200,
+    "fields": 9,
+    "units": 7,
+    "misassociatedLabels": 0,
+    "metrics": [
+      "Cubic yards = 12.25",
+      "Tons = 13.44",
+      "Square feet = 600.00",
+      "Waste = 10%"
+    ],
+    "mismatches": [],
+    "reset": {
+      "hasResultCard": false,
+      "errors": 0,
+      "highlighted": 0
+    },
+    "huge": {
+      "crashed": false,
+      "hasNaN": false
+    },
+    "empty": {
+      "summary": [
+        "This calculation could not runDepth — depthIn must be a valid number."
+      ],
+      "highlighted": [
+        "Depth"
+      ],
+      "hasResult": false,
+      "bodyHasNaN": false
+    },
+    "multiSection": {
+      "fields": 12,
+      "subCards": 2
+    },
+    "decimal": [
+      "Cubic yards=5.25",
+      "Tons=5.67",
+      "Square feet=253.13"
+    ],
+    "hydration": 0,
+    "pageErrors": [],
+    "faviconNoise": 0,
+    "related": [
+      [
+        "/calculators/soil-calculator",
+        200
+      ],
+      [
+        "/calculators/mulch-calculator",
+        200
+      ],
+      [
+        "/calculators/landscape-rock-calculator",
+        200
+      ]
+    ],
+    "failures": []
+  },
+  {
+    "slug": "soil-calculator",
+    "status": 200,
+    "fields": 9,
+    "units": 7,
+    "misassociatedLabels": 0,
+    "metrics": [
+      "Cubic yards = 6.25",
+      "Tons = 7.33",
+      "Square feet = 600.00",
+      "Waste = 10%"
+    ],
+    "mismatches": [],
+    "reset": {
+      "hasResultCard": false,
+      "errors": 0,
+      "highlighted": 0
+    },
+    "huge": {
+      "crashed": false,
+      "hasNaN": false
+    },
+    "empty": {
+      "summary": [
+        "This calculation could not runDepth — depthIn must be a valid number."
+      ],
+      "highlighted": [
+        "Depth"
+      ],
+      "hasResult": false,
+      "bodyHasNaN": false
+    },
+    "multiSection": {
+      "fields": 12,
+      "subCards": 2
+    },
+    "decimal": [
+      "Cubic yards=2.75",
+      "Tons=3.09",
+      "Square feet=253.13"
+    ],
+    "hydration": 0,
+    "pageErrors": [],
+    "faviconNoise": 0,
+    "related": [
+      [
+        "/calculators/topsoil-calculator",
+        200
+      ],
+      [
+        "/calculators/mulch-calculator",
+        200
+      ],
+      [
+        "/calculators/gravel-calculator",
+        200
+      ]
+    ],
+    "failures": []
+  },
+  {
+    "slug": "sand-calculator",
+    "status": 200,
+    "fields": 9,
+    "units": 7,
+    "misassociatedLabels": 0,
+    "metrics": [
+      "Cubic yards = 2.25",
+      "Tons = 2.75",
+      "Square feet = 600.00",
+      "Waste = 10%"
+    ],
+    "mismatches": [],
+    "reset": {
+      "hasResultCard": false,
+      "errors": 0,
+      "highlighted": 0
+    },
+    "huge": {
+      "crashed": false,
+      "hasNaN": false
+    },
+    "empty": {
+      "summary": [
+        "This calculation could not runDepth — depthIn must be a valid number."
+      ],
+      "highlighted": [
+        "Depth"
+      ],
+      "hasResult": false,
+      "bodyHasNaN": false
+    },
+    "multiSection": {
+      "fields": 12,
+      "subCards": 2
+    },
+    "decimal": [
+      "Cubic yards=1",
+      "Tons=1.16",
+      "Square feet=253.13"
+    ],
+    "hydration": 0,
+    "pageErrors": [],
+    "faviconNoise": 0,
+    "related": [
+      [
+        "/calculators/paver-base-calculator",
+        200
+      ],
+      [
+        "/calculators/paver-calculator",
+        200
+      ],
+      [
+        "/calculators/paver-patio-calculator",
+        200
+      ]
+    ],
+    "failures": []
+  },
+  {
+    "slug": "pea-gravel-calculator",
+    "status": 200,
+    "fields": 9,
+    "units": 7,
+    "misassociatedLabels": 0,
+    "metrics": [
+      "Cubic yards = 4.25",
+      "Tons = 5.70",
+      "Square feet = 600.00",
+      "Waste = 10%"
+    ],
+    "mismatches": [],
+    "reset": {
+      "hasResultCard": false,
+      "errors": 0,
+      "highlighted": 0
+    },
+    "huge": {
+      "crashed": false,
+      "hasNaN": false
+    },
+    "empty": {
+      "summary": [
+        "This calculation could not runDepth — depthIn must be a valid number."
+      ],
+      "highlighted": [
+        "Depth"
+      ],
+      "hasResult": false,
+      "bodyHasNaN": false
+    },
+    "multiSection": {
+      "fields": 12,
+      "subCards": 2
+    },
+    "decimal": [
+      "Cubic yards=1.75",
+      "Tons=2.41",
+      "Square feet=253.13"
+    ],
+    "hydration": 0,
+    "pageErrors": [],
+    "faviconNoise": 0,
+    "related": [
+      [
+        "/calculators/gravel-calculator",
+        200
+      ],
+      [
+        "/calculators/landscape-rock-calculator",
+        200
+      ],
+      [
+        "/calculators/paver-base-calculator",
+        200
+      ]
+    ],
+    "failures": []
+  },
+  {
+    "slug": "landscape-rock-calculator",
+    "status": 200,
+    "fields": 9,
+    "units": 7,
+    "misassociatedLabels": 0,
+    "metrics": [
+      "Cubic yards = 6.25",
+      "Tons = 8.25",
+      "Square feet = 600.00",
+      "Waste = 10%"
+    ],
+    "mismatches": [],
+    "reset": {
+      "hasResultCard": false,
+      "errors": 0,
+      "highlighted": 0
+    },
+    "huge": {
+      "crashed": false,
+      "hasNaN": false
+    },
+    "empty": {
+      "summary": [
+        "This calculation could not runDepth — depthIn must be a valid number."
+      ],
+      "highlighted": [
+        "Depth"
+      ],
+      "hasResult": false,
+      "bodyHasNaN": false
+    },
+    "multiSection": {
+      "fields": 12,
+      "subCards": 2
+    },
+    "decimal": [
+      "Cubic yards=2.75",
+      "Tons=3.48",
+      "Square feet=253.13"
+    ],
+    "hydration": 0,
+    "pageErrors": [],
+    "faviconNoise": 0,
+    "related": [
+      [
+        "/calculators/gravel-calculator",
+        200
+      ],
+      [
+        "/calculators/pea-gravel-calculator",
+        200
+      ],
+      [
+        "/calculators/mulch-calculator",
+        200
+      ]
+    ],
+    "failures": []
+  },
+  {
+    "slug": "paver-base-calculator",
+    "status": 200,
+    "fields": 9,
+    "units": 7,
+    "misassociatedLabels": 0,
+    "metrics": [
+      "Cubic yards = 13.5",
+      "Tons = 18.82",
+      "Square feet = 600.00",
+      "Waste = 10%"
+    ],
+    "mismatches": [],
+    "reset": {
+      "hasResultCard": false,
+      "errors": 0,
+      "highlighted": 0
+    },
+    "huge": {
+      "crashed": false,
+      "hasNaN": false
+    },
+    "empty": {
+      "summary": [
+        "This calculation could not runDepth — depthIn must be a valid number."
+      ],
+      "highlighted": [
+        "Base depth"
+      ],
+      "hasResult": false,
+      "bodyHasNaN": false
+    },
+    "multiSection": {
+      "fields": 12,
+      "subCards": 2
+    },
+    "decimal": [
+      "Cubic yards=5.75",
+      "Tons=7.94",
+      "Square feet=253.13"
+    ],
+    "hydration": 0,
+    "pageErrors": [],
+    "faviconNoise": 0,
+    "related": [
+      [
+        "/calculators/paver-calculator",
+        200
+      ],
+      [
+        "/calculators/paver-patio-calculator",
+        200
+      ],
+      [
+        "/calculators/sand-calculator",
+        200
+      ]
+    ],
+    "failures": []
+  },
+  {
+    "slug": "driveway-gravel-calculator",
+    "status": 200,
+    "fields": 20,
+    "units": 13,
+    "misassociatedLabels": 0,
+    "metrics": [
+      "Order volume = 18.75 yd³",
+      "Tons = 25.95",
+      "Area = 600 sq ft",
+      "Depth = 8 in"
+    ],
+    "mismatches": [],
+    "reset": {
+      "hasResultCard": false,
+      "errors": 0,
+      "highlighted": 0
+    },
+    "huge": {
+      "crashed": false,
+      "hasNaN": false
+    },
+    "empty": {
+      "summary": [
+        "This calculation could not runArea 1 — Length — areas[0].length must be a valid number."
+      ],
+      "highlighted": [],
+      "hasResult": false,
+      "bodyHasNaN": false
+    },
+    "multiSection": {
+      "fields": 23,
+      "subCards": 5
+    },
+    "decimal": [
+      "Order volume=8 yd³",
+      "Tons=10.95",
+      "Area=253 sq ft"
+    ],
+    "hydration": 0,
+    "pageErrors": [],
+    "faviconNoise": 0,
+    "related": [
+      [
+        "/calculators/gravel-calculator",
+        200
+      ],
+      [
+        "/calculators/paver-base-calculator",
+        200
+      ]
+    ],
+    "failures": []
+  },
+  {
+    "slug": "concrete-calculator",
+    "status": 200,
+    "fields": 7,
+    "units": 5,
+    "misassociatedLabels": 0,
+    "metrics": [
+      "Order volume = 1.63 yd³",
+      "Ready-mix order = 1.75 yd³",
+      "Waste = 10%",
+      "Approx. weight = 3.30 tons"
+    ],
+    "mismatches": [],
+    "reset": {
+      "hasResultCard": false,
+      "errors": 0,
+      "highlighted": 0
+    },
+    "huge": {
+      "crashed": false,
+      "hasNaN": false
+    },
+    "empty": {
+      "summary": [
+        "This calculation could not runWaste allowance — wastePercent must be a valid number."
+      ],
+      "highlighted": [
+        "Waste"
+      ],
+      "hasResult": false,
+      "bodyHasNaN": false
+    },
+    "multiSection": "not-supported",
+    "decimal": [
+      "Order volume=3.44 yd³",
+      "Ready-mix order=3.5 yd³",
+      "Waste=10%"
+    ],
+    "hydration": 0,
+    "pageErrors": [],
+    "faviconNoise": 0,
+    "related": [
+      [
+        "/calculators/fence-post-calculator",
+        200
+      ],
+      [
+        "/calculators/fence-calculator",
+        200
+      ],
+      [
+        "/calculators/deck-material-calculator",
+        200
+      ]
+    ],
+    "failures": []
+  },
+  {
+    "slug": "paver-calculator",
+    "status": 200,
+    "fields": 14,
+    "units": 13,
+    "misassociatedLabels": 0,
+    "metrics": [
+      "Pavers = 2535",
+      "Area = 600 sq ft",
+      "Base = 13.5 yd³",
+      "Bedding sand = 2.25 yd³"
+    ],
+    "mismatches": [],
+    "reset": {
+      "hasResultCard": false,
+      "errors": 0,
+      "highlighted": 0
+    },
+    "huge": {
+      "crashed": false,
+      "hasNaN": false
+    },
+    "empty": {
+      "summary": [
+        "This calculation could not runPaver length — paverLengthIn must be a valid number."
+      ],
+      "highlighted": [
+        "Paver length"
+      ],
+      "hasResult": false,
+      "bodyHasNaN": false
+    },
+    "multiSection": {
+      "fields": 17,
+      "subCards": 2
+    },
+    "decimal": [
+      "Pavers=1070",
+      "Area=253 sq ft",
+      "Base=5.75 yd³"
+    ],
+    "hydration": 0,
+    "pageErrors": [],
+    "faviconNoise": 0,
+    "related": [
+      [
+        "/calculators/paver-patio-calculator",
+        200
+      ],
+      [
+        "/calculators/paver-base-calculator",
+        200
+      ],
+      [
+        "/calculators/sand-calculator",
+        200
+      ]
+    ],
+    "failures": []
+  },
+  {
+    "slug": "paver-patio-calculator",
+    "status": 200,
+    "fields": 15,
+    "units": 13,
+    "misassociatedLabels": 0,
+    "metrics": [
+      "Pavers = 1015",
+      "Area = 240 sq ft",
+      "Base = 5.5 yd³",
+      "Bedding sand = 1 yd³"
+    ],
+    "mismatches": [],
+    "reset": {
+      "hasResultCard": false,
+      "errors": 0,
+      "highlighted": 0
+    },
+    "huge": {
+      "crashed": false,
+      "hasNaN": false
+    },
+    "empty": {
+      "summary": [
+        "This calculation could not runPaver length — paverLengthIn must be a valid number."
+      ],
+      "highlighted": [
+        "Paver length"
+      ],
+      "hasResult": false,
+      "bodyHasNaN": false
+    },
+    "multiSection": {
+      "fields": 18,
+      "subCards": 2
+    },
+    "decimal": [
+      "Pavers=1070",
+      "Area=253 sq ft",
+      "Base=5.75 yd³"
+    ],
+    "hydration": 0,
+    "pageErrors": [],
+    "faviconNoise": 0,
+    "related": [
+      [
+        "/calculators/paver-calculator",
+        200
+      ],
+      [
+        "/calculators/paver-base-calculator",
+        200
+      ],
+      [
+        "/calculators/sand-calculator",
+        200
+      ]
+    ],
+    "failures": []
+  },
+  {
+    "slug": "fence-calculator",
+    "status": 200,
+    "fields": 16,
+    "units": 15,
+    "misassociatedLabels": 0,
+    "metrics": [
+      "Total posts = 15",
+      "Rails = 27",
+      "Concrete = 1.25 yd³",
+      "Hardware = 995"
+    ],
+    "mismatches": [],
+    "reset": {
+      "hasResultCard": false,
+      "errors": 0,
+      "highlighted": 0
+    },
+    "huge": {
+      "crashed": false,
+      "hasNaN": false
+    },
+    "empty": {
+      "summary": [
+        "This calculation could not runFence height — heightFt must be a valid number."
+      ],
+      "highlighted": [
+        "Fence height"
+      ],
+      "hasResult": false,
+      "bodyHasNaN": false
+    },
+    "multiSection": "not-supported",
+    "decimal": [
+      "Total posts=8",
+      "Rails=10",
+      "Concrete=0.75 yd³"
+    ],
+    "hydration": 0,
+    "pageErrors": [],
+    "faviconNoise": 0,
+    "related": [
+      [
+        "/calculators/fence-cost-calculator",
+        200
+      ],
+      [
+        "/calculators/fence-post-calculator",
+        200
+      ],
+      [
+        "/calculators/concrete-calculator",
+        200
+      ]
+    ],
+    "failures": []
+  },
+  {
+    "slug": "fence-cost-calculator",
+    "status": 200,
+    "fields": 26,
+    "units": 25,
+    "misassociatedLabels": 0,
+    "metrics": [
+      "Total estimate = $2724.25",
+      "Materials = $1524.25",
+      "Labor = $1200.00",
+      "Complete = Yes"
+    ],
+    "mismatches": [],
+    "reset": {
+      "hasResultCard": false,
+      "errors": 0,
+      "highlighted": 0
+    },
+    "huge": {
+      "crashed": false,
+      "hasNaN": false
+    },
+    "empty": {
+      "summary": [
+        "This calculation could not runFence height — heightFt must be a valid number."
+      ],
+      "highlighted": [
+        "Fence height"
+      ],
+      "hasResult": false,
+      "bodyHasNaN": false
+    },
+    "multiSection": "not-supported",
+    "decimal": [
+      "Total estimate=$0.00",
+      "Materials=$0.00",
+      "Labor=$0.00"
+    ],
+    "hydration": 0,
+    "pageErrors": [],
+    "faviconNoise": 0,
+    "related": [
+      [
+        "/calculators/fence-calculator",
+        200
+      ],
+      [
+        "/calculators/fence-post-calculator",
+        200
+      ],
+      [
+        "/calculators/concrete-calculator",
+        200
+      ]
+    ],
+    "failures": []
+  },
+  {
+    "slug": "fence-post-calculator",
+    "status": 200,
+    "fields": 6,
+    "units": 6,
+    "misassociatedLabels": 0,
+    "metrics": [
+      "Total posts = 15",
+      "Line posts = 11",
+      "Gate posts = 2",
+      "Net run = 96 ft"
+    ],
+    "mismatches": [],
+    "reset": {
+      "hasResultCard": false,
+      "errors": 0,
+      "highlighted": 0
+    },
+    "huge": {
+      "crashed": false,
+      "hasNaN": false
+    },
+    "empty": {
+      "summary": [
+        "This calculation could not runFence length — fenceLengthFt must be a valid number."
+      ],
+      "highlighted": [
+        "Fence length"
+      ],
+      "hasResult": false,
+      "bodyHasNaN": false
+    },
+    "multiSection": "not-supported",
+    "decimal": [
+      "Total posts=8",
+      "Line posts=4",
+      "Gate posts=2"
+    ],
+    "hydration": 0,
+    "pageErrors": [],
+    "faviconNoise": 0,
+    "related": [
+      [
+        "/calculators/fence-calculator",
+        200
+      ],
+      [
+        "/calculators/fence-cost-calculator",
+        200
+      ],
+      [
+        "/calculators/concrete-calculator",
+        200
+      ]
+    ],
+    "failures": []
+  },
+  {
+    "slug": "deck-material-calculator",
+    "status": 200,
+    "fields": 23,
+    "units": 22,
+    "misassociatedLabels": 0,
+    "metrics": [
+      "Decking boards = 48",
+      "Joists = 18",
+      "Fasteners = 1514",
+      "Area = 240 sq ft"
+    ],
+    "mismatches": [],
+    "reset": {
+      "hasResultCard": false,
+      "errors": 0,
+      "highlighted": 0
+    },
+    "huge": {
+      "crashed": false,
+      "hasNaN": false
+    },
+    "empty": {
+      "summary": [
+        "This calculation could not runDeck length — deckLengthFt must be a valid number."
+      ],
+      "highlighted": [
+        "Deck length"
+      ],
+      "hasResult": false,
+      "bodyHasNaN": false
+    },
+    "multiSection": "not-supported",
+    "decimal": [
+      "Decking boards=71",
+      "Joists=27",
+      "Fasteners=3380"
+    ],
+    "hydration": 0,
+    "pageErrors": [],
+    "faviconNoise": 0,
+    "related": [
+      [
+        "/calculators/concrete-calculator",
+        200
+      ],
+      [
+        "/calculators/fence-post-calculator",
+        200
+      ],
+      [
+        "/calculators/paver-patio-calculator",
+        200
+      ]
+    ],
+    "failures": []
+  }
+]

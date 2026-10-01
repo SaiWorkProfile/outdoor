@@ -1,0 +1,479 @@
+{
+  "home": {
+    "lang": "en",
+    "h1": 1,
+    "headingSkips": [],
+    "landmarks": [
+      "header",
+      "nav[Main navigation]",
+      "main",
+      "footer"
+    ],
+    "controls": 0,
+    "unnamedControls": 0,
+    "unnamedButtons": 0,
+    "unnamedLinks": 0,
+    "unnamedControlSamples": [],
+    "contrastChecked": 7,
+    "contrastFailures": [],
+    "contrastResultCardFailures": null,
+    "liveRegions": [],
+    "consoleErrors": []
+  },
+  "index": {
+    "lang": "en",
+    "h1": 1,
+    "headingSkips": [],
+    "landmarks": [
+      "header",
+      "nav[Main navigation]",
+      "main",
+      "nav[Breadcrumb]",
+      "footer"
+    ],
+    "controls": 0,
+    "unnamedControls": 0,
+    "unnamedButtons": 0,
+    "unnamedLinks": 0,
+    "unnamedControlSamples": [],
+    "contrastChecked": 7,
+    "contrastFailures": [],
+    "contrastResultCardFailures": null,
+    "liveRegions": [],
+    "consoleErrors": []
+  },
+  "gravel": {
+    "lang": "en",
+    "h1": 1,
+    "headingSkips": [],
+    "landmarks": [
+      "header",
+      "nav[Main navigation]",
+      "main",
+      "nav[Breadcrumb]",
+      "footer"
+    ],
+    "controls": 9,
+    "unnamedControls": 0,
+    "unnamedButtons": 0,
+    "unnamedLinks": 0,
+    "unnamedControlSamples": [],
+    "contrastChecked": 12,
+    "contrastFailures": [],
+    "contrastResultCardFailures": [],
+    "liveRegions": [
+      "div[alert]",
+      "div[polite]"
+    ],
+    "reachedCalculate": true,
+    "reachedReset": true,
+    "focusNoIndicator": [],
+    "notFocusVisible": 0,
+    "focusOrderFirst": [
+      "a:Outdoor ProjectCalculator",
+      "a:Calculators",
+      "a:Projects",
+      "a:How It Works",
+      "a:Methodology",
+      "a:About",
+      "a:Project",
+      "a:Home",
+      "a:Calculators",
+      "a:Project Mode"
+    ],
+    "errorAnnouncement": [
+      {
+        "role": "alert",
+        "text": "This calculation could not runArea 1 — Length — areas[0].length must be greater ",
+        "visible": true
+      },
+      {
+        "role": "alert",
+        "text": "Planning estimateMaterial densities, product yields, local conditions, installat",
+        "visible": true
+      },
+      {
+        "role": "polite",
+        "text": "Your estimate will appear hereEnter your dimensions, then calculate. Results sta",
+        "visible": true
+      }
+    ],
+    "resultAnnouncement": {
+      "resultRendered": true,
+      "liveRegionsInsideResult": [
+        "polite"
+      ]
+    },
+    "consoleErrors": []
+  },
+  "fence": {
+    "lang": "en",
+    "h1": 1,
+    "headingSkips": [],
+    "landmarks": [
+      "header",
+      "nav[Main navigation]",
+      "main",
+      "nav[Breadcrumb]",
+      "footer"
+    ],
+    "controls": 16,
+    "unnamedControls": 0,
+    "unnamedButtons": 0,
+    "unnamedLinks": 0,
+    "unnamedControlSamples": [],
+    "contrastChecked": 11,
+    "contrastFailures": [],
+    "contrastResultCardFailures": [],
+    "liveRegions": [
+      "div[alert]",
+      "div[polite]"
+    ],
+    "reachedCalculate": true,
+    "reachedReset": true,
+    "focusNoIndicator": [],
+    "notFocusVisible": 0,
+    "focusOrderFirst": [
+      "a:Outdoor ProjectCalculator",
+      "a:Calculators",
+      "a:Projects",
+      "a:How It Works",
+      "a:Methodology",
+      "a:About",
+      "a:Project",
+      "a:Home",
+      "a:Calculators",
+      "a:Project Mode"
+    ],
+    "errorAnnouncement": [
+      {
+        "role": "alert",
+        "text": "This calculation could not runFence length — fenceLengthFt must be greater than ",
+        "visible": true
+      },
+      {
+        "role": "alert",
+        "text": "Planning estimateMaterial densities, product yields, local conditions, installat",
+        "visible": true
+      },
+      {
+        "role": "polite",
+        "text": "Your estimate will appear hereEnter your dimensions, then calculate. Results sta",
+        "visible": true
+      }
+    ],
+    "resultAnnouncement": {
+      "resultRendered": true,
+      "liveRegionsInsideResult": [
+        "polite",
+        "alert",
+        "alert",
+        "alert",
+        "alert"
+      ]
+    },
+    "consoleErrors": []
+  },
+  "paver": {
+    "lang": "en",
+    "h1": 1,
+    "headingSkips": [],
+    "landmarks": [
+      "header",
+      "nav[Main navigation]",
+      "main",
+      "nav[Breadcrumb]",
+      "footer"
+    ],
+    "controls": 14,
+    "unnamedControls": 0,
+    "unnamedButtons": 0,
+    "unnamedLinks": 0,
+    "unnamedControlSamples": [],
+    "contrastChecked": 11,
+    "contrastFailures": [],
+    "contrastResultCardFailures": [],
+    "liveRegions": [
+      "div[alert]",
+      "div[polite]"
+    ],
+    "reachedCalculate": true,
+    "reachedReset": true,
+    "focusNoIndicator": [],
+    "notFocusVisible": 0,
+    "focusOrderFirst": [
+      "a:Outdoor ProjectCalculator",
+      "a:Calculators",
+      "a:Projects",
+      "a:How It Works",
+      "a:Methodology",
+      "a:About",
+      "a:Project",
+      "a:Home",
+      "a:Calculators",
+      "a:Project Mode"
+    ],
+    "errorAnnouncement": [
+      {
+        "role": "alert",
+        "text": "This calculation could not runArea 1 — Length — areas[0].length must be greater ",
+        "visible": true
+      },
+      {
+        "role": "alert",
+        "text": "Planning estimateMaterial densities, product yields, local conditions, installat",
+        "visible": true
+      },
+      {
+        "role": "polite",
+        "text": "Your estimate will appear hereEnter your dimensions, then calculate. Results sta",
+        "visible": true
+      }
+    ],
+    "resultAnnouncement": {
+      "resultRendered": true,
+      "liveRegionsInsideResult": [
+        "polite"
+      ]
+    },
+    "consoleErrors": []
+  },
+  "concrete": {
+    "lang": "en",
+    "h1": 1,
+    "headingSkips": [],
+    "landmarks": [
+      "header",
+      "nav[Main navigation]",
+      "main",
+      "nav[Breadcrumb]",
+      "footer"
+    ],
+    "controls": 7,
+    "unnamedControls": 0,
+    "unnamedButtons": 0,
+    "unnamedLinks": 0,
+    "unnamedControlSamples": [],
+    "contrastChecked": 12,
+    "contrastFailures": [],
+    "contrastResultCardFailures": [],
+    "liveRegions": [
+      "div[alert]",
+      "div[polite]"
+    ],
+    "reachedCalculate": true,
+    "reachedReset": true,
+    "focusNoIndicator": [],
+    "notFocusVisible": 0,
+    "focusOrderFirst": [
+      "a:Outdoor ProjectCalculator",
+      "a:Calculators",
+      "a:Projects",
+      "a:How It Works",
+      "a:Methodology",
+      "a:About",
+      "a:Project",
+      "a:Home",
+      "a:Calculators",
+      "a:Project Mode"
+    ],
+    "errorAnnouncement": [
+      {
+        "role": "alert",
+        "text": "This calculation could not runSection 1 — Length — parts[0].lengthFt must be gre",
+        "visible": true
+      },
+      {
+        "role": "alert",
+        "text": "Planning estimateMaterial densities, product yields, local conditions, installat",
+        "visible": true
+      },
+      {
+        "role": "polite",
+        "text": "Your estimate will appear hereEnter your dimensions, then calculate. Results sta",
+        "visible": true
+      }
+    ],
+    "resultAnnouncement": {
+      "resultRendered": true,
+      "liveRegionsInsideResult": [
+        "polite"
+      ]
+    },
+    "consoleErrors": []
+  },
+  "deck": {
+    "lang": "en",
+    "h1": 1,
+    "headingSkips": [],
+    "landmarks": [
+      "header",
+      "nav[Main navigation]",
+      "main",
+      "nav[Breadcrumb]",
+      "footer"
+    ],
+    "controls": 23,
+    "unnamedControls": 0,
+    "unnamedButtons": 0,
+    "unnamedLinks": 0,
+    "unnamedControlSamples": [],
+    "contrastChecked": 11,
+    "contrastFailures": [],
+    "contrastResultCardFailures": [],
+    "liveRegions": [
+      "div[alert]",
+      "div[polite]"
+    ],
+    "reachedCalculate": true,
+    "reachedReset": true,
+    "focusNoIndicator": [],
+    "notFocusVisible": 0,
+    "focusOrderFirst": [
+      "a:Outdoor ProjectCalculator",
+      "a:Calculators",
+      "a:Projects",
+      "a:How It Works",
+      "a:Methodology",
+      "a:About",
+      "a:Project",
+      "a:Home",
+      "a:Calculators",
+      "a:Project Mode"
+    ],
+    "errorAnnouncement": [
+      {
+        "role": "alert",
+        "text": "This calculation could not runDeck length — deckLengthFt must be greater than ze",
+        "visible": true
+      },
+      {
+        "role": "alert",
+        "text": "Planning estimateMaterial densities, product yields, local conditions, installat",
+        "visible": true
+      },
+      {
+        "role": "polite",
+        "text": "Your estimate will appear hereEnter your dimensions, then calculate. Results sta",
+        "visible": true
+      }
+    ],
+    "resultAnnouncement": {
+      "resultRendered": true,
+      "liveRegionsInsideResult": [
+        "polite",
+        "alert",
+        "alert",
+        "alert"
+      ]
+    },
+    "consoleErrors": []
+  },
+  "paver-base": {
+    "lang": "en",
+    "h1": 1,
+    "headingSkips": [],
+    "landmarks": [
+      "header",
+      "nav[Main navigation]",
+      "main",
+      "nav[Breadcrumb]",
+      "footer"
+    ],
+    "controls": 9,
+    "unnamedControls": 0,
+    "unnamedButtons": 0,
+    "unnamedLinks": 0,
+    "unnamedControlSamples": [],
+    "contrastChecked": 11,
+    "contrastFailures": [],
+    "contrastResultCardFailures": [],
+    "liveRegions": [
+      "div[alert]",
+      "div[polite]"
+    ],
+    "reachedCalculate": true,
+    "reachedReset": true,
+    "focusNoIndicator": [],
+    "notFocusVisible": 0,
+    "focusOrderFirst": [
+      "a:Outdoor ProjectCalculator",
+      "a:Calculators",
+      "a:Projects",
+      "a:How It Works",
+      "a:Methodology",
+      "a:About",
+      "a:Project",
+      "a:Home",
+      "a:Calculators",
+      "a:Project Mode"
+    ],
+    "errorAnnouncement": [
+      {
+        "role": "alert",
+        "text": "This calculation could not runArea 1 — Length — areas[0].length must be greater ",
+        "visible": true
+      },
+      {
+        "role": "alert",
+        "text": "Planning estimateMaterial densities, product yields, local conditions, installat",
+        "visible": true
+      },
+      {
+        "role": "polite",
+        "text": "Your estimate will appear hereEnter your dimensions, then calculate. Results sta",
+        "visible": true
+      }
+    ],
+    "resultAnnouncement": {
+      "resultRendered": true,
+      "liveRegionsInsideResult": [
+        "polite"
+      ]
+    },
+    "consoleErrors": []
+  },
+  "projects": {
+    "lang": "en",
+    "h1": 1,
+    "headingSkips": [],
+    "landmarks": [
+      "header",
+      "nav[Main navigation]",
+      "main",
+      "nav[Breadcrumb]",
+      "footer"
+    ],
+    "controls": 4,
+    "unnamedControls": 0,
+    "unnamedButtons": 0,
+    "unnamedLinks": 0,
+    "unnamedControlSamples": [],
+    "contrastChecked": 11,
+    "contrastFailures": [],
+    "contrastResultCardFailures": null,
+    "liveRegions": [],
+    "consoleErrors": []
+  },
+  "print": {
+    "lang": "en",
+    "h1": 1,
+    "headingSkips": [],
+    "landmarks": [
+      "header",
+      "nav[Main navigation]",
+      "main",
+      "footer"
+    ],
+    "controls": 0,
+    "unnamedControls": 0,
+    "unnamedButtons": 0,
+    "unnamedLinks": 0,
+    "unnamedControlSamples": [],
+    "contrastChecked": 6,
+    "contrastFailures": [],
+    "contrastResultCardFailures": null,
+    "liveRegions": [],
+    "consoleErrors": []
+  }
+}

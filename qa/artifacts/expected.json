@@ -1,0 +1,445 @@
+{
+  "gravel-calculator": {
+    "metrics": {
+      "Cubic yards": 6.25,
+      "Tons": 8.56,
+      "Square feet": 600,
+      "Waste": 10
+    },
+    "engine": {
+      "areaSqFt": 600,
+      "volumeCuFt": 165,
+      "volumeCuYd": 6.11,
+      "recommendedOrderCuYd": 6.25,
+      "tons": 8.56,
+      "tonnes": 7.76,
+      "bag0": {
+        "size": 0.5,
+        "count": 330
+      },
+      "purchaseAdvice": "bulk",
+      "warnings": []
+    }
+  },
+  "mulch-calculator": {
+    "metrics": {
+      "Cubic yards": 6.25,
+      "Tons": 2.14,
+      "Square feet": 600,
+      "Waste": 10
+    },
+    "engine": {
+      "areaSqFt": 600,
+      "volumeCuFt": 165,
+      "volumeCuYd": 6.11,
+      "recommendedOrderCuYd": 6.25,
+      "tons": 2.14,
+      "tonnes": 1.94,
+      "bag0": {
+        "size": 2,
+        "count": 83
+      },
+      "purchaseAdvice": "bulk",
+      "warnings": []
+    }
+  },
+  "topsoil-calculator": {
+    "metrics": {
+      "Cubic yards": 12.25,
+      "Tons": 13.44,
+      "Square feet": 600,
+      "Waste": 10
+    },
+    "engine": {
+      "areaSqFt": 600,
+      "volumeCuFt": 330,
+      "volumeCuYd": 12.22,
+      "recommendedOrderCuYd": 12.25,
+      "tons": 13.44,
+      "tonnes": 12.2,
+      "bag0": {
+        "size": 0.75,
+        "count": 440
+      },
+      "purchaseAdvice": "bulk",
+      "warnings": []
+    }
+  },
+  "soil-calculator": {
+    "metrics": {
+      "Cubic yards": 6.25,
+      "Tons": 7.33,
+      "Square feet": 600,
+      "Waste": 10
+    },
+    "engine": {
+      "areaSqFt": 600,
+      "volumeCuFt": 165,
+      "volumeCuYd": 6.11,
+      "recommendedOrderCuYd": 6.25,
+      "tons": 7.33,
+      "tonnes": 6.65,
+      "bag0": {
+        "size": 0.75,
+        "count": 220
+      },
+      "purchaseAdvice": "bulk",
+      "warnings": []
+    }
+  },
+  "sand-calculator": {
+    "metrics": {
+      "Cubic yards": 2.25,
+      "Tons": 2.75,
+      "Square feet": 600,
+      "Waste": 10
+    },
+    "engine": {
+      "areaSqFt": 600,
+      "volumeCuFt": 55,
+      "volumeCuYd": 2.04,
+      "recommendedOrderCuYd": 2.25,
+      "tons": 2.75,
+      "tonnes": 2.49,
+      "bag0": {
+        "size": 0.5,
+        "count": 110
+      },
+      "purchaseAdvice": "bulk",
+      "warnings": []
+    }
+  },
+  "pea-gravel-calculator": {
+    "metrics": {
+      "Cubic yards": 4.25,
+      "Tons": 5.7,
+      "Square feet": 600,
+      "Waste": 10
+    },
+    "engine": {
+      "areaSqFt": 600,
+      "volumeCuFt": 110,
+      "volumeCuYd": 4.07,
+      "recommendedOrderCuYd": 4.25,
+      "tons": 5.7,
+      "tonnes": 5.17,
+      "bag0": {
+        "size": 0.5,
+        "count": 220
+      },
+      "purchaseAdvice": "bulk",
+      "warnings": []
+    }
+  },
+  "landscape-rock-calculator": {
+    "metrics": {
+      "Cubic yards": 6.25,
+      "Tons": 8.25,
+      "Square feet": 600,
+      "Waste": 10
+    },
+    "engine": {
+      "areaSqFt": 600,
+      "volumeCuFt": 165,
+      "volumeCuYd": 6.11,
+      "recommendedOrderCuYd": 6.25,
+      "tons": 8.25,
+      "tonnes": 7.48,
+      "bag0": {
+        "size": 0.5,
+        "count": 330
+      },
+      "purchaseAdvice": "bulk",
+      "warnings": []
+    }
+  },
+  "paver-base-calculator": {
+    "metrics": {
+      "Cubic yards": 13.5,
+      "Tons": 18.82,
+      "Square feet": 600,
+      "Waste": 10
+    },
+    "engine": {
+      "areaSqFt": 600,
+      "volumeCuFt": 363,
+      "volumeCuYd": 13.44,
+      "recommendedOrderCuYd": 13.5,
+      "tons": 18.82,
+      "tonnes": 17.08,
+      "bag0": {
+        "size": 0.5,
+        "count": 726
+      },
+      "purchaseAdvice": "bulk",
+      "warnings": []
+    }
+  },
+  "driveway-gravel-calculator": {
+    "metrics": {
+      "Order volume": "18.75 yd³",
+      "Tons": 25.95,
+      "Area": "600 sq ft",
+      "Depth": "8 in"
+    },
+    "engine": {
+      "areaSqFt": 600,
+      "totalOrderCuYd": 18.75,
+      "totalTons": 25.95,
+      "totalDepthIn": 8,
+      "layers": [
+        {
+          "name": "Base layer",
+          "order": 9.5,
+          "tons": 13.12
+        },
+        {
+          "name": "Middle layer",
+          "order": 4.75,
+          "tons": 6.56
+        },
+        {
+          "name": "Surface layer",
+          "order": 4.5,
+          "tons": 6.27
+        }
+      ]
+    }
+  },
+  "concrete-calculator": {
+    "metrics": {
+      "Order volume": "1.63 yd³",
+      "Ready-mix order": "1.75 yd³",
+      "Waste": 10,
+      "Approx. weight": "3.30 tons"
+    },
+    "engine": {
+      "orderCuFt": 44,
+      "orderCuYd": 1.63,
+      "recommendedReadyMixCuYd": 1.75,
+      "approxWeightLb": 6600,
+      "bags": [
+        {
+          "bagLb": 40,
+          "yieldCuFt": 0.3,
+          "count": 147
+        },
+        {
+          "bagLb": 50,
+          "yieldCuFt": 0.375,
+          "count": 118
+        },
+        {
+          "bagLb": 60,
+          "yieldCuFt": 0.45,
+          "count": 98
+        },
+        {
+          "bagLb": 80,
+          "yieldCuFt": 0.6,
+          "count": 74
+        }
+      ]
+    }
+  },
+  "paver-calculator": {
+    "metrics": {
+      "Pavers": 2535,
+      "Area": "600 sq ft",
+      "Base": "13.5 yd³",
+      "Bedding sand": "2.25 yd³"
+    },
+    "engine": {
+      "areaSqFt": 600,
+      "paversRequired": 2535,
+      "baseCuYd": 13.5,
+      "sandCuYd": 2.25,
+      "edgeOrderLinearFt": 110
+    }
+  },
+  "paver-patio-calculator": {
+    "metrics": {
+      "Pavers": 1015,
+      "Area": "240 sq ft",
+      "Base": "5.5 yd³",
+      "Bedding sand": "1 yd³"
+    },
+    "engine": {
+      "areaSqFt": 240,
+      "paversRequired": 1015,
+      "baseCuYd": 5.5,
+      "sandCuYd": 1,
+      "patioName": "My Paver Patio"
+    }
+  },
+  "fence-calculator": {
+    "metrics": {
+      "Total posts": 15,
+      "Rails": 27,
+      "Concrete": "1.25 yd³",
+      "Hardware": 995
+    },
+    "engine": {
+      "totalPosts": 15,
+      "linePosts": 11,
+      "cornerPosts": 0,
+      "endPosts": 2,
+      "gatePosts": 2,
+      "netFenceRunFt": 96,
+      "railPiecesRequired": 27,
+      "railLinearFtRequired": 192,
+      "picketsRequired": 226,
+      "concreteCuYd": 1.25,
+      "fastenerCount": 995,
+      "warnings": [
+        "This is a material-planning estimate, not structural engineering or a substitute for local code requirements.",
+        "Post count uses 8 ft spacing unless you enter another value. Actual post placement depends on fence layout, terrain and gate/corner geometry.",
+        "Gate posts are counted separately; do not also enter those same physical posts as end or corner posts.",
+        "Post-hole diameter and depth are editable planning assumptions. Gate posts, corners and soil conditions may require different details."
+      ],
+      "shoppingList": [
+        {
+          "id": "posts",
+          "name": "Fence posts",
+          "quantity": 15,
+          "unit": "posts"
+        },
+        {
+          "id": "rails",
+          "name": "Rails",
+          "quantity": 27,
+          "unit": "rails",
+          "notes": "8 ft stock length."
+        },
+        {
+          "id": "concrete",
+          "name": "Post-hole concrete",
+          "quantity": 1.25,
+          "unit": "cubic yards"
+        },
+        {
+          "id": "hardware",
+          "name": "Fence fasteners",
+          "quantity": 995,
+          "unit": "pieces"
+        },
+        {
+          "id": "pickets",
+          "name": "Pickets",
+          "quantity": 226,
+          "unit": "pickets"
+        },
+        {
+          "id": "gate-hardware",
+          "name": "Gate hardware sets",
+          "quantity": 1,
+          "unit": "sets"
+        }
+      ]
+    }
+  },
+  "fence-cost-calculator": {
+    "metrics": {
+      "Total estimate": "$2,724.25",
+      "Materials": "$1,524.25",
+      "Labor": "$1,200.00",
+      "Complete": "Yes"
+    },
+    "engine": {
+      "totalCost": 2724.25,
+      "materialCost": 1524.25,
+      "laborCost": 1200,
+      "costIsComplete": true,
+      "lines": [
+        {
+          "component": "posts",
+          "basis": "per post",
+          "unitPrice": 20,
+          "quantity": 15,
+          "cost": 300
+        },
+        {
+          "component": "rails",
+          "basis": "per rail",
+          "unitPrice": 8,
+          "quantity": 27,
+          "cost": 216
+        },
+        {
+          "component": "pickets",
+          "basis": "per picket",
+          "unitPrice": 2,
+          "quantity": 226,
+          "cost": 452
+        },
+        {
+          "component": "concrete",
+          "basis": "per cubic yard",
+          "unitPrice": 150,
+          "quantity": 1.25,
+          "cost": 187.5
+        },
+        {
+          "component": "hardware",
+          "basis": "per hardware unit",
+          "unitPrice": 0.25,
+          "quantity": 995,
+          "cost": 248.75
+        },
+        {
+          "component": "gates",
+          "basis": "per gate",
+          "unitPrice": 120,
+          "quantity": 1,
+          "cost": 120
+        },
+        {
+          "component": "labor",
+          "basis": "per linear foot",
+          "unitPrice": 12,
+          "quantity": 100,
+          "cost": 1200
+        }
+      ]
+    }
+  },
+  "fence-post-calculator": {
+    "metrics": {
+      "Total posts": 15,
+      "Line posts": 11,
+      "Gate posts": 2,
+      "Net run": "96 ft"
+    },
+    "engine": {
+      "totalPosts": 15,
+      "linePosts": 11,
+      "cornerPosts": 0,
+      "endPosts": 2,
+      "gatePosts": 2,
+      "netFenceRunFt": 96,
+      "gateOpeningLengthFt": 4
+    }
+  },
+  "deck-material-calculator": {
+    "metrics": {
+      "Decking boards": 48,
+      "Joists": 18,
+      "Fasteners": 1514,
+      "Area": "240 sq ft"
+    },
+    "engine": {
+      "areaSqFt": 240,
+      "deckingBoardsRequired": 48,
+      "deckingLinearFtOrdered": 768,
+      "joistsOrdered": 18,
+      "joistLinearFtOrdered": 216,
+      "fastenersOrdered": 1514,
+      "postCount": 0,
+      "warnings": [
+        "This calculator estimates materials only. It is not structural engineering and does not determine safe spans, footing sizes, load ratings or code compliance.",
+        "Joist spacing, beam layout, post count and framing dimensions must be confirmed against the actual design, local code and site conditions.",
+        "No post count was supplied. This planner does not invent a structural post layout."
+      ]
+    }
+  }
+}

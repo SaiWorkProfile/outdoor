@@ -1,0 +1,442 @@
+2026-09-29T16:01:45.903Z addCalculation goto gravel-calculator
+2026-09-29T16:01:54.977Z addCalculation gravel-calculator -> Added to Project metrics=4
+2026-09-29T16:01:54.980Z addCalculation goto fence-calculator
+2026-09-29T16:01:57.282Z addCalculation fence-calculator -> Added to Project metrics=4
+2026-09-29T16:01:57.287Z addCalculation goto deck-material-calculator
+2026-09-29T16:01:59.390Z addCalculation deck-material-calculator -> Added to Project metrics=4
+2026-09-29T16:01:59.395Z PASS all three calculations added to the project
+2026-09-29T16:02:02.370Z PASS invalid project area rejected with a message
+2026-09-29T16:02:02.373Z project named + area added
+2026-09-29T16:02:02.379Z PASS project name saved
+2026-09-29T16:02:02.381Z PASS 3 material result groups listed
+2026-09-29T16:02:02.382Z PASS 18 quantity rows shown
+2026-09-29T16:02:02.383Z PASS 11 shopping list items
+2026-09-29T16:02:02.385Z PASS 8 assumption rows shown
+2026-09-29T16:02:02.392Z PASS localStorage holds 3 materials, 16 quantities, 11 shopping items
+2026-09-29T16:02:03.481Z PASS calculator results survive a browser refresh
+2026-09-29T16:02:03.483Z PASS project name survives refresh
+2026-09-29T16:02:03.485Z persistence verified
+2026-09-29T16:02:03.486Z opening print view
+2026-09-29T16:02:04.924Z PASS print plan shows the project name
+2026-09-29T16:02:04.927Z PASS print plan sections: Project dimensions | Materials | Estimated costs | Shopping list | Assumptions | Notes & methodology
+2026-09-29T16:02:04.928Z PASS print plan includes the methodology disclaimer
+2026-09-29T16:02:04.929Z PASS print utility page is noindex
+2026-09-29T16:02:04.931Z PASS print page has a unique title: Printable Project Plan | Outdoor Project Calculator
+2026-09-29T16:02:05.251Z PASS printed output hides navigation, footer and print toolbar
+2026-09-29T16:02:05.254Z PASS no interactive controls inside the printed sheet
+2026-09-29T16:02:05.259Z PASS no horizontal overflow or clipped tables in the print layout
+2026-09-29T16:02:06.848Z PASS Chrome printed a 2-page PDF (73546 bytes)
+2026-09-29T16:02:08.388Z PASS Clear project removes materials
+2026-09-29T16:02:09.716Z PASS Clear project resets storage
+2026-09-29T16:02:09.763Z DONE failures=0
+2026-09-30T06:20:54.246Z UNHANDLED REJECTION: TimeoutError: Navigation timeout of 30000 ms exceeded
+    at new Deferred (file:///C:/Users/saiww/Downloads/outdoor-project-calculator-ui-v0.3.0/outdoor-calc/node_modules/puppeteer-core/lib/puppeteer/util/Deferred.js:57:34)
+    at Deferred.create (file:///C:/Users/saiww/Downloads/outdoor-project-calculator-ui-v0.3.0/outdoor-calc/node_modules/puppeteer-core/lib/puppeteer/util/Deferred.js:18:16)
+    at new LifecycleWatcher (file:///C:/Users/saiww/Downloads/outdoor-project-calculator-ui-v0.3.0/outdoor-calc/node_modules/puppeteer-core/lib/puppeteer/cdp/LifecycleWatcher.js:70:46)
+    at CdpFrame.goto (file:///C:/Users/saiww/Downloads/outdoor-project-calculator-ui-v0.3.0/outdoor-calc/node_modules/puppeteer-core/lib/puppeteer/cdp/Frame.js:152:29)
+    at CdpFrame.<anonymous> (file:///C:/Users/saiww/Downloads/outdoor-project-calculator-ui-v0.3.0/outdoor-calc/node_modules/puppeteer-core/lib/puppeteer/util/decorators.js:101:27)
+    at CdpPage.goto (file:///C:/Users/saiww/Downloads/outdoor-project-calculator-ui-v0.3.0/outdoor-calc/node_modules/puppeteer-core/lib/puppeteer/api/Page.js:582:43)
+    at C:\Users\saiww\Downloads\outdoor-project-calculator-ui-v0.3.0\outdoor-calc\qa\project.cjs:53:14
+2026-09-30T06:22:33.971Z addCalculation goto gravel-calculator
+2026-09-30T06:22:36.616Z addCalculation gravel-calculator -> Added to Project metrics=4
+2026-09-30T06:22:36.620Z addCalculation goto fence-calculator
+2026-09-30T06:22:38.191Z addCalculation fence-calculator -> Added to Project metrics=4
+2026-09-30T06:22:38.195Z addCalculation goto deck-material-calculator
+2026-09-30T06:22:40.911Z addCalculation deck-material-calculator -> Added to Project metrics=4
+2026-09-30T06:22:40.916Z PASS all three calculations added to the project
+2026-09-30T06:22:44.499Z PASS invalid project area rejected with a message
+2026-09-30T06:22:44.502Z project named + area added
+2026-09-30T06:22:44.520Z PASS project name saved
+2026-09-30T06:22:44.528Z PASS 3 material result groups listed
+2026-09-30T06:22:44.531Z PASS 23 quantity rows shown
+2026-09-30T06:22:44.533Z PASS 11 shopping list items
+2026-09-30T06:22:44.535Z PASS 8 assumption rows shown
+2026-09-30T06:22:44.547Z PASS localStorage holds 3 materials, 16 quantities, 11 shopping items
+2026-09-30T06:22:45.805Z PASS calculator results survive a browser refresh
+2026-09-30T06:22:45.812Z PASS project name survives refresh
+2026-09-30T06:22:45.824Z persistence verified
+2026-09-30T06:22:45.829Z opening print view
+2026-09-30T06:22:47.714Z PASS print plan shows the project name
+2026-09-30T06:22:47.721Z PASS print plan sections: Project dimensions | Calculations | Materials | Estimated costs | Shopping list | Assumptions | Method and limitations
+2026-09-30T06:22:47.733Z PASS print plan includes the methodology disclaimer
+2026-09-30T06:22:47.749Z PASS print utility page is noindex
+2026-09-30T06:22:47.754Z PASS print page has a unique title: Printable Project Plan | Outdoor Project Calculator
+2026-09-30T06:22:48.007Z PASS printed output hides navigation, footer and print toolbar
+2026-09-30T06:22:48.013Z PASS no interactive controls inside the printed sheet
+2026-09-30T06:22:48.025Z PASS no horizontal overflow or clipped tables in the print layout
+2026-09-30T06:22:50.047Z PASS Chrome printed a 6-page PDF (130441 bytes)
+2026-09-30T06:22:52.536Z PASS Clear project removes materials
+2026-09-30T06:22:52.546Z PASS Clear project resets storage
+2026-09-30T06:22:52.561Z DONE failures=0
+2026-09-30T07:51:44.367Z addCalculation goto gravel-calculator
+2026-09-30T07:51:47.046Z addCalculation gravel-calculator -> Added to Project metrics=4
+2026-09-30T07:51:52.899Z addCalculation goto fence-calculator
+2026-09-30T07:51:55.463Z addCalculation fence-calculator -> Added to Project metrics=4
+2026-09-30T07:51:55.466Z addCalculation goto deck-material-calculator
+2026-09-30T07:51:56.992Z addCalculation deck-material-calculator -> Added to Project metrics=4
+2026-09-30T07:51:56.998Z PASS all three calculations added to the project
+2026-09-30T07:52:01.562Z PASS invalid project area rejected with a message
+2026-09-30T07:52:01.566Z project named + area added
+2026-09-30T07:52:01.575Z PASS project name saved
+2026-09-30T07:52:01.577Z PASS 3 material result groups listed
+2026-09-30T07:52:01.580Z PASS 23 quantity rows shown
+2026-09-30T07:52:01.581Z PASS 11 shopping list items
+2026-09-30T07:52:01.583Z PASS 8 assumption rows shown
+2026-09-30T07:52:01.593Z PASS localStorage holds 3 materials, 16 quantities, 11 shopping items
+2026-09-30T07:52:03.026Z PASS calculator results survive a browser refresh
+2026-09-30T07:52:03.032Z PASS project name survives refresh
+2026-09-30T07:52:03.034Z persistence verified
+2026-09-30T07:52:03.038Z opening print view
+2026-09-30T07:52:04.106Z PASS print plan shows the project name
+2026-09-30T07:52:04.111Z PASS print plan sections: Project dimensions | Calculations | Materials | Estimated costs | Shopping list | Assumptions | Method and limitations
+2026-09-30T07:52:04.113Z PASS print plan includes the methodology disclaimer
+2026-09-30T07:52:04.116Z PASS print utility page is noindex
+2026-09-30T07:52:04.117Z PASS print page has a unique title: Printable Project Plan | Outdoor Project Calculator
+2026-09-30T07:52:04.363Z PASS printed output hides navigation, footer and print toolbar
+2026-09-30T07:52:04.366Z PASS no interactive controls inside the printed sheet
+2026-09-30T07:52:04.369Z PASS no horizontal overflow or clipped tables in the print layout
+2026-09-30T07:52:06.130Z PASS Chrome printed a 6-page PDF (130441 bytes)
+2026-09-30T07:52:07.755Z PASS Clear project removes materials
+2026-09-30T07:52:07.760Z PASS Clear project resets storage
+2026-09-30T07:52:07.775Z DONE failures=0
+2026-09-30T08:22:38.744Z addCalculation goto gravel-calculator
+2026-09-30T08:22:40.308Z addCalculation gravel-calculator -> Added to Project metrics=4
+2026-09-30T08:22:40.311Z addCalculation goto fence-calculator
+2026-09-30T08:22:41.858Z addCalculation fence-calculator -> Added to Project metrics=4
+2026-09-30T08:22:41.861Z addCalculation goto deck-material-calculator
+2026-09-30T08:22:43.349Z addCalculation deck-material-calculator -> Added to Project metrics=4
+2026-09-30T08:22:43.352Z PASS all three calculations added to the project
+2026-09-30T08:22:45.982Z PASS invalid project area rejected with a message
+2026-09-30T08:22:45.985Z project named + area added
+2026-09-30T08:22:46.000Z PASS project name saved
+2026-09-30T08:22:46.002Z PASS 3 material result groups listed
+2026-09-30T08:22:46.006Z PASS 23 quantity rows shown
+2026-09-30T08:22:46.007Z PASS 11 shopping list items
+2026-09-30T08:22:46.010Z PASS 8 assumption rows shown
+2026-09-30T08:22:46.020Z PASS localStorage holds 3 materials, 16 quantities, 11 shopping items
+2026-09-30T08:22:47.022Z PASS calculator results survive a browser refresh
+2026-09-30T08:22:47.025Z PASS project name survives refresh
+2026-09-30T08:22:47.029Z persistence verified
+2026-09-30T08:22:47.032Z opening print view
+2026-09-30T08:22:48.507Z PASS print plan shows the project name
+2026-09-30T08:22:48.509Z PASS print plan sections: Project dimensions | Calculations | Materials | Estimated costs | Shopping list | Assumptions | Method and limitations
+2026-09-30T08:22:48.512Z PASS print plan includes the methodology disclaimer
+2026-09-30T08:22:48.521Z PASS print utility page is noindex
+2026-09-30T08:22:48.523Z PASS print page has a unique title: Printable Project Plan | Outdoor Project Calculator
+2026-09-30T08:22:48.669Z PASS printed output hides navigation, footer and print toolbar
+2026-09-30T08:22:48.671Z PASS no interactive controls inside the printed sheet
+2026-09-30T08:22:48.673Z PASS no horizontal overflow or clipped tables in the print layout
+2026-09-30T08:22:49.752Z PASS Chrome printed a 6-page PDF (130441 bytes)
+2026-09-30T08:22:51.229Z PASS Clear project removes materials
+2026-09-30T08:22:51.234Z PASS Clear project resets storage
+2026-09-30T08:22:51.245Z DONE failures=0
+2026-09-30T08:36:00.924Z addCalculation goto gravel-calculator
+2026-09-30T08:36:03.624Z addCalculation gravel-calculator -> Added to Project metrics=4
+2026-09-30T08:36:03.628Z addCalculation goto fence-calculator
+2026-09-30T08:36:05.767Z addCalculation fence-calculator -> Added to Project metrics=4
+2026-09-30T08:36:05.769Z addCalculation goto deck-material-calculator
+2026-09-30T08:36:07.251Z addCalculation deck-material-calculator -> Added to Project metrics=4
+2026-09-30T08:36:07.255Z PASS all three calculations added to the project
+2026-09-30T08:36:10.632Z PASS invalid project area rejected with a message
+2026-09-30T08:36:10.634Z project named + area added
+2026-09-30T08:36:10.642Z PASS project name saved
+2026-09-30T08:36:10.645Z PASS 3 material result groups listed
+2026-09-30T08:36:10.649Z PASS 23 quantity rows shown
+2026-09-30T08:36:10.651Z PASS 11 shopping list items
+2026-09-30T08:36:10.654Z PASS 8 assumption rows shown
+2026-09-30T08:36:10.668Z PASS localStorage holds 3 materials, 16 quantities, 11 shopping items
+2026-09-30T08:36:11.810Z PASS calculator results survive a browser refresh
+2026-09-30T08:36:11.818Z PASS project name survives refresh
+2026-09-30T08:36:11.827Z persistence verified
+2026-09-30T08:36:11.832Z opening print view
+2026-09-30T08:36:13.214Z PASS print plan shows the project name
+2026-09-30T08:36:13.217Z PASS print plan sections: Project dimensions | Calculations | Materials | Estimated costs | Shopping list | Assumptions | Method and limitations
+2026-09-30T08:36:13.219Z PASS print plan includes the methodology disclaimer
+2026-09-30T08:36:13.222Z PASS print utility page is noindex
+2026-09-30T08:36:13.227Z PASS print page has a unique title: Printable Project Plan | Outdoor Project Calculator
+2026-09-30T08:36:13.490Z PASS printed output hides navigation, footer and print toolbar
+2026-09-30T08:36:13.499Z PASS no interactive controls inside the printed sheet
+2026-09-30T08:36:13.502Z PASS no horizontal overflow or clipped tables in the print layout
+2026-09-30T08:36:15.570Z PASS Chrome printed a 6-page PDF (130441 bytes)
+2026-09-30T08:36:17.147Z PASS Clear project removes materials
+2026-09-30T08:36:17.150Z PASS Clear project resets storage
+2026-09-30T08:36:17.167Z DONE failures=0
+2026-09-30T08:48:44.809Z addCalculation goto gravel-calculator
+2026-09-30T08:48:46.859Z addCalculation gravel-calculator -> Added to Project metrics=4
+2026-09-30T08:48:46.862Z addCalculation goto fence-calculator
+2026-09-30T08:48:48.942Z addCalculation fence-calculator -> Added to Project metrics=4
+2026-09-30T08:48:48.945Z addCalculation goto deck-material-calculator
+2026-09-30T08:48:50.482Z addCalculation deck-material-calculator -> Added to Project metrics=4
+2026-09-30T08:48:50.485Z PASS all three calculations added to the project
+2026-09-30T08:48:54.162Z PASS invalid project area rejected with a message
+2026-09-30T08:48:54.164Z project named + area added
+2026-09-30T08:48:54.170Z PASS project name saved
+2026-09-30T08:48:54.182Z PASS 3 material result groups listed
+2026-09-30T08:48:54.184Z PASS 23 quantity rows shown
+2026-09-30T08:48:54.186Z PASS 11 shopping list items
+2026-09-30T08:48:54.195Z PASS 8 assumption rows shown
+2026-09-30T08:48:54.205Z PASS localStorage holds 3 materials, 16 quantities, 11 shopping items
+2026-09-30T08:48:55.402Z PASS calculator results survive a browser refresh
+2026-09-30T08:48:55.404Z PASS project name survives refresh
+2026-09-30T08:48:55.412Z persistence verified
+2026-09-30T08:48:55.414Z opening print view
+2026-09-30T08:48:57.564Z PASS print plan shows the project name
+2026-09-30T08:49:05.053Z PASS print plan sections: Project dimensions | Calculations | Materials | Estimated costs | Shopping list | Assumptions | Method and limitations
+2026-09-30T08:49:05.075Z PASS print plan includes the methodology disclaimer
+2026-09-30T08:49:05.093Z PASS print utility page is noindex
+2026-09-30T08:49:05.178Z PASS print page has a unique title: Printable Project Plan | Outdoor Project Calculator
+2026-09-30T08:49:05.667Z PASS printed output hides navigation, footer and print toolbar
+2026-09-30T08:49:05.695Z PASS no interactive controls inside the printed sheet
+2026-09-30T08:49:05.743Z PASS no horizontal overflow or clipped tables in the print layout
+2026-09-30T08:49:07.581Z PASS Chrome printed a 6-page PDF (130441 bytes)
+2026-09-30T08:49:14.584Z PASS Clear project removes materials
+2026-09-30T08:49:14.588Z PASS Clear project resets storage
+2026-09-30T08:49:14.600Z DONE failures=0
+2026-09-30T09:07:36.574Z addCalculation goto gravel-calculator
+2026-09-30T09:07:39.047Z addCalculation gravel-calculator -> Added to Project metrics=4
+2026-09-30T09:07:39.049Z addCalculation goto fence-calculator
+2026-09-30T09:07:40.504Z addCalculation fence-calculator -> Added to Project metrics=4
+2026-09-30T09:07:40.510Z addCalculation goto deck-material-calculator
+2026-09-30T09:07:41.974Z addCalculation deck-material-calculator -> Added to Project metrics=4
+2026-09-30T09:07:41.977Z PASS all three calculations added to the project
+2026-09-30T09:07:46.072Z PASS invalid project area rejected with a message
+2026-09-30T09:07:46.083Z project named + area added
+2026-09-30T09:07:46.103Z PASS project name saved
+2026-09-30T09:07:46.109Z PASS 3 material result groups listed
+2026-09-30T09:07:46.118Z PASS 23 quantity rows shown
+2026-09-30T09:07:46.124Z PASS 11 shopping list items
+2026-09-30T09:07:46.130Z PASS 8 assumption rows shown
+2026-09-30T09:07:46.140Z PASS localStorage holds 3 materials, 16 quantities, 11 shopping items
+2026-09-30T09:07:47.688Z PASS calculator results survive a browser refresh
+2026-09-30T09:07:47.694Z PASS project name survives refresh
+2026-09-30T09:07:47.698Z persistence verified
+2026-09-30T09:07:47.702Z opening print view
+2026-09-30T09:07:49.091Z PASS print plan shows the project name
+2026-09-30T09:07:49.094Z PASS print plan sections: Project dimensions | Calculations | Materials | Estimated costs | Shopping list | Assumptions | Method and limitations
+2026-09-30T09:07:49.097Z PASS print plan includes the methodology disclaimer
+2026-09-30T09:07:49.099Z PASS print utility page is noindex
+2026-09-30T09:07:49.104Z PASS print page has a unique title: Printable Project Plan | Outdoor Project Calculator
+2026-09-30T09:07:49.315Z PASS printed output hides navigation, footer and print toolbar
+2026-09-30T09:07:49.323Z PASS no interactive controls inside the printed sheet
+2026-09-30T09:07:49.332Z PASS no horizontal overflow or clipped tables in the print layout
+2026-09-30T09:07:50.586Z PASS Chrome printed a 6-page PDF (130441 bytes)
+2026-09-30T09:07:53.336Z PASS Clear project removes materials
+2026-09-30T09:07:53.341Z PASS Clear project resets storage
+2026-09-30T09:07:53.347Z DONE failures=0
+2026-09-30T09:22:17.445Z addCalculation goto gravel-calculator
+2026-09-30T09:22:19.084Z addCalculation gravel-calculator -> Added to Project metrics=4
+2026-09-30T09:22:19.092Z addCalculation goto fence-calculator
+2026-09-30T09:22:20.554Z addCalculation fence-calculator -> Added to Project metrics=4
+2026-09-30T09:22:20.877Z addCalculation goto deck-material-calculator
+2026-09-30T09:22:22.442Z addCalculation deck-material-calculator -> Added to Project metrics=4
+2026-09-30T09:22:22.453Z PASS all three calculations added to the project
+2026-09-30T09:22:24.926Z PASS invalid project area rejected with a message
+2026-09-30T09:22:24.931Z project named + area added
+2026-09-30T09:22:24.945Z PASS project name saved
+2026-09-30T09:22:24.949Z PASS 3 material result groups listed
+2026-09-30T09:22:24.952Z PASS 23 quantity rows shown
+2026-09-30T09:22:24.955Z PASS 11 shopping list items
+2026-09-30T09:22:24.960Z PASS 8 assumption rows shown
+2026-09-30T09:22:24.978Z PASS localStorage holds 3 materials, 16 quantities, 11 shopping items
+2026-09-30T09:22:26.089Z PASS calculator results survive a browser refresh
+2026-09-30T09:22:26.099Z PASS project name survives refresh
+2026-09-30T09:22:26.112Z persistence verified
+2026-09-30T09:22:26.121Z opening print view
+2026-09-30T09:22:27.444Z PASS print plan shows the project name
+2026-09-30T09:22:27.448Z PASS print plan sections: Project dimensions | Calculations | Materials | Estimated costs | Shopping list | Assumptions | Method and limitations
+2026-09-30T09:22:27.452Z PASS print plan includes the methodology disclaimer
+2026-09-30T09:22:27.459Z PASS print utility page is noindex
+2026-09-30T09:22:27.480Z PASS print page has a unique title: Printable Project Plan | Outdoor Project Calculator
+2026-09-30T09:22:27.656Z PASS printed output hides navigation, footer and print toolbar
+2026-09-30T09:22:27.660Z PASS no interactive controls inside the printed sheet
+2026-09-30T09:22:27.662Z PASS no horizontal overflow or clipped tables in the print layout
+2026-09-30T09:22:29.733Z PASS Chrome printed a 6-page PDF (130441 bytes)
+2026-09-30T09:22:31.491Z PASS Clear project removes materials
+2026-09-30T09:22:31.498Z PASS Clear project resets storage
+2026-09-30T09:22:31.531Z DONE failures=0
+2026-09-30T14:14:25.133Z addCalculation goto gravel-calculator
+2026-09-30T14:14:27.632Z addCalculation gravel-calculator -> Added to Project metrics=4
+2026-09-30T14:14:27.635Z addCalculation goto fence-calculator
+2026-09-30T14:14:29.150Z addCalculation fence-calculator -> Added to Project metrics=4
+2026-09-30T14:14:29.152Z addCalculation goto deck-material-calculator
+2026-09-30T14:14:30.667Z addCalculation deck-material-calculator -> Added to Project metrics=4
+2026-09-30T14:14:30.683Z PASS all three calculations added to the project
+2026-09-30T14:14:33.153Z PASS invalid project area rejected with a message
+2026-09-30T14:14:33.156Z project named + area added
+2026-09-30T14:14:33.163Z PASS project name saved
+2026-09-30T14:14:33.167Z PASS 3 material result groups listed
+2026-09-30T14:14:33.169Z PASS 23 quantity rows shown
+2026-09-30T14:14:33.172Z PASS 11 shopping list items
+2026-09-30T14:14:33.174Z PASS 8 assumption rows shown
+2026-09-30T14:14:33.183Z PASS localStorage holds 3 materials, 16 quantities, 11 shopping items
+2026-09-30T14:14:34.262Z PASS calculator results survive a browser refresh
+2026-09-30T14:14:34.265Z PASS project name survives refresh
+2026-09-30T14:14:34.268Z persistence verified
+2026-09-30T14:14:34.270Z opening print view
+2026-09-30T14:14:35.183Z PASS print plan shows the project name
+2026-09-30T14:14:35.185Z PASS print plan sections: Project dimensions | Calculations | Materials | Estimated costs | Shopping list | Assumptions | Method and limitations
+2026-09-30T14:14:35.188Z PASS print plan includes the methodology disclaimer
+2026-09-30T14:14:35.190Z PASS print utility page is noindex
+2026-09-30T14:14:35.192Z PASS print page has a unique title: Printable Project Plan | MeasureToBuild
+2026-09-30T14:14:35.379Z PASS printed output hides navigation, footer and print toolbar
+2026-09-30T14:14:35.382Z PASS no interactive controls inside the printed sheet
+2026-09-30T14:14:35.385Z PASS no horizontal overflow or clipped tables in the print layout
+2026-09-30T14:14:36.520Z PASS Chrome printed a 6-page PDF (131155 bytes)
+2026-09-30T14:14:37.968Z PASS Clear project removes materials
+2026-09-30T14:14:37.970Z PASS Clear project resets storage
+2026-09-30T14:14:37.977Z DONE failures=0
+2026-09-30T15:49:16.237Z addCalculation goto gravel-calculator
+2026-09-30T15:49:18.557Z addCalculation gravel-calculator -> Added to Project metrics=4
+2026-09-30T15:49:18.677Z addCalculation goto fence-calculator
+2026-09-30T15:49:20.147Z addCalculation fence-calculator -> Added to Project metrics=4
+2026-09-30T15:49:20.194Z addCalculation goto deck-material-calculator
+2026-09-30T15:49:21.656Z addCalculation deck-material-calculator -> Added to Project metrics=4
+2026-09-30T15:49:21.658Z PASS all three calculations added to the project
+2026-09-30T15:49:23.674Z PASS invalid project area rejected with a message
+2026-09-30T15:49:23.676Z project named + area added
+2026-09-30T15:49:23.681Z PASS project name saved
+2026-09-30T15:49:23.683Z PASS 3 material result groups listed
+2026-09-30T15:49:23.684Z PASS 23 quantity rows shown
+2026-09-30T15:49:23.685Z PASS 11 shopping list items
+2026-09-30T15:49:23.687Z PASS 8 assumption rows shown
+2026-09-30T15:49:23.694Z PASS localStorage holds 3 materials, 16 quantities, 11 shopping items
+2026-09-30T15:49:24.645Z PASS calculator results survive a browser refresh
+2026-09-30T15:49:24.909Z PASS project name survives refresh
+2026-09-30T15:49:24.911Z persistence verified
+2026-09-30T15:49:24.912Z opening print view
+2026-09-30T15:49:26.244Z PASS print plan shows the project name
+2026-09-30T15:49:26.596Z PASS print plan sections: Project dimensions | Calculations | Materials | Estimated costs | Shopping list | Assumptions | Method and limitations
+2026-09-30T15:49:26.598Z PASS print plan includes the methodology disclaimer
+2026-09-30T15:49:26.600Z PASS print utility page is noindex
+2026-09-30T15:49:26.601Z PASS print page has a unique title: Printable Project Plan | MeasureToBuild
+2026-09-30T15:49:27.632Z PASS printed output hides navigation, footer and print toolbar
+2026-09-30T15:49:27.650Z PASS no interactive controls inside the printed sheet
+2026-09-30T15:49:27.653Z PASS no horizontal overflow or clipped tables in the print layout
+2026-09-30T15:49:29.990Z PASS Chrome printed a 6-page PDF (131155 bytes)
+2026-09-30T15:49:31.553Z PASS Clear project removes materials
+2026-09-30T15:49:32.122Z PASS Clear project resets storage
+2026-09-30T15:49:32.133Z DONE failures=0
+2026-09-30T19:13:41.830Z addCalculation goto gravel-calculator
+2026-09-30T19:13:44.530Z addCalculation gravel-calculator -> Added to Project metrics=4
+2026-09-30T19:13:44.533Z addCalculation goto fence-calculator
+2026-09-30T19:13:46.416Z addCalculation fence-calculator -> Added to Project metrics=4
+2026-09-30T19:13:46.420Z addCalculation goto deck-material-calculator
+2026-09-30T19:13:49.277Z addCalculation deck-material-calculator -> Added to Project metrics=4
+2026-09-30T19:13:49.280Z PASS all three calculations added to the project
+2026-09-30T19:13:58.909Z PASS invalid project area rejected with a message
+2026-09-30T19:13:58.919Z project named + area added
+2026-09-30T19:13:58.930Z PASS project name saved
+2026-09-30T19:13:58.934Z PASS 3 material result groups listed
+2026-09-30T19:13:58.938Z PASS 23 quantity rows shown
+2026-09-30T19:13:58.943Z PASS 11 shopping list items
+2026-09-30T19:13:58.957Z PASS 8 assumption rows shown
+2026-09-30T19:13:58.978Z PASS localStorage holds 3 materials, 16 quantities, 11 shopping items
+2026-09-30T19:14:01.439Z PASS calculator results survive a browser refresh
+2026-09-30T19:14:01.445Z PASS project name survives refresh
+2026-09-30T19:14:01.447Z persistence verified
+2026-09-30T19:14:01.453Z opening print view
+2026-09-30T19:14:04.594Z PASS print plan shows the project name
+2026-09-30T19:14:04.642Z PASS print plan sections: Project dimensions | Calculations | Materials | Estimated costs | Shopping list | Assumptions | Method and limitations
+2026-09-30T19:14:04.645Z PASS print plan includes the methodology disclaimer
+2026-09-30T19:14:04.647Z PASS print utility page is noindex
+2026-09-30T19:14:04.693Z PASS print page has a unique title: Printable Project Plan | MeasureToBuild
+2026-09-30T19:14:06.024Z PASS printed output hides navigation, footer and print toolbar
+2026-09-30T19:14:06.026Z PASS no interactive controls inside the printed sheet
+2026-09-30T19:14:06.028Z PASS no horizontal overflow or clipped tables in the print layout
+2026-09-30T19:14:23.030Z PASS Chrome printed a 6-page PDF (132649 bytes)
+2026-09-30T19:14:25.788Z PASS Clear project removes materials
+2026-09-30T19:14:25.789Z PASS Clear project resets storage
+2026-09-30T19:14:26.101Z DONE failures=0
+2026-10-01T05:14:14.733Z addCalculation goto gravel-calculator
+2026-10-01T05:14:17.275Z addCalculation gravel-calculator -> Added to Project metrics=4
+2026-10-01T05:14:17.279Z addCalculation goto fence-calculator
+2026-10-01T05:14:19.270Z addCalculation fence-calculator -> Added to Project metrics=4
+2026-10-01T05:14:22.025Z addCalculation goto deck-material-calculator
+2026-10-01T05:14:24.660Z addCalculation deck-material-calculator -> Added to Project metrics=4
+2026-10-01T05:14:24.666Z PASS all three calculations added to the project
+2026-10-01T05:14:28.044Z PASS invalid project area rejected with a message
+2026-10-01T05:14:28.048Z project named + area added
+2026-10-01T05:14:28.060Z PASS project name saved
+2026-10-01T05:14:28.065Z PASS 3 material result groups listed
+2026-10-01T05:14:28.067Z PASS 23 quantity rows shown
+2026-10-01T05:14:28.069Z PASS 11 shopping list items
+2026-10-01T05:14:28.080Z PASS 8 assumption rows shown
+2026-10-01T05:14:28.097Z PASS localStorage holds 3 materials, 16 quantities, 11 shopping items
+2026-10-01T05:14:30.027Z PASS calculator results survive a browser refresh
+2026-10-01T05:14:30.030Z PASS project name survives refresh
+2026-10-01T05:14:30.033Z persistence verified
+2026-10-01T05:14:30.037Z opening print view
+2026-10-01T05:14:31.624Z PASS print plan shows the project name
+2026-10-01T05:14:31.631Z PASS print plan sections: Project dimensions | Calculations | Materials | Estimated costs | Shopping list | Assumptions | Method and limitations
+2026-10-01T05:14:31.633Z PASS print plan includes the methodology disclaimer
+2026-10-01T05:14:31.639Z PASS print utility page is noindex
+2026-10-01T05:14:31.641Z PASS print page has a unique title: Printable Project Plan | MeasureToBuild
+2026-10-01T05:14:32.231Z PASS printed output hides navigation, footer and print toolbar
+2026-10-01T05:14:32.236Z PASS no interactive controls inside the printed sheet
+2026-10-01T05:14:32.240Z PASS no horizontal overflow or clipped tables in the print layout
+2026-10-01T05:14:33.995Z PASS Chrome printed a 6-page PDF (132649 bytes)
+2026-10-01T05:14:38.232Z PASS Clear project removes materials
+2026-10-01T05:14:38.235Z PASS Clear project resets storage
+2026-10-01T05:14:38.249Z DONE failures=0
+2026-10-01T05:57:16.414Z addCalculation goto gravel-calculator
+2026-10-01T05:57:18.815Z addCalculation gravel-calculator -> Added to Project metrics=4
+2026-10-01T05:57:18.816Z addCalculation goto fence-calculator
+2026-10-01T05:57:20.314Z addCalculation fence-calculator -> Added to Project metrics=4
+2026-10-01T05:57:20.343Z addCalculation goto deck-material-calculator
+2026-10-01T05:57:22.976Z addCalculation deck-material-calculator -> Added to Project metrics=4
+2026-10-01T05:57:22.984Z PASS all three calculations added to the project
+2026-10-01T05:57:29.885Z PASS invalid project area rejected with a message
+2026-10-01T05:57:29.886Z project named + area added
+2026-10-01T05:57:29.890Z PASS project name saved
+2026-10-01T05:57:29.891Z PASS 3 material result groups listed
+2026-10-01T05:57:29.891Z PASS 23 quantity rows shown
+2026-10-01T05:57:29.891Z PASS 11 shopping list items
+2026-10-01T05:57:29.892Z PASS 8 assumption rows shown
+2026-10-01T05:57:29.901Z PASS localStorage holds 3 materials, 16 quantities, 11 shopping items
+2026-10-01T05:57:30.991Z PASS calculator results survive a browser refresh
+2026-10-01T05:57:30.992Z PASS project name survives refresh
+2026-10-01T05:57:30.993Z persistence verified
+2026-10-01T05:57:30.994Z opening print view
+2026-10-01T05:57:31.886Z PASS print plan shows the project name
+2026-10-01T05:57:31.888Z PASS print plan sections: Project dimensions | Calculations | Materials | Estimated costs | Shopping list | Assumptions | Method and limitations
+2026-10-01T05:57:31.889Z PASS print plan includes the methodology disclaimer
+2026-10-01T05:57:31.893Z PASS print utility page is noindex
+2026-10-01T05:57:31.894Z PASS print page has a unique title: Printable Project Plan | MeasureToBuild
+2026-10-01T05:57:32.057Z PASS printed output hides navigation, footer and print toolbar
+2026-10-01T05:57:32.057Z PASS no interactive controls inside the printed sheet
+2026-10-01T05:57:32.058Z PASS no horizontal overflow or clipped tables in the print layout
+2026-10-01T05:57:33.477Z PASS Chrome printed a 6-page PDF (132649 bytes)
+2026-10-01T05:57:34.885Z PASS Clear project removes materials
+2026-10-01T05:57:34.886Z PASS Clear project resets storage
+2026-10-01T05:57:34.892Z DONE failures=0
+2026-10-01T06:12:15.498Z addCalculation goto gravel-calculator
+2026-10-01T06:12:17.193Z addCalculation gravel-calculator -> Added to Project metrics=4
+2026-10-01T06:12:17.231Z addCalculation goto fence-calculator
+2026-10-01T06:12:18.761Z addCalculation fence-calculator -> Added to Project metrics=4
+2026-10-01T06:12:18.764Z addCalculation goto deck-material-calculator
+2026-10-01T06:12:20.263Z addCalculation deck-material-calculator -> Added to Project metrics=4
+2026-10-01T06:12:20.267Z PASS all three calculations added to the project
+2026-10-01T06:12:22.648Z PASS invalid project area rejected with a message
+2026-10-01T06:12:22.658Z project named + area added
+2026-10-01T06:12:22.691Z PASS project name saved
+2026-10-01T06:12:22.697Z PASS 3 material result groups listed
+2026-10-01T06:12:22.700Z PASS 23 quantity rows shown
+2026-10-01T06:12:22.704Z PASS 11 shopping list items
+2026-10-01T06:12:22.713Z PASS 8 assumption rows shown
+2026-10-01T06:12:22.726Z PASS localStorage holds 3 materials, 16 quantities, 11 shopping items
+2026-10-01T06:12:23.824Z PASS calculator results survive a browser refresh
+2026-10-01T06:12:23.828Z PASS project name survives refresh
+2026-10-01T06:12:23.831Z persistence verified
+2026-10-01T06:12:23.834Z opening print view
+2026-10-01T06:12:24.953Z PASS print plan shows the project name
+2026-10-01T06:12:24.957Z PASS print plan sections: Project dimensions | Calculations | Materials | Estimated costs | Shopping list | Assumptions | Method and limitations
+2026-10-01T06:12:24.959Z PASS print plan includes the methodology disclaimer
+2026-10-01T06:12:24.961Z PASS print utility page is noindex
+2026-10-01T06:12:24.963Z PASS print page has a unique title: Printable Project Plan | MeasureToBuild
+2026-10-01T06:12:25.170Z PASS printed output hides navigation, footer and print toolbar
+2026-10-01T06:12:25.175Z PASS no interactive controls inside the printed sheet
+2026-10-01T06:12:25.178Z PASS no horizontal overflow or clipped tables in the print layout
+2026-10-01T06:12:26.279Z PASS Chrome printed a 6-page PDF (132649 bytes)
+2026-10-01T06:12:27.628Z PASS Clear project removes materials
+2026-10-01T06:12:27.631Z PASS Clear project resets storage
+2026-10-01T06:12:27.638Z DONE failures=0

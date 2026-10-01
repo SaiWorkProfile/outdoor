@@ -1,0 +1,1705 @@
+{
+  "gravel-calculator": {
+    "slug": "gravel-calculator",
+    "steps": [
+      "PASS page loads 200",
+      "PASS 9 labelled fields rendered",
+      "PASS Calculate produced 4 metrics",
+      "PASS result panel updated",
+      "PASS result values readable",
+      "PASS rendered metrics match calculation engine",
+      "PASS assumptions visible",
+      "PASS 4 related links resolve 200",
+      "PASS invalid input shows a useful error",
+      "PASS no raw JS errors surfaced",
+      "PASS Reset clears result and errors",
+      "PASS empty fields report a useful error",
+      "PASS very large values handled without crash or NaN",
+      "PASS decimal inputs calculate",
+      "PASS multi-section adds inputs (12 fields, 2 sub-cards)",
+      "PASS multi-section calculate works",
+      "PASS no hydration warnings",
+      "PASS no uncaught exceptions"
+    ],
+    "failures": [],
+    "status": 200,
+    "fieldCount": 9,
+    "misassociated": [],
+    "unlabelled": 0,
+    "unitCount": 7,
+    "resultChanged": true,
+    "expected": {
+      "Cubic yards": 6.25,
+      "Tons": 8.56,
+      "Square feet": 600,
+      "Waste": 10
+    },
+    "actualMetrics": [
+      "Cubic yards = 6.25",
+      "Tons = 8.56",
+      "Square feet = 600.00",
+      "Waste = 10%"
+    ],
+    "mismatches": [],
+    "assumptions": {
+      "list": true,
+      "mentioned": true
+    },
+    "relatedLinks": [
+      "/calculators/pea-gravel-calculator",
+      "/calculators/paver-base-calculator",
+      "/calculators/driveway-gravel-calculator",
+      "/calculators/sand-calculator"
+    ],
+    "relatedStatus": [
+      [
+        "/calculators/pea-gravel-calculator",
+        200
+      ],
+      [
+        "/calculators/paver-base-calculator",
+        200
+      ],
+      [
+        "/calculators/driveway-gravel-calculator",
+        200
+      ],
+      [
+        "/calculators/sand-calculator",
+        200
+      ]
+    ],
+    "invalid": {
+      "summary": [
+        "This calculation could not runWaste allowance — wastePercent must be between 0 and 100."
+      ],
+      "highlighted": [
+        "Waste allowance"
+      ],
+      "ariaInvalid": 1
+    },
+    "afterReset": {
+      "hasResultCard": false,
+      "errors": 0,
+      "highlighted": 0
+    },
+    "emptyFields": {
+      "summary": [
+        "This calculation could not runDepth — depthIn must be a valid number."
+      ],
+      "highlighted": [
+        "Depth"
+      ],
+      "hasResult": false,
+      "bodyHasNaN": false
+    },
+    "huge": {
+      "crashed": false,
+      "hasNaN": false
+    },
+    "decimalMetrics": [
+      "Cubic yards=2.75",
+      "Tons=3.61",
+      "Square feet=253.13"
+    ],
+    "multiSection": {
+      "fields": 12,
+      "subCards": 2
+    },
+    "console": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "hydrationWarnings": [],
+    "faviconNoise": []
+  },
+  "mulch-calculator": {
+    "slug": "mulch-calculator",
+    "steps": [
+      "PASS page loads 200",
+      "PASS 9 labelled fields rendered",
+      "PASS Calculate produced 4 metrics",
+      "PASS result panel updated",
+      "PASS result values readable",
+      "PASS rendered metrics match calculation engine",
+      "PASS assumptions visible",
+      "PASS 3 related links resolve 200",
+      "PASS invalid input shows a useful error",
+      "PASS no raw JS errors surfaced",
+      "PASS Reset clears result and errors",
+      "PASS empty fields report a useful error",
+      "PASS very large values handled without crash or NaN",
+      "PASS decimal inputs calculate",
+      "PASS multi-section adds inputs (12 fields, 2 sub-cards)",
+      "PASS multi-section calculate works",
+      "PASS no hydration warnings",
+      "PASS no uncaught exceptions"
+    ],
+    "failures": [],
+    "status": 200,
+    "fieldCount": 9,
+    "misassociated": [],
+    "unlabelled": 0,
+    "unitCount": 7,
+    "resultChanged": true,
+    "expected": {
+      "Cubic yards": 6.25,
+      "Tons": 2.14,
+      "Square feet": 600,
+      "Waste": 10
+    },
+    "actualMetrics": [
+      "Cubic yards = 6.25",
+      "Tons = 2.14",
+      "Square feet = 600.00",
+      "Waste = 10%"
+    ],
+    "mismatches": [],
+    "assumptions": {
+      "list": true,
+      "mentioned": true
+    },
+    "relatedLinks": [
+      "/calculators/topsoil-calculator",
+      "/calculators/soil-calculator",
+      "/calculators/landscape-rock-calculator"
+    ],
+    "relatedStatus": [
+      [
+        "/calculators/topsoil-calculator",
+        200
+      ],
+      [
+        "/calculators/soil-calculator",
+        200
+      ],
+      [
+        "/calculators/landscape-rock-calculator",
+        200
+      ]
+    ],
+    "invalid": {
+      "summary": [
+        "This calculation could not runWaste allowance — wastePercent must be between 0 and 100."
+      ],
+      "highlighted": [
+        "Waste allowance"
+      ],
+      "ariaInvalid": 1
+    },
+    "afterReset": {
+      "hasResultCard": false,
+      "errors": 0,
+      "highlighted": 0
+    },
+    "emptyFields": {
+      "summary": [
+        "This calculation could not runDepth — depthIn must be a valid number."
+      ],
+      "highlighted": [
+        "Depth"
+      ],
+      "hasResult": false,
+      "bodyHasNaN": false
+    },
+    "huge": {
+      "crashed": false,
+      "hasNaN": false
+    },
+    "decimalMetrics": [
+      "Cubic yards=2.75",
+      "Tons=0.90",
+      "Square feet=253.13"
+    ],
+    "multiSection": {
+      "fields": 12,
+      "subCards": 2
+    },
+    "console": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "hydrationWarnings": [],
+    "faviconNoise": []
+  },
+  "topsoil-calculator": {
+    "slug": "topsoil-calculator",
+    "steps": [
+      "PASS page loads 200",
+      "PASS 9 labelled fields rendered",
+      "PASS Calculate produced 4 metrics",
+      "PASS result panel updated",
+      "PASS result values readable",
+      "PASS rendered metrics match calculation engine",
+      "PASS assumptions visible",
+      "PASS 3 related links resolve 200",
+      "PASS invalid input shows a useful error",
+      "PASS no raw JS errors surfaced",
+      "PASS Reset clears result and errors",
+      "PASS empty fields report a useful error",
+      "PASS very large values handled without crash or NaN",
+      "PASS decimal inputs calculate",
+      "PASS multi-section adds inputs (12 fields, 2 sub-cards)",
+      "PASS multi-section calculate works",
+      "PASS no hydration warnings",
+      "PASS no uncaught exceptions"
+    ],
+    "failures": [],
+    "status": 200,
+    "fieldCount": 9,
+    "misassociated": [],
+    "unlabelled": 0,
+    "unitCount": 7,
+    "resultChanged": true,
+    "expected": {
+      "Cubic yards": 12.25,
+      "Tons": 13.44,
+      "Square feet": 600,
+      "Waste": 10
+    },
+    "actualMetrics": [
+      "Cubic yards = 12.25",
+      "Tons = 13.44",
+      "Square feet = 600.00",
+      "Waste = 10%"
+    ],
+    "mismatches": [],
+    "assumptions": {
+      "list": true,
+      "mentioned": true
+    },
+    "relatedLinks": [
+      "/calculators/soil-calculator",
+      "/calculators/mulch-calculator",
+      "/calculators/landscape-rock-calculator"
+    ],
+    "relatedStatus": [
+      [
+        "/calculators/soil-calculator",
+        200
+      ],
+      [
+        "/calculators/mulch-calculator",
+        200
+      ],
+      [
+        "/calculators/landscape-rock-calculator",
+        200
+      ]
+    ],
+    "invalid": {
+      "summary": [
+        "This calculation could not runWaste allowance — wastePercent must be between 0 and 100."
+      ],
+      "highlighted": [
+        "Waste allowance"
+      ],
+      "ariaInvalid": 1
+    },
+    "afterReset": {
+      "hasResultCard": false,
+      "errors": 0,
+      "highlighted": 0
+    },
+    "emptyFields": {
+      "summary": [
+        "This calculation could not runDepth — depthIn must be a valid number."
+      ],
+      "highlighted": [
+        "Depth"
+      ],
+      "hasResult": false,
+      "bodyHasNaN": false
+    },
+    "huge": {
+      "crashed": false,
+      "hasNaN": false
+    },
+    "decimalMetrics": [
+      "Cubic yards=5.25",
+      "Tons=5.67",
+      "Square feet=253.13"
+    ],
+    "multiSection": {
+      "fields": 12,
+      "subCards": 2
+    },
+    "console": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "hydrationWarnings": [],
+    "faviconNoise": []
+  },
+  "soil-calculator": {
+    "slug": "soil-calculator",
+    "steps": [
+      "PASS page loads 200",
+      "PASS 9 labelled fields rendered",
+      "PASS Calculate produced 4 metrics",
+      "PASS result panel updated",
+      "PASS result values readable",
+      "PASS rendered metrics match calculation engine",
+      "PASS assumptions visible",
+      "PASS 3 related links resolve 200",
+      "PASS invalid input shows a useful error",
+      "PASS no raw JS errors surfaced",
+      "PASS Reset clears result and errors",
+      "PASS empty fields report a useful error",
+      "PASS very large values handled without crash or NaN",
+      "PASS decimal inputs calculate",
+      "PASS multi-section adds inputs (12 fields, 2 sub-cards)",
+      "PASS multi-section calculate works",
+      "PASS no hydration warnings",
+      "PASS no uncaught exceptions"
+    ],
+    "failures": [],
+    "status": 200,
+    "fieldCount": 9,
+    "misassociated": [],
+    "unlabelled": 0,
+    "unitCount": 7,
+    "resultChanged": true,
+    "expected": {
+      "Cubic yards": 6.25,
+      "Tons": 7.33,
+      "Square feet": 600,
+      "Waste": 10
+    },
+    "actualMetrics": [
+      "Cubic yards = 6.25",
+      "Tons = 7.33",
+      "Square feet = 600.00",
+      "Waste = 10%"
+    ],
+    "mismatches": [],
+    "assumptions": {
+      "list": true,
+      "mentioned": true
+    },
+    "relatedLinks": [
+      "/calculators/topsoil-calculator",
+      "/calculators/mulch-calculator",
+      "/calculators/gravel-calculator"
+    ],
+    "relatedStatus": [
+      [
+        "/calculators/topsoil-calculator",
+        200
+      ],
+      [
+        "/calculators/mulch-calculator",
+        200
+      ],
+      [
+        "/calculators/gravel-calculator",
+        200
+      ]
+    ],
+    "invalid": {
+      "summary": [
+        "This calculation could not runWaste allowance — wastePercent must be between 0 and 100."
+      ],
+      "highlighted": [
+        "Waste allowance"
+      ],
+      "ariaInvalid": 1
+    },
+    "afterReset": {
+      "hasResultCard": false,
+      "errors": 0,
+      "highlighted": 0
+    },
+    "emptyFields": {
+      "summary": [
+        "This calculation could not runDepth — depthIn must be a valid number."
+      ],
+      "highlighted": [
+        "Depth"
+      ],
+      "hasResult": false,
+      "bodyHasNaN": false
+    },
+    "huge": {
+      "crashed": false,
+      "hasNaN": false
+    },
+    "decimalMetrics": [
+      "Cubic yards=2.75",
+      "Tons=3.09",
+      "Square feet=253.13"
+    ],
+    "multiSection": {
+      "fields": 12,
+      "subCards": 2
+    },
+    "console": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "hydrationWarnings": [],
+    "faviconNoise": []
+  },
+  "sand-calculator": {
+    "slug": "sand-calculator",
+    "steps": [
+      "PASS page loads 200",
+      "PASS 9 labelled fields rendered",
+      "PASS Calculate produced 4 metrics",
+      "PASS result panel updated",
+      "PASS result values readable",
+      "PASS rendered metrics match calculation engine",
+      "PASS assumptions visible",
+      "PASS 3 related links resolve 200",
+      "PASS invalid input shows a useful error",
+      "PASS no raw JS errors surfaced",
+      "PASS Reset clears result and errors",
+      "PASS empty fields report a useful error",
+      "PASS very large values handled without crash or NaN",
+      "PASS decimal inputs calculate",
+      "PASS multi-section adds inputs (12 fields, 2 sub-cards)",
+      "PASS multi-section calculate works",
+      "PASS no hydration warnings",
+      "PASS no uncaught exceptions"
+    ],
+    "failures": [],
+    "status": 200,
+    "fieldCount": 9,
+    "misassociated": [],
+    "unlabelled": 0,
+    "unitCount": 7,
+    "resultChanged": true,
+    "expected": {
+      "Cubic yards": 2.25,
+      "Tons": 2.75,
+      "Square feet": 600,
+      "Waste": 10
+    },
+    "actualMetrics": [
+      "Cubic yards = 2.25",
+      "Tons = 2.75",
+      "Square feet = 600.00",
+      "Waste = 10%"
+    ],
+    "mismatches": [],
+    "assumptions": {
+      "list": true,
+      "mentioned": true
+    },
+    "relatedLinks": [
+      "/calculators/paver-base-calculator",
+      "/calculators/paver-calculator",
+      "/calculators/paver-patio-calculator"
+    ],
+    "relatedStatus": [
+      [
+        "/calculators/paver-base-calculator",
+        200
+      ],
+      [
+        "/calculators/paver-calculator",
+        200
+      ],
+      [
+        "/calculators/paver-patio-calculator",
+        200
+      ]
+    ],
+    "invalid": {
+      "summary": [
+        "This calculation could not runWaste allowance — wastePercent must be between 0 and 100."
+      ],
+      "highlighted": [
+        "Waste allowance"
+      ],
+      "ariaInvalid": 1
+    },
+    "afterReset": {
+      "hasResultCard": false,
+      "errors": 0,
+      "highlighted": 0
+    },
+    "emptyFields": {
+      "summary": [
+        "This calculation could not runDepth — depthIn must be a valid number."
+      ],
+      "highlighted": [
+        "Depth"
+      ],
+      "hasResult": false,
+      "bodyHasNaN": false
+    },
+    "huge": {
+      "crashed": false,
+      "hasNaN": false
+    },
+    "decimalMetrics": [
+      "Cubic yards=1",
+      "Tons=1.16",
+      "Square feet=253.13"
+    ],
+    "multiSection": {
+      "fields": 12,
+      "subCards": 2
+    },
+    "console": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "hydrationWarnings": [],
+    "faviconNoise": []
+  },
+  "pea-gravel-calculator": {
+    "slug": "pea-gravel-calculator",
+    "steps": [
+      "PASS page loads 200",
+      "PASS 9 labelled fields rendered",
+      "PASS Calculate produced 4 metrics",
+      "PASS result panel updated",
+      "PASS result values readable",
+      "PASS rendered metrics match calculation engine",
+      "PASS assumptions visible",
+      "PASS 3 related links resolve 200",
+      "PASS invalid input shows a useful error",
+      "PASS no raw JS errors surfaced",
+      "PASS Reset clears result and errors",
+      "PASS empty fields report a useful error",
+      "PASS very large values handled without crash or NaN",
+      "PASS decimal inputs calculate",
+      "PASS multi-section adds inputs (12 fields, 2 sub-cards)",
+      "PASS multi-section calculate works",
+      "PASS no hydration warnings",
+      "PASS no uncaught exceptions"
+    ],
+    "failures": [],
+    "status": 200,
+    "fieldCount": 9,
+    "misassociated": [],
+    "unlabelled": 0,
+    "unitCount": 7,
+    "resultChanged": true,
+    "expected": {
+      "Cubic yards": 4.25,
+      "Tons": 5.7,
+      "Square feet": 600,
+      "Waste": 10
+    },
+    "actualMetrics": [
+      "Cubic yards = 4.25",
+      "Tons = 5.70",
+      "Square feet = 600.00",
+      "Waste = 10%"
+    ],
+    "mismatches": [],
+    "assumptions": {
+      "list": true,
+      "mentioned": true
+    },
+    "relatedLinks": [
+      "/calculators/gravel-calculator",
+      "/calculators/landscape-rock-calculator",
+      "/calculators/paver-base-calculator"
+    ],
+    "relatedStatus": [
+      [
+        "/calculators/gravel-calculator",
+        200
+      ],
+      [
+        "/calculators/landscape-rock-calculator",
+        200
+      ],
+      [
+        "/calculators/paver-base-calculator",
+        200
+      ]
+    ],
+    "invalid": {
+      "summary": [
+        "This calculation could not runWaste allowance — wastePercent must be between 0 and 100."
+      ],
+      "highlighted": [
+        "Waste allowance"
+      ],
+      "ariaInvalid": 1
+    },
+    "afterReset": {
+      "hasResultCard": false,
+      "errors": 0,
+      "highlighted": 0
+    },
+    "emptyFields": {
+      "summary": [
+        "This calculation could not runDepth — depthIn must be a valid number."
+      ],
+      "highlighted": [
+        "Depth"
+      ],
+      "hasResult": false,
+      "bodyHasNaN": false
+    },
+    "huge": {
+      "crashed": false,
+      "hasNaN": false
+    },
+    "decimalMetrics": [
+      "Cubic yards=1.75",
+      "Tons=2.41",
+      "Square feet=253.13"
+    ],
+    "multiSection": {
+      "fields": 12,
+      "subCards": 2
+    },
+    "console": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "hydrationWarnings": [],
+    "faviconNoise": []
+  },
+  "landscape-rock-calculator": {
+    "slug": "landscape-rock-calculator",
+    "steps": [
+      "PASS page loads 200",
+      "PASS 9 labelled fields rendered",
+      "PASS Calculate produced 4 metrics",
+      "PASS result panel updated",
+      "PASS result values readable",
+      "PASS rendered metrics match calculation engine",
+      "PASS assumptions visible",
+      "PASS 3 related links resolve 200",
+      "PASS invalid input shows a useful error",
+      "PASS no raw JS errors surfaced",
+      "PASS Reset clears result and errors",
+      "PASS empty fields report a useful error",
+      "PASS very large values handled without crash or NaN",
+      "PASS decimal inputs calculate",
+      "PASS multi-section adds inputs (12 fields, 2 sub-cards)",
+      "PASS multi-section calculate works",
+      "PASS no hydration warnings",
+      "PASS no uncaught exceptions"
+    ],
+    "failures": [],
+    "status": 200,
+    "fieldCount": 9,
+    "misassociated": [],
+    "unlabelled": 0,
+    "unitCount": 7,
+    "resultChanged": true,
+    "expected": {
+      "Cubic yards": 6.25,
+      "Tons": 8.25,
+      "Square feet": 600,
+      "Waste": 10
+    },
+    "actualMetrics": [
+      "Cubic yards = 6.25",
+      "Tons = 8.25",
+      "Square feet = 600.00",
+      "Waste = 10%"
+    ],
+    "mismatches": [],
+    "assumptions": {
+      "list": true,
+      "mentioned": true
+    },
+    "relatedLinks": [
+      "/calculators/gravel-calculator",
+      "/calculators/pea-gravel-calculator",
+      "/calculators/mulch-calculator"
+    ],
+    "relatedStatus": [
+      [
+        "/calculators/gravel-calculator",
+        200
+      ],
+      [
+        "/calculators/pea-gravel-calculator",
+        200
+      ],
+      [
+        "/calculators/mulch-calculator",
+        200
+      ]
+    ],
+    "invalid": {
+      "summary": [
+        "This calculation could not runWaste allowance — wastePercent must be between 0 and 100."
+      ],
+      "highlighted": [
+        "Waste allowance"
+      ],
+      "ariaInvalid": 1
+    },
+    "afterReset": {
+      "hasResultCard": false,
+      "errors": 0,
+      "highlighted": 0
+    },
+    "emptyFields": {
+      "summary": [
+        "This calculation could not runDepth — depthIn must be a valid number."
+      ],
+      "highlighted": [
+        "Depth"
+      ],
+      "hasResult": false,
+      "bodyHasNaN": false
+    },
+    "huge": {
+      "crashed": false,
+      "hasNaN": false
+    },
+    "decimalMetrics": [
+      "Cubic yards=2.75",
+      "Tons=3.48",
+      "Square feet=253.13"
+    ],
+    "multiSection": {
+      "fields": 12,
+      "subCards": 2
+    },
+    "console": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "hydrationWarnings": [],
+    "faviconNoise": []
+  },
+  "paver-base-calculator": {
+    "slug": "paver-base-calculator",
+    "steps": [
+      "PASS page loads 200",
+      "PASS 9 labelled fields rendered",
+      "PASS Calculate produced 4 metrics",
+      "PASS result panel updated",
+      "PASS result values readable",
+      "PASS rendered metrics match calculation engine",
+      "PASS assumptions visible",
+      "PASS 3 related links resolve 200",
+      "PASS invalid input shows a useful error",
+      "PASS no raw JS errors surfaced",
+      "PASS Reset clears result and errors",
+      "PASS empty fields report a useful error",
+      "PASS very large values handled without crash or NaN",
+      "PASS decimal inputs calculate",
+      "PASS multi-section adds inputs (12 fields, 2 sub-cards)",
+      "PASS multi-section calculate works",
+      "PASS no hydration warnings",
+      "PASS no uncaught exceptions"
+    ],
+    "failures": [],
+    "status": 200,
+    "fieldCount": 9,
+    "misassociated": [],
+    "unlabelled": 0,
+    "unitCount": 7,
+    "resultChanged": true,
+    "expected": {
+      "Cubic yards": 13.5,
+      "Tons": 18.82,
+      "Square feet": 600,
+      "Waste": 10
+    },
+    "actualMetrics": [
+      "Cubic yards = 13.5",
+      "Tons = 18.82",
+      "Square feet = 600.00",
+      "Waste = 10%"
+    ],
+    "mismatches": [],
+    "assumptions": {
+      "list": true,
+      "mentioned": true
+    },
+    "relatedLinks": [
+      "/calculators/paver-calculator",
+      "/calculators/paver-patio-calculator",
+      "/calculators/sand-calculator"
+    ],
+    "relatedStatus": [
+      [
+        "/calculators/paver-calculator",
+        200
+      ],
+      [
+        "/calculators/paver-patio-calculator",
+        200
+      ],
+      [
+        "/calculators/sand-calculator",
+        200
+      ]
+    ],
+    "invalid": {
+      "summary": [
+        "This calculation could not runWaste allowance — wastePercent must be between 0 and 100."
+      ],
+      "highlighted": [
+        "Waste"
+      ],
+      "ariaInvalid": 1
+    },
+    "afterReset": {
+      "hasResultCard": false,
+      "errors": 0,
+      "highlighted": 0
+    },
+    "emptyFields": {
+      "summary": [
+        "This calculation could not runDepth — depthIn must be a valid number."
+      ],
+      "highlighted": [
+        "Base depth"
+      ],
+      "hasResult": false,
+      "bodyHasNaN": false
+    },
+    "huge": {
+      "crashed": false,
+      "hasNaN": false
+    },
+    "decimalMetrics": [
+      "Cubic yards=5.75",
+      "Tons=7.94",
+      "Square feet=253.13"
+    ],
+    "multiSection": {
+      "fields": 12,
+      "subCards": 2
+    },
+    "console": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "hydrationWarnings": [],
+    "faviconNoise": []
+  },
+  "driveway-gravel-calculator": {
+    "slug": "driveway-gravel-calculator",
+    "steps": [
+      "PASS page loads 200",
+      "PASS 20 labelled fields rendered",
+      "PASS Calculate produced 4 metrics",
+      "PASS result panel updated",
+      "PASS result values readable",
+      "PASS rendered metrics match calculation engine",
+      "PASS assumptions visible",
+      "PASS 2 related links resolve 200",
+      "PASS invalid input shows a useful error",
+      "PASS no raw JS errors surfaced",
+      "PASS Reset clears result and errors",
+      "PASS empty fields report a useful error",
+      "PASS very large values handled without crash or NaN",
+      "PASS decimal inputs calculate",
+      "PASS multi-section adds inputs (23 fields, 5 sub-cards)",
+      "PASS multi-section calculate works",
+      "PASS no hydration warnings",
+      "PASS no uncaught exceptions"
+    ],
+    "failures": [],
+    "status": 200,
+    "fieldCount": 20,
+    "misassociated": [],
+    "unlabelled": 0,
+    "unitCount": 13,
+    "resultChanged": true,
+    "expected": {
+      "Order volume": "18.75 yd³",
+      "Tons": 25.95,
+      "Area": "600 sq ft",
+      "Depth": "8 in"
+    },
+    "actualMetrics": [
+      "Order volume = 18.75 yd³",
+      "Tons = 25.95",
+      "Area = 600 sq ft",
+      "Depth = 8 in"
+    ],
+    "mismatches": [],
+    "assumptions": {
+      "list": true,
+      "mentioned": true
+    },
+    "relatedLinks": [
+      "/calculators/gravel-calculator",
+      "/calculators/paver-base-calculator"
+    ],
+    "relatedStatus": [
+      [
+        "/calculators/gravel-calculator",
+        200
+      ],
+      [
+        "/calculators/paver-base-calculator",
+        200
+      ]
+    ],
+    "invalid": {
+      "summary": [
+        "This calculation could not runArea 1 — Length — areas[0].length must be greater than zero."
+      ],
+      "highlighted": [
+        "Length"
+      ],
+      "ariaInvalid": 1
+    },
+    "afterReset": {
+      "hasResultCard": false,
+      "errors": 0,
+      "highlighted": 0
+    },
+    "emptyFields": {
+      "summary": [
+        "This calculation could not runArea 1 — Length — areas[0].length must be a valid number."
+      ],
+      "highlighted": [
+        "Length"
+      ],
+      "hasResult": false,
+      "bodyHasNaN": false
+    },
+    "huge": {
+      "crashed": false,
+      "hasNaN": false
+    },
+    "decimalMetrics": [
+      "Order volume=8 yd³",
+      "Tons=10.95",
+      "Area=253 sq ft"
+    ],
+    "multiSection": {
+      "fields": 23,
+      "subCards": 5
+    },
+    "console": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "hydrationWarnings": [],
+    "faviconNoise": []
+  },
+  "concrete-calculator": {
+    "slug": "concrete-calculator",
+    "steps": [
+      "PASS page loads 200",
+      "PASS 7 labelled fields rendered",
+      "PASS Calculate produced 4 metrics",
+      "PASS result panel updated",
+      "PASS result values readable",
+      "PASS rendered metrics match calculation engine",
+      "PASS assumptions visible",
+      "PASS 3 related links resolve 200",
+      "PASS invalid input shows a useful error",
+      "PASS no raw JS errors surfaced",
+      "PASS Reset clears result and errors",
+      "PASS empty fields report a useful error",
+      "PASS very large values handled without crash or NaN",
+      "PASS decimal inputs calculate",
+      "PASS no hydration warnings",
+      "PASS no uncaught exceptions"
+    ],
+    "failures": [],
+    "status": 200,
+    "fieldCount": 7,
+    "misassociated": [],
+    "unlabelled": 0,
+    "unitCount": 5,
+    "resultChanged": true,
+    "expected": {
+      "Order volume": "1.63 yd³",
+      "Ready-mix order": "1.75 yd³",
+      "Waste": 10,
+      "Approx. weight": "3.30 tons"
+    },
+    "actualMetrics": [
+      "Order volume = 1.63 yd³",
+      "Ready-mix order = 1.75 yd³",
+      "Waste = 10%",
+      "Approx. weight = 3.30 tons"
+    ],
+    "mismatches": [],
+    "assumptions": {
+      "list": true,
+      "mentioned": true
+    },
+    "relatedLinks": [
+      "/calculators/fence-post-calculator",
+      "/calculators/fence-calculator",
+      "/calculators/deck-material-calculator"
+    ],
+    "relatedStatus": [
+      [
+        "/calculators/fence-post-calculator",
+        200
+      ],
+      [
+        "/calculators/fence-calculator",
+        200
+      ],
+      [
+        "/calculators/deck-material-calculator",
+        200
+      ]
+    ],
+    "invalid": {
+      "summary": [
+        "This calculation could not runWaste allowance — wastePercent must be between 0 and 100."
+      ],
+      "highlighted": [
+        "Waste"
+      ],
+      "ariaInvalid": 1
+    },
+    "afterReset": {
+      "hasResultCard": false,
+      "errors": 0,
+      "highlighted": 0
+    },
+    "emptyFields": {
+      "summary": [
+        "This calculation could not runWaste allowance — wastePercent must be a valid number."
+      ],
+      "highlighted": [
+        "Waste"
+      ],
+      "hasResult": false,
+      "bodyHasNaN": false
+    },
+    "huge": {
+      "crashed": false,
+      "hasNaN": false
+    },
+    "decimalMetrics": [
+      "Order volume=3.44 yd³",
+      "Ready-mix order=3.5 yd³",
+      "Waste=10%"
+    ],
+    "multiSection": "not-supported",
+    "console": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "hydrationWarnings": [],
+    "faviconNoise": []
+  },
+  "paver-calculator": {
+    "slug": "paver-calculator",
+    "steps": [
+      "PASS page loads 200",
+      "PASS 14 labelled fields rendered",
+      "PASS Calculate produced 4 metrics",
+      "PASS result panel updated",
+      "PASS result values readable",
+      "PASS rendered metrics match calculation engine",
+      "PASS assumptions visible",
+      "PASS 3 related links resolve 200",
+      "PASS invalid input shows a useful error",
+      "PASS no raw JS errors surfaced",
+      "PASS Reset clears result and errors",
+      "PASS empty fields report a useful error",
+      "PASS very large values handled without crash or NaN",
+      "PASS decimal inputs calculate",
+      "PASS multi-section adds inputs (17 fields, 2 sub-cards)",
+      "PASS multi-section calculate works",
+      "PASS no hydration warnings",
+      "PASS no uncaught exceptions"
+    ],
+    "failures": [],
+    "status": 200,
+    "fieldCount": 14,
+    "misassociated": [],
+    "unlabelled": 0,
+    "unitCount": 13,
+    "resultChanged": true,
+    "expected": {
+      "Pavers": 2535,
+      "Area": "600 sq ft",
+      "Base": "13.5 yd³",
+      "Bedding sand": "2.25 yd³"
+    },
+    "actualMetrics": [
+      "Pavers = 2535",
+      "Area = 600 sq ft",
+      "Base = 13.5 yd³",
+      "Bedding sand = 2.25 yd³"
+    ],
+    "mismatches": [],
+    "assumptions": {
+      "list": true,
+      "mentioned": true
+    },
+    "relatedLinks": [
+      "/calculators/paver-patio-calculator",
+      "/calculators/paver-base-calculator",
+      "/calculators/sand-calculator"
+    ],
+    "relatedStatus": [
+      [
+        "/calculators/paver-patio-calculator",
+        200
+      ],
+      [
+        "/calculators/paver-base-calculator",
+        200
+      ],
+      [
+        "/calculators/sand-calculator",
+        200
+      ]
+    ],
+    "invalid": {
+      "summary": [
+        "This calculation could not runWaste allowance — wastePercent must be between 0 and 100."
+      ],
+      "highlighted": [
+        "Waste"
+      ],
+      "ariaInvalid": 1
+    },
+    "afterReset": {
+      "hasResultCard": false,
+      "errors": 0,
+      "highlighted": 0
+    },
+    "emptyFields": {
+      "summary": [
+        "This calculation could not runPaver length — paverLengthIn must be a valid number."
+      ],
+      "highlighted": [
+        "Paver length"
+      ],
+      "hasResult": false,
+      "bodyHasNaN": false
+    },
+    "huge": {
+      "crashed": false,
+      "hasNaN": false
+    },
+    "decimalMetrics": [
+      "Pavers=1070",
+      "Area=253 sq ft",
+      "Base=5.75 yd³"
+    ],
+    "multiSection": {
+      "fields": 17,
+      "subCards": 2
+    },
+    "console": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "hydrationWarnings": [],
+    "faviconNoise": []
+  },
+  "paver-patio-calculator": {
+    "slug": "paver-patio-calculator",
+    "steps": [
+      "PASS page loads 200",
+      "PASS 15 labelled fields rendered",
+      "PASS Calculate produced 4 metrics",
+      "PASS result panel updated",
+      "PASS result values readable",
+      "PASS rendered metrics match calculation engine",
+      "PASS assumptions visible",
+      "PASS 3 related links resolve 200",
+      "PASS invalid input shows a useful error",
+      "PASS no raw JS errors surfaced",
+      "PASS Reset clears result and errors",
+      "PASS empty fields report a useful error",
+      "PASS very large values handled without crash or NaN",
+      "PASS decimal inputs calculate",
+      "PASS multi-section adds inputs (18 fields, 2 sub-cards)",
+      "PASS multi-section calculate works",
+      "PASS no hydration warnings",
+      "PASS no uncaught exceptions"
+    ],
+    "failures": [],
+    "status": 200,
+    "fieldCount": 15,
+    "misassociated": [],
+    "unlabelled": 0,
+    "unitCount": 13,
+    "resultChanged": true,
+    "expected": {
+      "Pavers": 1015,
+      "Area": "240 sq ft",
+      "Base": "5.5 yd³",
+      "Bedding sand": "1 yd³"
+    },
+    "actualMetrics": [
+      "Pavers = 1015",
+      "Area = 240 sq ft",
+      "Base = 5.5 yd³",
+      "Bedding sand = 1 yd³"
+    ],
+    "mismatches": [],
+    "assumptions": {
+      "list": true,
+      "mentioned": true
+    },
+    "relatedLinks": [
+      "/calculators/paver-calculator",
+      "/calculators/paver-base-calculator",
+      "/calculators/sand-calculator"
+    ],
+    "relatedStatus": [
+      [
+        "/calculators/paver-calculator",
+        200
+      ],
+      [
+        "/calculators/paver-base-calculator",
+        200
+      ],
+      [
+        "/calculators/sand-calculator",
+        200
+      ]
+    ],
+    "invalid": {
+      "summary": [
+        "This calculation could not runWaste allowance — wastePercent must be between 0 and 100."
+      ],
+      "highlighted": [
+        "Waste"
+      ],
+      "ariaInvalid": 1
+    },
+    "afterReset": {
+      "hasResultCard": false,
+      "errors": 0,
+      "highlighted": 0
+    },
+    "emptyFields": {
+      "summary": [
+        "This calculation could not runPaver length — paverLengthIn must be a valid number."
+      ],
+      "highlighted": [
+        "Paver length"
+      ],
+      "hasResult": false,
+      "bodyHasNaN": false
+    },
+    "huge": {
+      "crashed": false,
+      "hasNaN": false
+    },
+    "decimalMetrics": [
+      "Pavers=1070",
+      "Area=253 sq ft",
+      "Base=5.75 yd³"
+    ],
+    "multiSection": {
+      "fields": 18,
+      "subCards": 2
+    },
+    "console": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "hydrationWarnings": [],
+    "faviconNoise": []
+  },
+  "fence-calculator": {
+    "slug": "fence-calculator",
+    "steps": [
+      "PASS page loads 200",
+      "PASS 16 labelled fields rendered",
+      "PASS Calculate produced 4 metrics",
+      "PASS result panel updated",
+      "PASS result values readable",
+      "PASS rendered metrics match calculation engine",
+      "PASS assumptions visible",
+      "PASS 3 related links resolve 200",
+      "PASS invalid input shows a useful error",
+      "PASS no raw JS errors surfaced",
+      "PASS Reset clears result and errors",
+      "PASS empty fields report a useful error",
+      "PASS very large values handled without crash or NaN",
+      "PASS decimal inputs calculate",
+      "PASS no hydration warnings",
+      "PASS no uncaught exceptions"
+    ],
+    "failures": [],
+    "status": 200,
+    "fieldCount": 16,
+    "misassociated": [],
+    "unlabelled": 0,
+    "unitCount": 15,
+    "resultChanged": true,
+    "expected": {
+      "Total posts": 15,
+      "Rails": 27,
+      "Concrete": "1.25 yd³",
+      "Hardware": 995
+    },
+    "actualMetrics": [
+      "Total posts = 15",
+      "Rails = 27",
+      "Concrete = 1.25 yd³",
+      "Hardware = 995"
+    ],
+    "mismatches": [],
+    "assumptions": {
+      "list": true,
+      "mentioned": true
+    },
+    "relatedLinks": [
+      "/calculators/fence-cost-calculator",
+      "/calculators/fence-post-calculator",
+      "/calculators/concrete-calculator"
+    ],
+    "relatedStatus": [
+      [
+        "/calculators/fence-cost-calculator",
+        200
+      ],
+      [
+        "/calculators/fence-post-calculator",
+        200
+      ],
+      [
+        "/calculators/concrete-calculator",
+        200
+      ]
+    ],
+    "invalid": {
+      "summary": [
+        "This calculation could not runWaste allowance — wastePercent must be between 0 and 100."
+      ],
+      "highlighted": [
+        "Waste"
+      ],
+      "ariaInvalid": 1
+    },
+    "afterReset": {
+      "hasResultCard": false,
+      "errors": 0,
+      "highlighted": 0
+    },
+    "emptyFields": {
+      "summary": [
+        "This calculation could not runFence height — heightFt must be a valid number."
+      ],
+      "highlighted": [
+        "Fence height"
+      ],
+      "hasResult": false,
+      "bodyHasNaN": false
+    },
+    "huge": {
+      "crashed": false,
+      "hasNaN": false
+    },
+    "decimalMetrics": [
+      "Total posts=8",
+      "Rails=10",
+      "Concrete=0.75 yd³"
+    ],
+    "multiSection": "not-supported",
+    "console": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "hydrationWarnings": [],
+    "faviconNoise": []
+  },
+  "fence-cost-calculator": {
+    "slug": "fence-cost-calculator",
+    "steps": [
+      "PASS page loads 200",
+      "PASS 26 labelled fields rendered",
+      "PASS Calculate produced 4 metrics",
+      "PASS result panel updated",
+      "PASS result values readable",
+      "PASS rendered metrics match calculation engine",
+      "PASS assumptions visible",
+      "PASS 3 related links resolve 200",
+      "PASS invalid input shows a useful error",
+      "PASS no raw JS errors surfaced",
+      "PASS Reset clears result and errors",
+      "PASS empty fields report a useful error",
+      "PASS very large values handled without crash or NaN",
+      "PASS decimal inputs calculate",
+      "PASS no hydration warnings",
+      "PASS no uncaught exceptions"
+    ],
+    "failures": [],
+    "status": 200,
+    "fieldCount": 26,
+    "misassociated": [],
+    "unlabelled": 0,
+    "unitCount": 25,
+    "resultChanged": true,
+    "expected": {
+      "Total estimate": "$2,724.25",
+      "Materials": "$1,524.25",
+      "Labor": "$1,200.00",
+      "Complete": "Yes"
+    },
+    "actualMetrics": [
+      "Total estimate = $2,724.25",
+      "Materials = $1,524.25",
+      "Labor = $1,200.00",
+      "Complete = Yes"
+    ],
+    "mismatches": [],
+    "assumptions": {
+      "list": true,
+      "mentioned": true
+    },
+    "relatedLinks": [
+      "/calculators/fence-calculator",
+      "/calculators/fence-post-calculator",
+      "/calculators/concrete-calculator"
+    ],
+    "relatedStatus": [
+      [
+        "/calculators/fence-calculator",
+        200
+      ],
+      [
+        "/calculators/fence-post-calculator",
+        200
+      ],
+      [
+        "/calculators/concrete-calculator",
+        200
+      ]
+    ],
+    "invalid": {
+      "summary": [
+        "This calculation could not runWaste allowance — wastePercent must be between 0 and 100."
+      ],
+      "highlighted": [
+        "Waste"
+      ],
+      "ariaInvalid": 1
+    },
+    "afterReset": {
+      "hasResultCard": false,
+      "errors": 0,
+      "highlighted": 0
+    },
+    "emptyFields": {
+      "summary": [
+        "This calculation could not runFence height — heightFt must be a valid number."
+      ],
+      "highlighted": [
+        "Fence height"
+      ],
+      "hasResult": false,
+      "bodyHasNaN": false
+    },
+    "huge": {
+      "crashed": false,
+      "hasNaN": false
+    },
+    "decimalMetrics": [
+      "Total estimate=$0.00",
+      "Materials=$0.00",
+      "Labor=$0.00"
+    ],
+    "multiSection": "not-supported",
+    "console": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "hydrationWarnings": [],
+    "faviconNoise": []
+  },
+  "fence-post-calculator": {
+    "slug": "fence-post-calculator",
+    "steps": [
+      "PASS page loads 200",
+      "PASS 6 labelled fields rendered",
+      "PASS Calculate produced 4 metrics",
+      "PASS result panel updated",
+      "PASS result values readable",
+      "PASS rendered metrics match calculation engine",
+      "PASS assumptions visible",
+      "PASS 3 related links resolve 200",
+      "PASS invalid input shows a useful error",
+      "PASS no raw JS errors surfaced",
+      "PASS Reset clears result and errors",
+      "PASS empty fields report a useful error",
+      "PASS very large values handled without crash or NaN",
+      "PASS decimal inputs calculate",
+      "PASS no hydration warnings",
+      "PASS no uncaught exceptions"
+    ],
+    "failures": [],
+    "status": 200,
+    "fieldCount": 6,
+    "misassociated": [],
+    "unlabelled": 0,
+    "unitCount": 6,
+    "resultChanged": true,
+    "expected": {
+      "Total posts": 15,
+      "Line posts": 11,
+      "Gate posts": 2,
+      "Net run": "96 ft"
+    },
+    "actualMetrics": [
+      "Total posts = 15",
+      "Line posts = 11",
+      "Gate posts = 2",
+      "Net run = 96 ft"
+    ],
+    "mismatches": [],
+    "assumptions": {
+      "list": true,
+      "mentioned": true
+    },
+    "relatedLinks": [
+      "/calculators/fence-calculator",
+      "/calculators/fence-cost-calculator",
+      "/calculators/concrete-calculator"
+    ],
+    "relatedStatus": [
+      [
+        "/calculators/fence-calculator",
+        200
+      ],
+      [
+        "/calculators/fence-cost-calculator",
+        200
+      ],
+      [
+        "/calculators/concrete-calculator",
+        200
+      ]
+    ],
+    "invalid": {
+      "summary": [
+        "This calculation could not runFence length — fenceLengthFt must be greater than zero."
+      ],
+      "highlighted": [
+        "Fence length"
+      ],
+      "ariaInvalid": 1
+    },
+    "afterReset": {
+      "hasResultCard": false,
+      "errors": 0,
+      "highlighted": 0
+    },
+    "emptyFields": {
+      "summary": [
+        "This calculation could not runFence length — fenceLengthFt must be a valid number."
+      ],
+      "highlighted": [
+        "Fence length"
+      ],
+      "hasResult": false,
+      "bodyHasNaN": false
+    },
+    "huge": {
+      "crashed": false,
+      "hasNaN": false
+    },
+    "decimalMetrics": [
+      "Total posts=8",
+      "Line posts=4",
+      "Gate posts=2"
+    ],
+    "multiSection": "not-supported",
+    "console": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "hydrationWarnings": [],
+    "faviconNoise": []
+  },
+  "deck-material-calculator": {
+    "slug": "deck-material-calculator",
+    "steps": [
+      "PASS page loads 200",
+      "PASS 23 labelled fields rendered",
+      "PASS Calculate produced 4 metrics",
+      "PASS result panel updated",
+      "PASS result values readable",
+      "PASS rendered metrics match calculation engine",
+      "PASS assumptions visible",
+      "PASS 3 related links resolve 200",
+      "PASS invalid input shows a useful error",
+      "PASS no raw JS errors surfaced",
+      "PASS Reset clears result and errors",
+      "PASS empty fields report a useful error",
+      "PASS very large values handled without crash or NaN",
+      "PASS decimal inputs calculate",
+      "PASS no hydration warnings",
+      "PASS no uncaught exceptions"
+    ],
+    "failures": [],
+    "status": 200,
+    "fieldCount": 23,
+    "misassociated": [],
+    "unlabelled": 0,
+    "unitCount": 22,
+    "resultChanged": true,
+    "expected": {
+      "Decking boards": 48,
+      "Joists": 18,
+      "Fasteners": 1514,
+      "Area": "240 sq ft"
+    },
+    "actualMetrics": [
+      "Decking boards = 48",
+      "Joists = 18",
+      "Fasteners = 1514",
+      "Area = 240 sq ft"
+    ],
+    "mismatches": [],
+    "assumptions": {
+      "list": true,
+      "mentioned": true
+    },
+    "relatedLinks": [
+      "/calculators/concrete-calculator",
+      "/calculators/fence-post-calculator",
+      "/calculators/paver-patio-calculator"
+    ],
+    "relatedStatus": [
+      [
+        "/calculators/concrete-calculator",
+        200
+      ],
+      [
+        "/calculators/fence-post-calculator",
+        200
+      ],
+      [
+        "/calculators/paver-patio-calculator",
+        200
+      ]
+    ],
+    "invalid": {
+      "summary": [
+        "This calculation could not runDeck length — deckLengthFt must be greater than zero."
+      ],
+      "highlighted": [
+        "Deck length"
+      ],
+      "ariaInvalid": 1
+    },
+    "afterReset": {
+      "hasResultCard": false,
+      "errors": 0,
+      "highlighted": 0
+    },
+    "emptyFields": {
+      "summary": [
+        "This calculation could not runDeck length — deckLengthFt must be a valid number."
+      ],
+      "highlighted": [
+        "Deck length"
+      ],
+      "hasResult": false,
+      "bodyHasNaN": false
+    },
+    "huge": {
+      "crashed": false,
+      "hasNaN": false
+    },
+    "decimalMetrics": [
+      "Decking boards=71",
+      "Joists=27",
+      "Fasteners=3380"
+    ],
+    "multiSection": "not-supported",
+    "console": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "hydrationWarnings": [],
+    "faviconNoise": []
+  }
+}

@@ -1,0 +1,251 @@
+{
+  "summary": {
+    "calculatorCount": 16,
+    "uniqueTitles": 16,
+    "uniqueDescriptions": 16,
+    "duplicateParagraphs": 0,
+    "duplicateFaqQuestions": 0,
+    "faqCounts": {
+      "gravel-calculator": 7,
+      "mulch-calculator": 6,
+      "topsoil-calculator": 6,
+      "soil-calculator": 6,
+      "sand-calculator": 6,
+      "pea-gravel-calculator": 6,
+      "landscape-rock-calculator": 6,
+      "paver-base-calculator": 6,
+      "driveway-gravel-calculator": 6,
+      "concrete-calculator": 6,
+      "paver-calculator": 6,
+      "paver-patio-calculator": 6,
+      "fence-calculator": 6,
+      "fence-cost-calculator": 6,
+      "fence-post-calculator": 6,
+      "deck-material-calculator": 6
+    },
+    "introWordCounts": {
+      "gravel-calculator": 134,
+      "mulch-calculator": 151,
+      "topsoil-calculator": 153,
+      "soil-calculator": 155,
+      "sand-calculator": 165,
+      "pea-gravel-calculator": 164,
+      "landscape-rock-calculator": 174,
+      "paver-base-calculator": 166,
+      "driveway-gravel-calculator": 158,
+      "concrete-calculator": 158,
+      "paver-calculator": 159,
+      "paver-patio-calculator": 162,
+      "fence-calculator": 145,
+      "fence-cost-calculator": 152,
+      "fence-post-calculator": 147,
+      "deck-material-calculator": 160
+    },
+    "metaDescriptionLengths": {
+      "gravel-calculator": 148,
+      "mulch-calculator": 146,
+      "topsoil-calculator": 139,
+      "soil-calculator": 145,
+      "sand-calculator": 140,
+      "pea-gravel-calculator": 145,
+      "landscape-rock-calculator": 145,
+      "paver-base-calculator": 149,
+      "driveway-gravel-calculator": 144,
+      "concrete-calculator": 142,
+      "paver-calculator": 146,
+      "paver-patio-calculator": 150,
+      "fence-calculator": 142,
+      "fence-cost-calculator": 148,
+      "fence-post-calculator": 138,
+      "deck-material-calculator": 140
+    },
+    "internalLinks": 99,
+    "errors": 0,
+    "warnings": 0
+  },
+  "duplicateParagraphs": [],
+  "duplicateQuestions": [],
+  "linkReport": [
+    {
+      "slug": "gravel-calculator",
+      "links": [
+        "/projects/how-much-gravel-do-i-need",
+        "/materials/gravel",
+        "/costs/gravel-cost",
+        "/projects/how-to-calculate-landscaping-materials",
+        "/calculators/pea-gravel-calculator",
+        "/calculators/paver-base-calculator",
+        "/calculators/driveway-gravel-calculator",
+        "/calculators/sand-calculator"
+      ]
+    },
+    {
+      "slug": "mulch-calculator",
+      "links": [
+        "/projects/how-to-calculate-mulch",
+        "/materials/mulch",
+        "/costs/mulch-cost",
+        "/projects/outdoor-project-cost-planning",
+        "/calculators/topsoil-calculator",
+        "/calculators/soil-calculator",
+        "/calculators/landscape-rock-calculator"
+      ]
+    },
+    {
+      "slug": "topsoil-calculator",
+      "links": [
+        "/projects/how-much-topsoil-do-i-need",
+        "/materials/topsoil",
+        "/costs/landscaping-project-cost",
+        "/calculators/soil-calculator",
+        "/calculators/mulch-calculator",
+        "/calculators/landscape-rock-calculator"
+      ]
+    },
+    {
+      "slug": "soil-calculator",
+      "links": [
+        "/projects/how-much-topsoil-do-i-need",
+        "/materials/topsoil",
+        "/costs/landscaping-project-cost",
+        "/calculators/topsoil-calculator",
+        "/calculators/mulch-calculator",
+        "/calculators/gravel-calculator"
+      ]
+    },
+    {
+      "slug": "sand-calculator",
+      "links": [
+        "/projects/how-to-calculate-paver-materials",
+        "/materials/sand",
+        "/costs/paver-patio-cost",
+        "/calculators/paver-base-calculator",
+        "/calculators/paver-calculator",
+        "/calculators/paver-patio-calculator"
+      ]
+    },
+    {
+      "slug": "pea-gravel-calculator",
+      "links": [
+        "/projects/how-much-gravel-do-i-need",
+        "/materials/pea-gravel",
+        "/costs/gravel-cost",
+        "/calculators/gravel-calculator",
+        "/calculators/landscape-rock-calculator",
+        "/calculators/paver-base-calculator"
+      ]
+    },
+    {
+      "slug": "landscape-rock-calculator",
+      "links": [
+        "/projects/how-to-calculate-landscaping-materials",
+        "/materials/gravel",
+        "/costs/gravel-cost",
+        "/calculators/gravel-calculator",
+        "/calculators/pea-gravel-calculator",
+        "/calculators/mulch-calculator"
+      ]
+    },
+    {
+      "slug": "paver-base-calculator",
+      "links": [
+        "/projects/how-to-plan-a-paver-patio",
+        "/materials/paver-base",
+        "/costs/paver-patio-cost",
+        "/calculators/paver-calculator",
+        "/calculators/paver-patio-calculator",
+        "/calculators/sand-calculator"
+      ]
+    },
+    {
+      "slug": "driveway-gravel-calculator",
+      "links": [
+        "/projects/how-to-plan-a-gravel-driveway",
+        "/materials/gravel",
+        "/costs/gravel-driveway-cost",
+        "/calculators/gravel-calculator",
+        "/calculators/paver-base-calculator"
+      ]
+    },
+    {
+      "slug": "concrete-calculator",
+      "links": [
+        "/projects/how-to-calculate-concrete-for-a-slab",
+        "/materials/concrete",
+        "/costs/landscaping-project-cost",
+        "/calculators/fence-post-calculator",
+        "/calculators/fence-calculator",
+        "/calculators/deck-material-calculator"
+      ]
+    },
+    {
+      "slug": "paver-calculator",
+      "links": [
+        "/projects/how-to-calculate-paver-materials",
+        "/materials/paver-base",
+        "/costs/paver-patio-cost",
+        "/calculators/paver-patio-calculator",
+        "/calculators/paver-base-calculator",
+        "/calculators/sand-calculator"
+      ]
+    },
+    {
+      "slug": "paver-patio-calculator",
+      "links": [
+        "/projects/how-to-plan-a-paver-patio",
+        "/materials/paver-base",
+        "/costs/paver-patio-cost",
+        "/calculators/paver-calculator",
+        "/calculators/paver-base-calculator",
+        "/calculators/sand-calculator"
+      ]
+    },
+    {
+      "slug": "fence-calculator",
+      "links": [
+        "/projects/how-to-plan-a-fence",
+        "/materials/fence-materials",
+        "/costs/fence-cost",
+        "/projects/how-to-calculate-fence-materials",
+        "/calculators/fence-cost-calculator",
+        "/calculators/fence-post-calculator",
+        "/calculators/concrete-calculator"
+      ]
+    },
+    {
+      "slug": "fence-cost-calculator",
+      "links": [
+        "/projects/how-to-calculate-fence-materials",
+        "/materials/fence-materials",
+        "/costs/fence-cost",
+        "/calculators/fence-calculator",
+        "/calculators/fence-post-calculator",
+        "/calculators/concrete-calculator"
+      ]
+    },
+    {
+      "slug": "fence-post-calculator",
+      "links": [
+        "/projects/how-to-plan-a-fence",
+        "/materials/fence-materials",
+        "/costs/fence-cost",
+        "/calculators/fence-calculator",
+        "/calculators/fence-cost-calculator",
+        "/calculators/concrete-calculator"
+      ]
+    },
+    {
+      "slug": "deck-material-calculator",
+      "links": [
+        "/projects/how-to-estimate-deck-materials",
+        "/materials/decking-materials",
+        "/costs/deck-cost",
+        "/calculators/concrete-calculator",
+        "/calculators/fence-post-calculator",
+        "/calculators/paver-patio-calculator"
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": []
+}

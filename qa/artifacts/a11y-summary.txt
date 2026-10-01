@@ -1,0 +1,84 @@
+﻿--- home ---
+  lang=en h1=1 headingSkips=[]
+  landmarks=header, nav[Main navigation], main, footer
+  controls=0 unnamedControls=0 unnamedButtons=0 unnamedLinks=0
+  contrastChecked=7 baseFailures=0 []
+  consoleErrors=[]
+--- index ---
+  lang=en h1=1 headingSkips=[]
+  landmarks=header, nav[Main navigation], main, nav[Breadcrumb], footer
+  controls=0 unnamedControls=0 unnamedButtons=0 unnamedLinks=0
+  contrastChecked=7 baseFailures=0 []
+  consoleErrors=[]
+--- gravel ---
+  lang=en h1=1 headingSkips=[]
+  landmarks=header, nav[Main navigation], main, nav[Breadcrumb], footer
+  controls=9 unnamedControls=0 unnamedButtons=0 unnamedLinks=0
+  contrastChecked=12 baseFailures=0 []
+  resultCardFailures=0 []
+  tabStops=41 reachCalculate=true reachReset=true noIndicator=[] notFocusVisible=
+  errorAnnouncement=["alert:This calculation could not runArea 1 — Length — areas[0].length must b"]
+  resultLive={"resultRendered":true,"liveRegionsInsideResult":["polite"]}
+  consoleErrors=[]
+--- fence ---
+  lang=en h1=1 headingSkips=[]
+  landmarks=header, nav[Main navigation], main, nav[Breadcrumb], footer
+  controls=16 unnamedControls=0 unnamedButtons=0 unnamedLinks=0
+  contrastChecked=11 baseFailures=0 []
+  resultCardFailures=0 []
+  tabStops=41 reachCalculate=true reachReset=true noIndicator=[] notFocusVisible=
+  errorAnnouncement=["alert:This calculation could not runFence length — fenceLengthFt must be gre"]
+  resultLive={"resultRendered":true,"liveRegionsInsideResult":["polite","alert","alert","alert","alert"]}
+  consoleErrors=[]
+--- paver ---
+  lang=en h1=1 headingSkips=[]
+  landmarks=header, nav[Main navigation], main, nav[Breadcrumb], footer
+  controls=14 unnamedControls=0 unnamedButtons=0 unnamedLinks=0
+  contrastChecked=11 baseFailures=0 []
+  resultCardFailures=0 []
+  tabStops=41 reachCalculate=true reachReset=true noIndicator=[] notFocusVisible=
+  errorAnnouncement=["alert:This calculation could not runArea 1 — Length — areas[0].length must b"]
+  resultLive={"resultRendered":true,"liveRegionsInsideResult":["polite"]}
+  consoleErrors=[]
+--- concrete ---
+  lang=en h1=1 headingSkips=[]
+  landmarks=header, nav[Main navigation], main, nav[Breadcrumb], footer
+  controls=7 unnamedControls=0 unnamedButtons=0 unnamedLinks=0
+  contrastChecked=12 baseFailures=0 []
+  resultCardFailures=0 []
+  tabStops=41 reachCalculate=true reachReset=true noIndicator=[] notFocusVisible=
+  errorAnnouncement=["alert:This calculation could not runSection 1 — Length — parts[0].lengthFt m"]
+  resultLive={"resultRendered":true,"liveRegionsInsideResult":["polite"]}
+  consoleErrors=[]
+--- deck ---
+  lang=en h1=1 headingSkips=[]
+  landmarks=header, nav[Main navigation], main, nav[Breadcrumb], footer
+  controls=23 unnamedControls=0 unnamedButtons=0 unnamedLinks=0
+  contrastChecked=11 baseFailures=0 []
+  resultCardFailures=0 []
+  tabStops=42 reachCalculate=true reachReset=true noIndicator=[] notFocusVisible=
+  errorAnnouncement=["alert:This calculation could not runDeck length — deckLengthFt must be great"]
+  resultLive={"resultRendered":true,"liveRegionsInsideResult":["polite","alert","alert","alert"]}
+  consoleErrors=[]
+--- paver-base ---
+  lang=en h1=1 headingSkips=[]
+  landmarks=header, nav[Main navigation], main, nav[Breadcrumb], footer
+  controls=9 unnamedControls=0 unnamedButtons=0 unnamedLinks=0
+  contrastChecked=11 baseFailures=0 []
+  resultCardFailures=0 []
+  tabStops=41 reachCalculate=true reachReset=true noIndicator=[] notFocusVisible=
+  errorAnnouncement=["alert:This calculation could not runArea 1 — Length — areas[0].length must b"]
+  resultLive={"resultRendered":true,"liveRegionsInsideResult":["polite"]}
+  consoleErrors=[]
+--- projects ---
+  lang=en h1=1 headingSkips=[]
+  landmarks=header, nav[Main navigation], main, nav[Breadcrumb], footer
+  controls=4 unnamedControls=0 unnamedButtons=0 unnamedLinks=0
+  contrastChecked=11 baseFailures=0 []
+  consoleErrors=[]
+--- print ---
+  lang=en h1=1 headingSkips=[]
+  landmarks=header, nav[Main navigation], main, footer
+  controls=0 unnamedControls=0 unnamedButtons=0 unnamedLinks=0
+  contrastChecked=6 baseFailures=0 []
+  consoleErrors=[]

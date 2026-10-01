@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 64" width="300" height="64" role="img" aria-label="MeasureToBuild — Measure. Calculate. Plan.">
+  <title>MeasureToBuild — Measure. Calculate. Plan.</title>
+  <defs>
+    <clipPath id="mtb-tile">
+      <rect width="32" height="32" rx="7"/>
+    </clipPath>
+  </defs>
+  <g transform="translate(2,10) scale(1.375)">
+    <rect width="32" height="32" rx="7" fill="#23623d"/>
+    <g clip-path="url(#mtb-tile)" stroke="#1b5434" stroke-width="1">
+      <path d="M8 0v32M16 0v32M24 0v32M0 8h32M0 16h32M0 24h32"/>
+    </g>
+    <path d="M6.5 22.5 L6.5 6 L10.5 6 L16 13.2 L21.5 6 L25.5 6 L25.5 22.5 L21.5 22.5 L21.5 13.4 L16 20.6 L10.5 13.4 L10.5 22.5 Z" fill="#ffffff"/>
+    <g fill="#ffffff">
+      <rect x="7.3" y="23.2" width="1.4" height="1.4" rx="0.5"/>
+      <rect x="15.3" y="23.2" width="1.4" height="1.4" rx="0.5"/>
+      <rect x="23.3" y="23.2" width="1.4" height="1.4" rx="0.5"/>
+      <rect x="6.5" y="25.2" width="19" height="1.8" rx="0.9"/>
+    </g>
+  </g>
+  <text x="58" y="31" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="24" font-weight="700" fill="#172019">MeasureToBuild</text>
+  <text x="59" y="49" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" letter-spacing="1.4" fill="#5f6a61">Measure. Calculate. Plan.</text>
+</svg>

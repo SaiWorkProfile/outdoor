@@ -1,0 +1,1523 @@
+{
+  "home": {
+    "base": {
+      "lang": "en",
+      "landmarks": [
+        "header",
+        "nav[Main navigation]",
+        "main",
+        "footer"
+      ],
+      "h1Count": 1,
+      "headingSkips": [],
+      "controls": [
+        {
+          "tag": "select",
+          "type": null,
+          "id": "currency-select",
+          "name": "Display currency (currently US",
+          "source": "aria-label",
+          "ok": true
+        }
+      ],
+      "unnamedControls": 0,
+      "unnamedButtons": 0,
+      "unnamedLinks": 0,
+      "buttonCount": 0,
+      "linkCount": 69,
+      "liveRegions": []
+    },
+    "contrast": {
+      "checked": 7,
+      "failures": [],
+      "warnings": [
+        {
+          "sel": ".site-footer a",
+          "ratio": 4.96,
+          "size": 13,
+          "large": false,
+          "pass": true,
+          "color": "rgb(95, 106, 97)",
+          "bg": "rgb(238, 241, 237)"
+        },
+        {
+          "sel": ".site-footer p",
+          "ratio": 4.96,
+          "size": 13,
+          "large": false,
+          "pass": true,
+          "color": "rgb(95, 106, 97)",
+          "bg": "rgb(238, 241, 237)"
+        }
+      ]
+    },
+    "consoleErrors": []
+  },
+  "index": {
+    "base": {
+      "lang": "en",
+      "landmarks": [
+        "header",
+        "nav[Main navigation]",
+        "main",
+        "nav[Breadcrumb]",
+        "footer"
+      ],
+      "h1Count": 1,
+      "headingSkips": [],
+      "controls": [
+        {
+          "tag": "select",
+          "type": null,
+          "id": "currency-select",
+          "name": "Display currency (currently US",
+          "source": "aria-label",
+          "ok": true
+        }
+      ],
+      "unnamedControls": 0,
+      "unnamedButtons": 0,
+      "unnamedLinks": 0,
+      "buttonCount": 0,
+      "linkCount": 50,
+      "liveRegions": []
+    },
+    "contrast": {
+      "checked": 8,
+      "failures": [],
+      "warnings": [
+        {
+          "sel": ".site-footer a",
+          "ratio": 4.96,
+          "size": 13,
+          "large": false,
+          "pass": true,
+          "color": "rgb(95, 106, 97)",
+          "bg": "rgb(238, 241, 237)"
+        },
+        {
+          "sel": ".site-footer p",
+          "ratio": 4.96,
+          "size": 13,
+          "large": false,
+          "pass": true,
+          "color": "rgb(95, 106, 97)",
+          "bg": "rgb(238, 241, 237)"
+        }
+      ]
+    },
+    "consoleErrors": []
+  },
+  "gravel": {
+    "base": {
+      "lang": "en",
+      "landmarks": [
+        "header",
+        "nav[Main navigation]",
+        "main",
+        "nav[Breadcrumb]",
+        "footer"
+      ],
+      "h1Count": 1,
+      "headingSkips": [],
+      "controls": [
+        {
+          "tag": "select",
+          "type": null,
+          "id": "currency-select",
+          "name": "Display currency (currently US",
+          "source": "aria-label",
+          "ok": true
+        },
+        {
+          "tag": "select",
+          "type": null,
+          "id": "shape-0",
+          "name": "Shape",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "shape-length-0",
+          "name": "Length",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "shape-width-0",
+          "name": "Width",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "depth",
+          "name": "Depth",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "select",
+          "type": null,
+          "id": "useCase",
+          "name": "Use case",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "waste",
+          "name": "Waste allowance",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "density",
+          "name": "Supplier density",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_b1quav5ubtb_",
+          "name": "Price per cubic yard",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "truck",
+          "name": "Truck capacity",
+          "source": "label[for]",
+          "ok": true
+        }
+      ],
+      "unnamedControls": 0,
+      "unnamedButtons": 0,
+      "unnamedLinks": 0,
+      "buttonCount": 3,
+      "linkCount": 38,
+      "liveRegions": [
+        "div[alert]",
+        "div[polite]"
+      ]
+    },
+    "contrast": {
+      "checked": 12,
+      "failures": [],
+      "warnings": [
+        {
+          "sel": ".chip",
+          "ratio": 4.98,
+          "size": 11,
+          "large": false,
+          "pass": true,
+          "color": "rgb(95, 106, 97)",
+          "bg": "rgb(238, 242, 236)"
+        },
+        {
+          "sel": ".site-footer a",
+          "ratio": 4.96,
+          "size": 13,
+          "large": false,
+          "pass": true,
+          "color": "rgb(95, 106, 97)",
+          "bg": "rgb(238, 241, 237)"
+        },
+        {
+          "sel": ".site-footer p",
+          "ratio": 4.96,
+          "size": 13,
+          "large": false,
+          "pass": true,
+          "color": "rgb(95, 106, 97)",
+          "bg": "rgb(238, 241, 237)"
+        }
+      ]
+    },
+    "tabStops": 42,
+    "focusNoIndicator": [],
+    "notFocusVisible": [],
+    "reachedCalculate": true,
+    "reachedReset": true,
+    "focusOrderFirst": [
+      "a:MeasureToBuildMeasure. Calcula",
+      "a:Calculators",
+      "a:Projects",
+      "a:Guides",
+      "a:How It Works",
+      "a:Methodology",
+      "a:About",
+      "select:Display currency (currently US",
+      "a:Project",
+      "a:Home"
+    ],
+    "errorAnnouncement": [
+      {
+        "role": "alert",
+        "text": "This calculation could not runArea 1 — Length — areas[0].length must be greater ",
+        "visible": true
+      },
+      {
+        "role": "alert",
+        "text": "Planning estimateMaterial densities, product yields, local conditions, installat",
+        "visible": true
+      },
+      {
+        "role": "polite",
+        "text": "Your estimate will appear hereEnter your dimensions, then calculate. Results sta",
+        "visible": true
+      }
+    ],
+    "contrastResultCard": {
+      "checked": 6,
+      "failures": [],
+      "warnings": []
+    },
+    "resultAnnouncement": {
+      "resultRendered": true,
+      "liveRegionsInsideResult": [
+        "polite"
+      ]
+    },
+    "consoleErrors": []
+  },
+  "fence": {
+    "base": {
+      "lang": "en",
+      "landmarks": [
+        "header",
+        "nav[Main navigation]",
+        "main",
+        "nav[Breadcrumb]",
+        "footer"
+      ],
+      "h1Count": 1,
+      "headingSkips": [],
+      "controls": [
+        {
+          "tag": "select",
+          "type": null,
+          "id": "currency-select",
+          "name": "Display currency (currently US",
+          "source": "aria-label",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_2mquav5ubtb_",
+          "name": "Fence length",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_4mquav5ubtb_",
+          "name": "Post spacing",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_6mquav5ubtb_",
+          "name": "Corners",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_8mquav5ubtb_",
+          "name": "Ends",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_amquav5ubtb_",
+          "name": "Gate count",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_cmquav5ubtb_",
+          "name": "Gate width",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "select",
+          "type": null,
+          "id": "_R_36quav5ubtb_",
+          "name": "Fence type",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_56quav5ubtb_",
+          "name": "Fence height",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_76quav5ubtb_",
+          "name": "Waste",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_96quav5ubtb_",
+          "name": "Picket width",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_b6quav5ubtb_",
+          "name": "Picket spacing",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_d6quav5ubtb_",
+          "name": "Panel width",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_f6quav5ubtb_",
+          "name": "Rails / section",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_h6quav5ubtb_",
+          "name": "Rail stock length",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_j6quav5ubtb_",
+          "name": "Post-hole diameter",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_l6quav5ubtb_",
+          "name": "Post-hole depth",
+          "source": "label[for]",
+          "ok": true
+        }
+      ],
+      "unnamedControls": 0,
+      "unnamedButtons": 0,
+      "unnamedLinks": 0,
+      "buttonCount": 2,
+      "linkCount": 37,
+      "liveRegions": [
+        "div[alert]",
+        "div[polite]"
+      ]
+    },
+    "contrast": {
+      "checked": 11,
+      "failures": [],
+      "warnings": [
+        {
+          "sel": ".chip",
+          "ratio": 4.98,
+          "size": 11,
+          "large": false,
+          "pass": true,
+          "color": "rgb(95, 106, 97)",
+          "bg": "rgb(238, 242, 236)"
+        },
+        {
+          "sel": ".site-footer a",
+          "ratio": 4.96,
+          "size": 13,
+          "large": false,
+          "pass": true,
+          "color": "rgb(95, 106, 97)",
+          "bg": "rgb(238, 241, 237)"
+        },
+        {
+          "sel": ".site-footer p",
+          "ratio": 4.96,
+          "size": 13,
+          "large": false,
+          "pass": true,
+          "color": "rgb(95, 106, 97)",
+          "bg": "rgb(238, 241, 237)"
+        }
+      ]
+    },
+    "tabStops": 42,
+    "focusNoIndicator": [],
+    "notFocusVisible": [],
+    "reachedCalculate": true,
+    "reachedReset": true,
+    "focusOrderFirst": [
+      "a:MeasureToBuildMeasure. Calcula",
+      "a:Calculators",
+      "a:Projects",
+      "a:Guides",
+      "a:How It Works",
+      "a:Methodology",
+      "a:About",
+      "select:Display currency (currently US",
+      "a:Project",
+      "a:Home"
+    ],
+    "errorAnnouncement": [
+      {
+        "role": "alert",
+        "text": "This calculation could not runFence length — fenceLengthFt must be greater than ",
+        "visible": true
+      },
+      {
+        "role": "alert",
+        "text": "Planning estimateMaterial densities, product yields, local conditions, installat",
+        "visible": true
+      },
+      {
+        "role": "polite",
+        "text": "Your estimate will appear hereEnter your dimensions, then calculate. Results sta",
+        "visible": true
+      }
+    ],
+    "contrastResultCard": {
+      "checked": 8,
+      "failures": [],
+      "warnings": []
+    },
+    "resultAnnouncement": {
+      "resultRendered": true,
+      "liveRegionsInsideResult": [
+        "polite",
+        "alert",
+        "alert",
+        "alert",
+        "alert"
+      ]
+    },
+    "consoleErrors": []
+  },
+  "paver": {
+    "base": {
+      "lang": "en",
+      "landmarks": [
+        "header",
+        "nav[Main navigation]",
+        "main",
+        "nav[Breadcrumb]",
+        "footer"
+      ],
+      "h1Count": 1,
+      "headingSkips": [],
+      "controls": [
+        {
+          "tag": "select",
+          "type": null,
+          "id": "currency-select",
+          "name": "Display currency (currently US",
+          "source": "aria-label",
+          "ok": true
+        },
+        {
+          "tag": "select",
+          "type": null,
+          "id": "shape-0",
+          "name": "Shape",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "shape-length-0",
+          "name": "Length",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "shape-width-0",
+          "name": "Width",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_b3quav5ubtb_",
+          "name": "Paver length",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_j3quav5ubtb_",
+          "name": "Paver width",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_r3quav5ubtb_",
+          "name": "Joint width",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_133quav5ubtb_",
+          "name": "Base depth",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_1b3quav5ubtb_",
+          "name": "Bedding sand depth",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_1j3quav5ubtb_",
+          "name": "Waste",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_1r3quav5ubtb_",
+          "name": "Edge length",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_233quav5ubtb_",
+          "name": "Paver price / piece",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_2b3quav5ubtb_",
+          "name": "Base / cubic yard",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_2j3quav5ubtb_",
+          "name": "Bedding sand / cubic yard",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_2r3quav5ubtb_",
+          "name": "Edging / linear ft",
+          "source": "label[for]",
+          "ok": true
+        }
+      ],
+      "unnamedControls": 0,
+      "unnamedButtons": 0,
+      "unnamedLinks": 0,
+      "buttonCount": 3,
+      "linkCount": 36,
+      "liveRegions": [
+        "div[alert]",
+        "div[polite]"
+      ]
+    },
+    "contrast": {
+      "checked": 11,
+      "failures": [],
+      "warnings": [
+        {
+          "sel": ".chip",
+          "ratio": 4.98,
+          "size": 11,
+          "large": false,
+          "pass": true,
+          "color": "rgb(95, 106, 97)",
+          "bg": "rgb(238, 242, 236)"
+        },
+        {
+          "sel": ".site-footer a",
+          "ratio": 4.96,
+          "size": 13,
+          "large": false,
+          "pass": true,
+          "color": "rgb(95, 106, 97)",
+          "bg": "rgb(238, 241, 237)"
+        },
+        {
+          "sel": ".site-footer p",
+          "ratio": 4.96,
+          "size": 13,
+          "large": false,
+          "pass": true,
+          "color": "rgb(95, 106, 97)",
+          "bg": "rgb(238, 241, 237)"
+        }
+      ]
+    },
+    "tabStops": 42,
+    "focusNoIndicator": [],
+    "notFocusVisible": [],
+    "reachedCalculate": true,
+    "reachedReset": true,
+    "focusOrderFirst": [
+      "a:MeasureToBuildMeasure. Calcula",
+      "a:Calculators",
+      "a:Projects",
+      "a:Guides",
+      "a:How It Works",
+      "a:Methodology",
+      "a:About",
+      "select:Display currency (currently US",
+      "a:Project",
+      "a:Home"
+    ],
+    "errorAnnouncement": [
+      {
+        "role": "alert",
+        "text": "This calculation could not runArea 1 — Length — areas[0].length must be greater ",
+        "visible": true
+      },
+      {
+        "role": "alert",
+        "text": "Planning estimateMaterial densities, product yields, local conditions, installat",
+        "visible": true
+      },
+      {
+        "role": "polite",
+        "text": "Your estimate will appear hereEnter your dimensions, then calculate. Results sta",
+        "visible": true
+      }
+    ],
+    "contrastResultCard": {
+      "checked": 6,
+      "failures": [],
+      "warnings": []
+    },
+    "resultAnnouncement": {
+      "resultRendered": true,
+      "liveRegionsInsideResult": [
+        "polite"
+      ]
+    },
+    "consoleErrors": []
+  },
+  "concrete": {
+    "base": {
+      "lang": "en",
+      "landmarks": [
+        "header",
+        "nav[Main navigation]",
+        "main",
+        "nav[Breadcrumb]",
+        "footer"
+      ],
+      "h1Count": 1,
+      "headingSkips": [],
+      "controls": [
+        {
+          "tag": "select",
+          "type": null,
+          "id": "currency-select",
+          "name": "Display currency (currently US",
+          "source": "aria-label",
+          "ok": true
+        },
+        {
+          "tag": "select",
+          "type": null,
+          "id": "_R_3clquav5ubtb_",
+          "name": "Type",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "_R_5clquav5ubtb_",
+          "name": "Label",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_nclquav5ubtb_",
+          "name": "Length",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_17clquav5ubtb_",
+          "name": "Width",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_1nclquav5ubtb_",
+          "name": "Thickness",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_35quav5ubtb_",
+          "name": "Waste",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_55quav5ubtb_",
+          "name": "Concrete density",
+          "source": "label[for]",
+          "ok": true
+        }
+      ],
+      "unnamedControls": 0,
+      "unnamedButtons": 0,
+      "unnamedLinks": 0,
+      "buttonCount": 4,
+      "linkCount": 36,
+      "liveRegions": [
+        "div[alert]",
+        "div[polite]"
+      ]
+    },
+    "contrast": {
+      "checked": 12,
+      "failures": [],
+      "warnings": [
+        {
+          "sel": ".chip",
+          "ratio": 4.98,
+          "size": 11,
+          "large": false,
+          "pass": true,
+          "color": "rgb(95, 106, 97)",
+          "bg": "rgb(238, 242, 236)"
+        },
+        {
+          "sel": ".site-footer a",
+          "ratio": 4.96,
+          "size": 13,
+          "large": false,
+          "pass": true,
+          "color": "rgb(95, 106, 97)",
+          "bg": "rgb(238, 241, 237)"
+        },
+        {
+          "sel": ".site-footer p",
+          "ratio": 4.96,
+          "size": 13,
+          "large": false,
+          "pass": true,
+          "color": "rgb(95, 106, 97)",
+          "bg": "rgb(238, 241, 237)"
+        }
+      ]
+    },
+    "tabStops": 42,
+    "focusNoIndicator": [],
+    "notFocusVisible": [],
+    "reachedCalculate": true,
+    "reachedReset": true,
+    "focusOrderFirst": [
+      "a:MeasureToBuildMeasure. Calcula",
+      "a:Calculators",
+      "a:Projects",
+      "a:Guides",
+      "a:How It Works",
+      "a:Methodology",
+      "a:About",
+      "select:Display currency (currently US",
+      "a:Project",
+      "a:Home"
+    ],
+    "errorAnnouncement": [
+      {
+        "role": "alert",
+        "text": "This calculation could not runSection 1 — Length — parts[0].lengthFt must be gre",
+        "visible": true
+      },
+      {
+        "role": "alert",
+        "text": "Planning estimateMaterial densities, product yields, local conditions, installat",
+        "visible": true
+      },
+      {
+        "role": "polite",
+        "text": "Your estimate will appear hereEnter your dimensions, then calculate. Results sta",
+        "visible": true
+      }
+    ],
+    "contrastResultCard": {
+      "checked": 5,
+      "failures": [],
+      "warnings": []
+    },
+    "resultAnnouncement": {
+      "resultRendered": true,
+      "liveRegionsInsideResult": [
+        "polite"
+      ]
+    },
+    "consoleErrors": []
+  },
+  "deck": {
+    "base": {
+      "lang": "en",
+      "landmarks": [
+        "header",
+        "nav[Main navigation]",
+        "main",
+        "nav[Breadcrumb]",
+        "footer"
+      ],
+      "h1Count": 1,
+      "headingSkips": [],
+      "controls": [
+        {
+          "tag": "select",
+          "type": null,
+          "id": "currency-select",
+          "name": "Display currency (currently US",
+          "source": "aria-label",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_2oquav5ubtb_",
+          "name": "Deck length",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_4oquav5ubtb_",
+          "name": "Deck width",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_6oquav5ubtb_",
+          "name": "Waste",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_8oquav5ubtb_",
+          "name": "Board width",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_aoquav5ubtb_",
+          "name": "Board stock length",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_coquav5ubtb_",
+          "name": "Board gap",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "select",
+          "type": null,
+          "id": "_R_eoquav5ubtb_",
+          "name": "Board run",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_goquav5ubtb_",
+          "name": "Joist spacing",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_ioquav5ubtb_",
+          "name": "Joist width",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_koquav5ubtb_",
+          "name": "Joist depth",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_moquav5ubtb_",
+          "name": "Joist stock length",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_ooquav5ubtb_",
+          "name": "Fasteners / board / joist",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_qoquav5ubtb_",
+          "name": "Beam count",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_soquav5ubtb_",
+          "name": "Beam length",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_uoquav5ubtb_",
+          "name": "Beam stock length",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_10oquav5ubtb_",
+          "name": "Post count",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_12oquav5ubtb_",
+          "name": "Post height",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_d8quav5ubtb_",
+          "name": "Decking / board",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_l8quav5ubtb_",
+          "name": "Joist / piece",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_t8quav5ubtb_",
+          "name": "Beam / piece",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_158quav5ubtb_",
+          "name": "Post / each",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_1d8quav5ubtb_",
+          "name": "Fastener / each",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_1l8quav5ubtb_",
+          "name": "Rim joist / linear ft",
+          "source": "label[for]",
+          "ok": true
+        }
+      ],
+      "unnamedControls": 0,
+      "unnamedButtons": 0,
+      "unnamedLinks": 0,
+      "buttonCount": 2,
+      "linkCount": 36,
+      "liveRegions": [
+        "div[alert]",
+        "div[polite]"
+      ]
+    },
+    "contrast": {
+      "checked": 11,
+      "failures": [],
+      "warnings": [
+        {
+          "sel": ".chip",
+          "ratio": 4.98,
+          "size": 11,
+          "large": false,
+          "pass": true,
+          "color": "rgb(95, 106, 97)",
+          "bg": "rgb(238, 242, 236)"
+        },
+        {
+          "sel": ".site-footer a",
+          "ratio": 4.96,
+          "size": 13,
+          "large": false,
+          "pass": true,
+          "color": "rgb(95, 106, 97)",
+          "bg": "rgb(238, 241, 237)"
+        },
+        {
+          "sel": ".site-footer p",
+          "ratio": 4.96,
+          "size": 13,
+          "large": false,
+          "pass": true,
+          "color": "rgb(95, 106, 97)",
+          "bg": "rgb(238, 241, 237)"
+        }
+      ]
+    },
+    "tabStops": 42,
+    "focusNoIndicator": [],
+    "notFocusVisible": [],
+    "reachedCalculate": true,
+    "reachedReset": true,
+    "focusOrderFirst": [
+      "a:MeasureToBuildMeasure. Calcula",
+      "a:Calculators",
+      "a:Projects",
+      "a:Guides",
+      "a:How It Works",
+      "a:Methodology",
+      "a:About",
+      "select:Display currency (currently US",
+      "a:Project",
+      "a:Home"
+    ],
+    "errorAnnouncement": [
+      {
+        "role": "alert",
+        "text": "This calculation could not runDeck length — deckLengthFt must be greater than ze",
+        "visible": true
+      },
+      {
+        "role": "alert",
+        "text": "Planning estimateMaterial densities, product yields, local conditions, installat",
+        "visible": true
+      },
+      {
+        "role": "polite",
+        "text": "Your estimate will appear hereEnter your dimensions, then calculate. Results sta",
+        "visible": true
+      }
+    ],
+    "contrastResultCard": {
+      "checked": 7,
+      "failures": [],
+      "warnings": []
+    },
+    "resultAnnouncement": {
+      "resultRendered": true,
+      "liveRegionsInsideResult": [
+        "polite",
+        "alert",
+        "alert",
+        "alert"
+      ]
+    },
+    "consoleErrors": []
+  },
+  "paver-base": {
+    "base": {
+      "lang": "en",
+      "landmarks": [
+        "header",
+        "nav[Main navigation]",
+        "main",
+        "nav[Breadcrumb]",
+        "footer"
+      ],
+      "h1Count": 1,
+      "headingSkips": [],
+      "controls": [
+        {
+          "tag": "select",
+          "type": null,
+          "id": "currency-select",
+          "name": "Display currency (currently US",
+          "source": "aria-label",
+          "ok": true
+        },
+        {
+          "tag": "select",
+          "type": null,
+          "id": "shape-0",
+          "name": "Shape",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "shape-length-0",
+          "name": "Length",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "shape-width-0",
+          "name": "Width",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_32quav5ubtb_",
+          "name": "Base depth",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "select",
+          "type": null,
+          "id": "_R_52quav5ubtb_",
+          "name": "Use case",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_72quav5ubtb_",
+          "name": "Waste",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_92quav5ubtb_",
+          "name": "Supplier density",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_b2quav5ubtb_",
+          "name": "Compaction",
+          "source": "label[for]",
+          "ok": true
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "id": "_R_d2quav5ubtb_",
+          "name": "Price per cubic yard",
+          "source": "label[for]",
+          "ok": true
+        }
+      ],
+      "unnamedControls": 0,
+      "unnamedButtons": 0,
+      "unnamedLinks": 0,
+      "buttonCount": 3,
+      "linkCount": 36,
+      "liveRegions": [
+        "div[alert]",
+        "div[polite]"
+      ]
+    },
+    "contrast": {
+      "checked": 11,
+      "failures": [],
+      "warnings": [
+        {
+          "sel": ".chip",
+          "ratio": 4.98,
+          "size": 11,
+          "large": false,
+          "pass": true,
+          "color": "rgb(95, 106, 97)",
+          "bg": "rgb(238, 242, 236)"
+        },
+        {
+          "sel": ".site-footer a",
+          "ratio": 4.96,
+          "size": 13,
+          "large": false,
+          "pass": true,
+          "color": "rgb(95, 106, 97)",
+          "bg": "rgb(238, 241, 237)"
+        },
+        {
+          "sel": ".site-footer p",
+          "ratio": 4.96,
+          "size": 13,
+          "large": false,
+          "pass": true,
+          "color": "rgb(95, 106, 97)",
+          "bg": "rgb(238, 241, 237)"
+        }
+      ]
+    },
+    "tabStops": 42,
+    "focusNoIndicator": [],
+    "notFocusVisible": [],
+    "reachedCalculate": true,
+    "reachedReset": true,
+    "focusOrderFirst": [
+      "a:MeasureToBuildMeasure. Calcula",
+      "a:Calculators",
+      "a:Projects",
+      "a:Guides",
+      "a:How It Works",
+      "a:Methodology",
+      "a:About",
+      "select:Display currency (currently US",
+      "a:Project",
+      "a:Home"
+    ],
+    "errorAnnouncement": [
+      {
+        "role": "alert",
+        "text": "This calculation could not runArea 1 — Length — areas[0].length must be greater ",
+        "visible": true
+      },
+      {
+        "role": "alert",
+        "text": "Planning estimateMaterial densities, product yields, local conditions, installat",
+        "visible": true
+      },
+      {
+        "role": "polite",
+        "text": "Your estimate will appear hereEnter your dimensions, then calculate. Results sta",
+        "visible": true
+      }
+    ],
+    "contrastResultCard": {
+      "checked": 6,
+      "failures": [],
+      "warnings": []
+    },
+    "resultAnnouncement": {
+      "resultRendered": true,
+      "liveRegionsInsideResult": [
+        "polite"
+      ]
+    },
+    "consoleErrors": []
+  },
+  "projects": {
+    "base": {
+      "lang": "en",
+      "landmarks": [
+        "header",
+        "nav[Main navigation]",
+        "main",
+        "nav[Breadcrumb]",
+        "footer"
+      ],
+      "h1Count": 1,
+      "headingSkips": [],
+      "controls": [
+        {
+          "tag": "select",
+          "type": null,
+          "id": "currency-select",
+          "name": "Display currency (currently US",
+          "source": "aria-label",
+          "ok": true
+        }
+      ],
+      "unnamedControls": 0,
+      "unnamedButtons": 0,
+      "unnamedLinks": 0,
+      "buttonCount": 3,
+      "linkCount": 32,
+      "liveRegions": []
+    },
+    "contrast": {
+      "checked": 7,
+      "failures": [],
+      "warnings": [
+        {
+          "sel": ".site-footer a",
+          "ratio": 4.96,
+          "size": 13,
+          "large": false,
+          "pass": true,
+          "color": "rgb(95, 106, 97)",
+          "bg": "rgb(238, 241, 237)"
+        },
+        {
+          "sel": ".site-footer p",
+          "ratio": 4.96,
+          "size": 13,
+          "large": false,
+          "pass": true,
+          "color": "rgb(95, 106, 97)",
+          "bg": "rgb(238, 241, 237)"
+        }
+      ]
+    },
+    "consoleErrors": []
+  },
+  "print": {
+    "base": {
+      "lang": "en",
+      "landmarks": [
+        "header",
+        "nav[Main navigation]",
+        "main",
+        "footer"
+      ],
+      "h1Count": 1,
+      "headingSkips": [],
+      "controls": [
+        {
+          "tag": "select",
+          "type": null,
+          "id": "currency-select",
+          "name": "Display currency (currently US",
+          "source": "aria-label",
+          "ok": true
+        }
+      ],
+      "unnamedControls": 0,
+      "unnamedButtons": 0,
+      "unnamedLinks": 0,
+      "buttonCount": 0,
+      "linkCount": 32,
+      "liveRegions": []
+    },
+    "contrast": {
+      "checked": 6,
+      "failures": [],
+      "warnings": [
+        {
+          "sel": ".site-footer a",
+          "ratio": 4.96,
+          "size": 13,
+          "large": false,
+          "pass": true,
+          "color": "rgb(95, 106, 97)",
+          "bg": "rgb(238, 241, 237)"
+        },
+        {
+          "sel": ".site-footer p",
+          "ratio": 4.96,
+          "size": 13,
+          "large": false,
+          "pass": true,
+          "color": "rgb(95, 106, 97)",
+          "bg": "rgb(238, 241, 237)"
+        }
+      ]
+    },
+    "consoleErrors": []
+  }
+}
