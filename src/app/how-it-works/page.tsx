@@ -40,6 +40,7 @@ export default function HowItWorksPage() {
           The calculator interface is presentation. The calculation engine is a separate, typed, tested source of
           truth — and everything the site shows, from results to guides to Project Mode, comes from that one place.
         </p>
+        <p className="page-updated">Last updated: October 1, 2026</p>
       </header>
 
       <div className="content-page-grid">

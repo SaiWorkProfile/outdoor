@@ -35,6 +35,11 @@ const CLUSTERS: Array<{ id: Cluster; title: string; blurb: string }> = [
 ];
 
 export default function GuidesPage() {
+  const guideCount = Object.values(CONTENT_BY_CLUSTER).reduce(
+    (total, pages) => total + pages.length,
+    0,
+  );
+
   return (
     <div className="container section">
       <Breadcrumbs items={[{ label: 'Guides' }]} />
@@ -42,10 +47,11 @@ export default function GuidesPage() {
         <div className="eyebrow">Guide library</div>
         <h1>Outdoor project guides</h1>
         <p>
-          Twenty-eight guides in three groups: how to run a project, what the materials are, and what changes the
-          price. Every worked figure in them is produced by the same engine the calculators use, so the examples and
-          the calculators can never disagree.
+          {guideCount} guides in three groups: how to run a project, what the materials are, and what changes the
+          price. Every worked figure in them is produced by the same engine the calculators use, which helps keep
+          the examples and calculator results consistent.
         </p>
+        <p className="page-updated">Last updated: October 1, 2026</p>
       </div>
 
       {CLUSTERS.map((cluster) => (

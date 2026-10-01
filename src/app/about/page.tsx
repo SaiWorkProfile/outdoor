@@ -72,9 +72,10 @@ export default function AboutPage() {
               a missing price stays missing.
             </p>
             <p>
-              There is no advertising and there are no accounts. The only third-party service is Google
-              Analytics, which measures anonymous, aggregate traffic; the{' '}
-              <Link href="/privacy">privacy page</Link> documents exactly what it collects.
+              There are no accounts, and advertising is not currently served on this site. The only third-party
+              service currently used for site measurement is Google Analytics. It helps us understand how the site
+              is used, including information such as pages viewed, approximate location, and device information. The{' '}
+              <Link href="/privacy">privacy page</Link> explains what is collected and how it is handled.
             </p>
             <p>
               There is no manufactured authority either — no fake bylines, no review counts, no star ratings. The

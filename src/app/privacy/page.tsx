@@ -5,11 +5,11 @@ import { CONTACT_EMAIL } from '@/lib/seo';
 
 export const metadata: Metadata = {
   title: 'Privacy',
-  description: 'How this site handles data: calculator inputs stay in your browser, Project Mode uses local storage only, and Google Analytics measures anonymous, aggregate traffic.',
+  description: 'How this site handles data: calculator inputs stay in your browser, Project Mode uses local storage only, and Google Analytics measures site usage such as pages viewed, approximate location, and device information.',
   alternates: { canonical: '/privacy' },
   openGraph: {
     title: 'Privacy',
-    description: 'How this site handles data: calculator inputs stay in your browser, Project Mode uses local storage only, and Google Analytics measures anonymous, aggregate traffic.',
+    description: 'How this site handles data: calculator inputs stay in your browser, Project Mode uses local storage only, and Google Analytics measures site usage such as pages viewed, approximate location, and device information.',
     url: '/privacy',
     type: 'website',
   },
@@ -23,10 +23,11 @@ export default function PrivacyPage() {
         <div className="eyebrow">Privacy</div>
         <h1>Privacy on this site</h1>
         <p>
-          The short version: calculator inputs are processed in your browser, Project Mode saves to your
-          browser&apos;s local storage, and MeasureToBuild does not transmit Project Mode data to a
-          MeasureToBuild server. There are no accounts and no advertising. The only third-party service is
-          Google Analytics, which measures anonymous, aggregate traffic.
+          The short version: calculator inputs are processed in your browser, Project Mode
+          saves to your browser&apos;s local storage, and MeasureToBuild does not transmit
+          Project Mode data to a MeasureToBuild server. There are no accounts, and
+          advertising is not currently served on this site. Google Analytics is used to
+          measure site usage and traffic.
         </p>
         <p className="page-updated">Last updated: October 1, 2026</p>
       </header>
@@ -35,15 +36,28 @@ export default function PrivacyPage() {
         <section id="what-we-collect" aria-labelledby="what-we-collect-heading">
           <h2 id="what-we-collect-heading">What this site collects</h2>
           <p>
-            Nothing, by default. You do not create an account, and there is no form that asks for your name or email
-            address. When you use a calculator, your measurements are converted to a result inside your browser — the
-            values you enter are not transmitted to a server.
+            You do not create an account, and there is no form that asks for your name or
+            email address. Calculator measurements are processed in your browser, and the
+            values you enter are not transmitted to a MeasureToBuild server.
           </p>
           <p>
-            The only third-party service on the site is Google Analytics 4, used to understand aggregate traffic
-            — which pages are viewed, the approximate region and device type, and how visitors arrive. It does
-            not receive the values you type into a calculator or anything stored by Project Mode. There is no
-            advertising code and no other third-party tracker.
+            MeasureToBuild uses Google Analytics 4 to understand how the site is used.
+            Depending on Analytics settings and the visitor&apos;s environment, this may
+            include information such as pages viewed, session activity, approximate
+            geographic location, browser and device information, and Analytics identifiers
+            stored in cookies. Google Analytics does not receive the values you enter into
+            the calculators or the data stored by Project Mode.
+          </p>
+          <p>
+            Google Analytics is provided by Google. For more information about how Google
+            handles data in its services, see{' '}
+            <a
+              href="https://policies.google.com/privacy"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Google&apos;s Privacy Policy
+            </a>.
           </p>
         </section>
 
@@ -65,12 +79,16 @@ export default function PrivacyPage() {
         <section id="cookies" aria-labelledby="cookies-heading">
           <h2 id="cookies-heading">Cookies</h2>
           <p>
-            Google Analytics sets first-party cookies in your browser (for example <code>_ga</code> and
-            <code>_ga_&lt;id&gt;</code>) to distinguish returning visits and measure how the site is used. You can
-            block or delete them through your browser settings or an analytics opt-out add-on; the calculators
-            work fully without them. As with most websites, the hosting provider may also keep standard technical
-            request logs (such as IP address, time and requested path) for its own operational purposes, handled
-            by the host under the host&apos;s policies.
+            Google Analytics may set first-party cookies in your browser, including
+            <code>_ga</code> and <code>_ga_&lt;id&gt;</code>, to distinguish visitors and
+            sessions and measure how the site is used. Google Analytics may also process
+            information such as approximate geographic location, browser and device
+            information, and page or session activity. You can block or delete cookies
+            through your browser settings. The calculators continue to provide their core
+            functionality without Analytics cookies. As with most websites, the hosting
+            provider may also keep standard technical request logs (such as IP address,
+            time and requested path) for its own operational purposes, handled by the host
+            under the host&apos;s policies.
           </p>
         </section>
 

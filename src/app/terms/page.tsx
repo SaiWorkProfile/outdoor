@@ -27,7 +27,7 @@ export default function TermsPage() {
           mainly a plain description of what the estimates are, what they are not, and what stays your
           responsibility.
         </p>
-        <p className="page-updated">Last updated: September 30, 2026</p>
+        <p className="page-updated">Last updated: October 1, 2026</p>
       </header>
 
       <div className="copy content-body">
@@ -35,7 +35,8 @@ export default function TermsPage() {
           <h2 id="service-heading">The service</h2>
           <p>
             The site is free to use without registration. There are no accounts and no paid plans.
-            Calculators, Project Mode and the guides are provided as-is for planning purposes.
+            Calculators, Project Mode and the guides are provided as-is for planning purposes. Advertising may be
+            introduced or changed over time, and the relevant site policies will be updated when necessary.
           </p>
         </section>
 
