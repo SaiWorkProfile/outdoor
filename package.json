@@ -13,6 +13,8 @@
     "verify": "npm run typecheck && npm test && npm run test:content",
     "qa:content": "node qa/content-a11y.cjs",
     "qa:calc-seo": "tsx qa/calculator-seo-check.ts",
+    "qa:site-url": "node qa/site-url-guard.cjs",
+    "qa:www-audit": "node qa/tmp/www-canonical-audit.cjs",
     "qa:prelaunch": "node qa/prelaunch.cjs"
   },
   "dependencies": {

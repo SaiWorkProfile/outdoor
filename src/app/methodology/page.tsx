@@ -8,6 +8,12 @@ export const metadata: Metadata = {
   title: 'Methodology',
   description: 'The full calculation methodology: formulas in order, every central default from the assumptions file, cited sources and the documented limits of each estimate.',
   alternates: { canonical: '/methodology' },
+  openGraph: {
+    title: 'Methodology',
+    description: 'The full calculation methodology: formulas in order, every central default from the assumptions file, cited sources and the documented limits of each estimate.',
+    url: '/methodology',
+    type: 'website',
+  },
 };
 
 const TOC = [

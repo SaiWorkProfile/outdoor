@@ -618,6 +618,19 @@ function stepContentTests() {
   return record('content tests', 'PASS', [counts]);
 }
 
+function stepSiteUrlGuard() {
+  // The release configuration must resolve to the canonical production origin. Run the
+  // guard in strict mode so a missing NEXT_PUBLIC_SITE_URL in a production context fails
+  // the gate (see qa/site-url-guard.cjs). A localhost QA origin is explicitly allowed.
+  const res = run('node qa/site-url-guard.cjs --strict', { logFile: 'prelaunch-site-url.log' });
+  const tail = res.output.split(/\r?\n/).filter(Boolean);
+  if (!res.ok) {
+    return record('production site url', 'FAIL', tail.slice(-8));
+  }
+  const info = tail.filter((line) => /^INFO:/.test(line)).map((line) => line.replace(/^INFO:/, ''));
+  return record('production site url', 'PASS', [info.find((l) => /\.env\.production/.test(l)) || 'canonical origin verified', ...info.slice(0, 3)], { info });
+}
+
 function stepBuild() {
   // Build with an explicit site origin so canonicals, Open Graph URLs, the sitemap and
   // robots.txt all point at the server this run starts (instead of the seo.ts fallback
@@ -686,6 +699,7 @@ async function main() {
   if (wanted('typecheck')) stepTypecheck();
   if (wanted('tests')) stepUnitTests();
   if (wanted('content')) stepContentTests();
+  if (wanted('site-url')) stepSiteUrlGuard();
   if (wanted('build')) stepBuild();
 
   const buildLog = fs.existsSync(path.join(ART, 'prelaunch-build.log'))

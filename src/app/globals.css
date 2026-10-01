@@ -114,7 +114,6 @@
   .print-sheet{font-size:12px}
   .print-note{color:#555}
 }
-@media(max-width:980px){
 
 /* Currency selector -------------------------------------------------------
    One global control, in the header, on every page. It has to survive the
@@ -136,6 +135,7 @@
 }
 @media print{.currency-toast,.currency-picker{display:none!important}}
 
+@media(max-width:980px){
   .area-row{grid-template-columns:minmax(0,1fr)}
 }
 @media(max-width:680px){

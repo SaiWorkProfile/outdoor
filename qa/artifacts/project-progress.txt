@@ -440,3 +440,34 @@
 2026-10-01T06:12:27.628Z PASS Clear project removes materials
 2026-10-01T06:12:27.631Z PASS Clear project resets storage
 2026-10-01T06:12:27.638Z DONE failures=0
+2026-10-01T10:08:21.585Z addCalculation goto gravel-calculator
+2026-10-01T10:08:22.973Z addCalculation gravel-calculator -> Added to Project metrics=4
+2026-10-01T10:08:22.975Z addCalculation goto fence-calculator
+2026-10-01T10:08:24.290Z addCalculation fence-calculator -> Added to Project metrics=4
+2026-10-01T10:08:24.292Z addCalculation goto deck-material-calculator
+2026-10-01T10:08:25.740Z addCalculation deck-material-calculator -> Added to Project metrics=4
+2026-10-01T10:08:25.742Z PASS all three calculations added to the project
+2026-10-01T10:08:27.641Z PASS invalid project area rejected with a message
+2026-10-01T10:08:27.643Z project named + area added
+2026-10-01T10:08:27.646Z PASS project name saved
+2026-10-01T10:08:27.648Z PASS 3 material result groups listed
+2026-10-01T10:08:27.649Z PASS 23 quantity rows shown
+2026-10-01T10:08:27.651Z PASS 11 shopping list items
+2026-10-01T10:08:27.652Z PASS 8 assumption rows shown
+2026-10-01T10:08:27.658Z PASS localStorage holds 3 materials, 16 quantities, 11 shopping items
+2026-10-01T10:08:28.582Z PASS calculator results survive a browser refresh
+2026-10-01T10:08:28.585Z PASS project name survives refresh
+2026-10-01T10:08:28.589Z persistence verified
+2026-10-01T10:08:28.591Z opening print view
+2026-10-01T10:08:29.654Z PASS print plan shows the project name
+2026-10-01T10:08:29.657Z PASS print plan sections: Project dimensions | Calculations | Materials | Estimated costs | Shopping list | Assumptions | Method and limitations
+2026-10-01T10:08:29.659Z PASS print plan includes the methodology disclaimer
+2026-10-01T10:08:29.670Z PASS print utility page is noindex
+2026-10-01T10:08:29.681Z PASS print page has a unique title: Printable Project Plan | MeasureToBuild
+2026-10-01T10:08:29.844Z PASS printed output hides navigation, footer and print toolbar
+2026-10-01T10:08:29.846Z PASS no interactive controls inside the printed sheet
+2026-10-01T10:08:29.848Z PASS no horizontal overflow or clipped tables in the print layout
+2026-10-01T10:08:30.747Z PASS Chrome printed a 6-page PDF (132649 bytes)
+2026-10-01T10:08:31.993Z PASS Clear project removes materials
+2026-10-01T10:08:31.996Z PASS Clear project resets storage
+2026-10-01T10:08:32.005Z DONE failures=0

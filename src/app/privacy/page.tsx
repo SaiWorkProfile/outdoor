@@ -1,14 +1,19 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
+import { CONTACT_EMAIL } from '@/lib/seo';
 
 export const metadata: Metadata = {
   title: 'Privacy',
   description: 'How this site handles data: calculator inputs stay in your browser, Project Mode uses local storage only, and there are currently no accounts, ads or trackers.',
   alternates: { canonical: '/privacy' },
+  openGraph: {
+    title: 'Privacy',
+    description: 'How this site handles data: calculator inputs stay in your browser, Project Mode uses local storage only, and there are currently no accounts, ads or trackers.',
+    url: '/privacy',
+    type: 'website',
+  },
 };
-
-const CONTACT_EMAIL = process.env.NEXT_PUBLIC_CONTACT_EMAIL;
 
 export default function PrivacyPage() {
   return (

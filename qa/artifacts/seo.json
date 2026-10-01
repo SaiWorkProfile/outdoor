@@ -341,9 +341,9 @@
       "canonical": "http://localhost:3100/projects",
       "canonicalCount": 1,
       "robotsMeta": "index, follow",
-      "ogTitle": "MeasureToBuild",
-      "ogDescription": "Plan outdoor projects with material calculators for gravel, mulch, soil, pavers, fencing, concrete and decks. Calculate quantities, review assumptions and build a project shopping list.",
-      "ogUrl": "http://localhost:3100",
+      "ogTitle": "Project Mode",
+      "ogDescription": "Combine outdoor calculator results into one project plan and shopping list.",
+      "ogUrl": "http://localhost:3100/projects",
       "ogType": "website",
       "viewport": "width=device-width, initial-scale=1",
       "h1": [
@@ -472,9 +472,9 @@
       "canonical": "http://localhost:3100/how-it-works",
       "canonicalCount": 1,
       "robotsMeta": "index, follow",
-      "ogTitle": "MeasureToBuild",
-      "ogDescription": "Plan outdoor projects with material calculators for gravel, mulch, soil, pavers, fencing, concrete and decks. Calculate quantities, review assumptions and build a project shopping list.",
-      "ogUrl": "http://localhost:3100",
+      "ogTitle": "How It Works",
+      "ogDescription": "How MeasureToBuild turns measurements into material quantities: one tested engine, visible assumptions, your own prices, and Project Mode to keep every calculation together.",
+      "ogUrl": "http://localhost:3100/how-it-works",
       "ogType": "website",
       "viewport": "width=device-width, initial-scale=1",
       "h1": [
@@ -567,9 +567,9 @@
       "canonical": "http://localhost:3100/methodology",
       "canonicalCount": 1,
       "robotsMeta": "index, follow",
-      "ogTitle": "MeasureToBuild",
-      "ogDescription": "Plan outdoor projects with material calculators for gravel, mulch, soil, pavers, fencing, concrete and decks. Calculate quantities, review assumptions and build a project shopping list.",
-      "ogUrl": "http://localhost:3100",
+      "ogTitle": "Methodology",
+      "ogDescription": "The full calculation methodology: formulas in order, every central default from the assumptions file, cited sources and the documented limits of each estimate.",
+      "ogUrl": "http://localhost:3100/methodology",
       "ogType": "website",
       "viewport": "width=device-width, initial-scale=1",
       "h1": [
@@ -656,9 +656,9 @@
       "canonical": "http://localhost:3100/about",
       "canonicalCount": 1,
       "robotsMeta": "index, follow",
-      "ogTitle": "MeasureToBuild",
-      "ogDescription": "Plan outdoor projects with material calculators for gravel, mulch, soil, pavers, fencing, concrete and decks. Calculate quantities, review assumptions and build a project shopping list.",
-      "ogUrl": "http://localhost:3100",
+      "ogTitle": "About",
+      "ogDescription": "About MeasureToBuild: one tested calculation engine, visible assumptions, no invented prices — and the limits it will not hide from you.",
+      "ogUrl": "http://localhost:3100/about",
       "ogType": "website",
       "viewport": "width=device-width, initial-scale=1",
       "h1": [
@@ -690,6 +690,7 @@
         "/projects",
         "/",
         "/methodology",
+        "mailto:measuretobuild@gmail.com",
         "/how-it-works",
         "/guides",
         "/terms",
@@ -732,9 +733,9 @@
       "canonical": "http://localhost:3100/privacy",
       "canonicalCount": 1,
       "robotsMeta": "index, follow",
-      "ogTitle": "MeasureToBuild",
-      "ogDescription": "Plan outdoor projects with material calculators for gravel, mulch, soil, pavers, fencing, concrete and decks. Calculate quantities, review assumptions and build a project shopping list.",
-      "ogUrl": "http://localhost:3100",
+      "ogTitle": "Privacy",
+      "ogDescription": "How this site handles data: calculator inputs stay in your browser, Project Mode uses local storage only, and there are currently no accounts, ads or trackers.",
+      "ogUrl": "http://localhost:3100/privacy",
       "ogType": "website",
       "viewport": "width=device-width, initial-scale=1",
       "h1": [
@@ -766,6 +767,7 @@
         "/projects",
         "/",
         "/projects",
+        "mailto:measuretobuild@gmail.com",
         "/privacy",
         "/terms",
         "/methodology",
@@ -804,9 +806,9 @@
       "canonical": "http://localhost:3100/terms",
       "canonicalCount": 1,
       "robotsMeta": "index, follow",
-      "ogTitle": "MeasureToBuild",
-      "ogDescription": "Plan outdoor projects with material calculators for gravel, mulch, soil, pavers, fencing, concrete and decks. Calculate quantities, review assumptions and build a project shopping list.",
-      "ogUrl": "http://localhost:3100",
+      "ogTitle": "Terms",
+      "ogDescription": "Terms of use: estimates are planning aids, you verify quantities before purchase, and Project Mode data lives only in your browser.",
+      "ogUrl": "http://localhost:3100/terms",
       "ogType": "website",
       "viewport": "width=device-width, initial-scale=1",
       "h1": [
@@ -841,6 +843,7 @@
         "/methodology",
         "/privacy",
         "/terms",
+        "mailto:measuretobuild@gmail.com",
         "/calculators",
         "/calculators/gravel-calculator",
         "/calculators/driveway-gravel-calculator",
@@ -916,7 +919,7 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "http://localhost:3100/"
+              "item": "http://localhost:3100"
             },
             {
               "@type": "ListItem",
@@ -1028,7 +1031,7 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "http://localhost:3100/"
+              "item": "http://localhost:3100"
             },
             {
               "@type": "ListItem",
@@ -1139,7 +1142,7 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "http://localhost:3100/"
+              "item": "http://localhost:3100"
             },
             {
               "@type": "ListItem",
@@ -1249,7 +1252,7 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "http://localhost:3100/"
+              "item": "http://localhost:3100"
             },
             {
               "@type": "ListItem",
@@ -1359,7 +1362,7 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "http://localhost:3100/"
+              "item": "http://localhost:3100"
             },
             {
               "@type": "ListItem",
@@ -1469,7 +1472,7 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "http://localhost:3100/"
+              "item": "http://localhost:3100"
             },
             {
               "@type": "ListItem",
@@ -1579,7 +1582,7 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "http://localhost:3100/"
+              "item": "http://localhost:3100"
             },
             {
               "@type": "ListItem",
@@ -1689,7 +1692,7 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "http://localhost:3100/"
+              "item": "http://localhost:3100"
             },
             {
               "@type": "ListItem",
@@ -1800,7 +1803,7 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "http://localhost:3100/"
+              "item": "http://localhost:3100"
             },
             {
               "@type": "ListItem",
@@ -1909,7 +1912,7 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "http://localhost:3100/"
+              "item": "http://localhost:3100"
             },
             {
               "@type": "ListItem",
@@ -2019,7 +2022,7 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "http://localhost:3100/"
+              "item": "http://localhost:3100"
             },
             {
               "@type": "ListItem",
@@ -2129,7 +2132,7 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "http://localhost:3100/"
+              "item": "http://localhost:3100"
             },
             {
               "@type": "ListItem",
@@ -2238,7 +2241,7 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "http://localhost:3100/"
+              "item": "http://localhost:3100"
             },
             {
               "@type": "ListItem",
@@ -2349,7 +2352,7 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "http://localhost:3100/"
+              "item": "http://localhost:3100"
             },
             {
               "@type": "ListItem",
@@ -2458,7 +2461,7 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "http://localhost:3100/"
+              "item": "http://localhost:3100"
             },
             {
               "@type": "ListItem",
@@ -2568,7 +2571,7 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "http://localhost:3100/"
+              "item": "http://localhost:3100"
             },
             {
               "@type": "ListItem",
@@ -2689,7 +2692,7 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "http://localhost:3100/"
+              "item": "http://localhost:3100"
             },
             {
               "@type": "ListItem",
@@ -2830,7 +2833,7 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "http://localhost:3100/"
+              "item": "http://localhost:3100"
             },
             {
               "@type": "ListItem",
@@ -2973,7 +2976,7 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "http://localhost:3100/"
+              "item": "http://localhost:3100"
             },
             {
               "@type": "ListItem",
@@ -3116,7 +3119,7 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "http://localhost:3100/"
+              "item": "http://localhost:3100"
             },
             {
               "@type": "ListItem",
@@ -3266,7 +3269,7 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "http://localhost:3100/"
+              "item": "http://localhost:3100"
             },
             {
               "@type": "ListItem",
@@ -3402,7 +3405,7 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "http://localhost:3100/"
+              "item": "http://localhost:3100"
             },
             {
               "@type": "ListItem",
@@ -3541,7 +3544,7 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "http://localhost:3100/"
+              "item": "http://localhost:3100"
             },
             {
               "@type": "ListItem",
@@ -3676,7 +3679,7 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "http://localhost:3100/"
+              "item": "http://localhost:3100"
             },
             {
               "@type": "ListItem",
@@ -3810,7 +3813,7 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "http://localhost:3100/"
+              "item": "http://localhost:3100"
             },
             {
               "@type": "ListItem",
@@ -3950,7 +3953,7 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "http://localhost:3100/"
+              "item": "http://localhost:3100"
             },
             {
               "@type": "ListItem",
@@ -4084,7 +4087,7 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "http://localhost:3100/"
+              "item": "http://localhost:3100"
             },
             {
               "@type": "ListItem",
@@ -4219,7 +4222,7 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "http://localhost:3100/"
+              "item": "http://localhost:3100"
             },
             {
               "@type": "ListItem",
@@ -4362,7 +4365,7 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "http://localhost:3100/"
+              "item": "http://localhost:3100"
             },
             {
               "@type": "ListItem",
@@ -4491,7 +4494,7 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "http://localhost:3100/"
+              "item": "http://localhost:3100"
             },
             {
               "@type": "ListItem",
@@ -4617,7 +4620,7 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "http://localhost:3100/"
+              "item": "http://localhost:3100"
             },
             {
               "@type": "ListItem",
@@ -4745,7 +4748,7 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "http://localhost:3100/"
+              "item": "http://localhost:3100"
             },
             {
               "@type": "ListItem",
@@ -4872,7 +4875,7 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "http://localhost:3100/"
+              "item": "http://localhost:3100"
             },
             {
               "@type": "ListItem",
@@ -4998,7 +5001,7 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "http://localhost:3100/"
+              "item": "http://localhost:3100"
             },
             {
               "@type": "ListItem",
@@ -5129,7 +5132,7 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "http://localhost:3100/"
+              "item": "http://localhost:3100"
             },
             {
               "@type": "ListItem",
@@ -5254,7 +5257,7 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "http://localhost:3100/"
+              "item": "http://localhost:3100"
             },
             {
               "@type": "ListItem",
@@ -5377,7 +5380,7 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "http://localhost:3100/"
+              "item": "http://localhost:3100"
             },
             {
               "@type": "ListItem",
@@ -5500,7 +5503,7 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "http://localhost:3100/"
+              "item": "http://localhost:3100"
             },
             {
               "@type": "ListItem",
@@ -5624,7 +5627,7 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "http://localhost:3100/"
+              "item": "http://localhost:3100"
             },
             {
               "@type": "ListItem",
@@ -5747,7 +5750,7 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "http://localhost:3100/"
+              "item": "http://localhost:3100"
             },
             {
               "@type": "ListItem",
@@ -5871,7 +5874,7 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "http://localhost:3100/"
+              "item": "http://localhost:3100"
             },
             {
               "@type": "ListItem",
@@ -5997,7 +6000,7 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "http://localhost:3100/"
+              "item": "http://localhost:3100"
             },
             {
               "@type": "ListItem",
@@ -6122,7 +6125,7 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "http://localhost:3100/"
+              "item": "http://localhost:3100"
             },
             {
               "@type": "ListItem",
@@ -6248,7 +6251,7 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "http://localhost:3100/"
+              "item": "http://localhost:3100"
             },
             {
               "@type": "ListItem",
@@ -6881,7 +6884,8 @@
     "/projects/print": 200,
     "https://extension.psu.edu/mulching-landscape-trees": 200,
     "https://extension.psu.edu/using-composts-to-improve-turf-performance": 200,
-    "https://www.cement.org/cement-concrete/applications-of-cement/": 200
+    "https://www.cement.org/cement-concrete/applications-of-cement/": 200,
+    "mailto:measuretobuild@gmail.com": "ERR:fetch failed"
   },
   "errors": [],
   "notFound": {
@@ -6897,7 +6901,7 @@
     "contentType": "application/xml",
     "count": 53,
     "locs": [
-      "http://localhost:3100/",
+      "http://localhost:3100",
       "http://localhost:3100/calculators",
       "http://localhost:3100/guides",
       "http://localhost:3100/projects",
@@ -6958,7 +6962,7 @@
     "body": "User-Agent: *\nAllow: /\n\nSitemap: http://localhost:3100/sitemap.xml\n"
   },
   "sitemapStatus": {
-    "http://localhost:3100/": 200,
+    "http://localhost:3100": 200,
     "http://localhost:3100/calculators": 200,
     "http://localhost:3100/guides": 200,
     "http://localhost:3100/projects": 200,

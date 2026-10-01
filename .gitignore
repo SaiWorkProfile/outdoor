@@ -8,5 +8,9 @@ coverage/
 Thumbs.db
 .env
 .env.*
+# The production and example env files hold only public, non-secret values and are
+# committed so the release origin (NEXT_PUBLIC_SITE_URL) has one tracked source.
+!.env.production
+!.env.example
 server-*.log
 pptr-install*.log

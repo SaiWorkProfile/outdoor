@@ -3,14 +3,19 @@ import type { Metadata } from 'next';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
 import { CALCULATORS } from '@/components/calculators/registry';
 import { CONTENT_PAGES } from '@/content';
+import { CONTACT_EMAIL } from '@/lib/seo';
 
 export const metadata: Metadata = {
   title: 'About',
   description: 'About MeasureToBuild: one tested calculation engine, visible assumptions, no invented prices — and the limits it will not hide from you.',
   alternates: { canonical: '/about' },
+  openGraph: {
+    title: 'About',
+    description: 'About MeasureToBuild: one tested calculation engine, visible assumptions, no invented prices — and the limits it will not hide from you.',
+    url: '/about',
+    type: 'website',
+  },
 };
-
-const CONTACT_EMAIL = process.env.NEXT_PUBLIC_CONTACT_EMAIL;
 
 export default function AboutPage() {
   return (

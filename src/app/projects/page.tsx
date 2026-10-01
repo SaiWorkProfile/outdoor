@@ -1,6 +1,6 @@
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
 import { ProjectModeClient } from '@/components/calculators/ProjectModeClient';
 
-export const metadata = {title:'Project Mode',description:'Combine outdoor calculator results into one project plan and shopping list.',alternates:{canonical:'/projects'}};
+export const metadata = {title:'Project Mode',description:'Combine outdoor calculator results into one project plan and shopping list.',alternates:{canonical:'/projects'},openGraph:{title:'Project Mode',description:'Combine outdoor calculator results into one project plan and shopping list.',url:'/projects',type:'website'}};
 
 export default function ProjectsPage(){return <><div className="container" style={{paddingTop:24}}><Breadcrumbs items={[{label:'Projects'}]}/></div><ProjectModeClient/></>}

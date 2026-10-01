@@ -21,6 +21,8 @@ import {
   type CurrencyDefinition,
 } from '@/lib/currency';
 
+const CURRENCY_REMINDER_DISMISSED_KEY = 'measure-to-build-currency-reminder-dismissed';
+
 export interface CurrencyContextValue {
   /** Selected ISO 4217 code. */
   code: CurrencyCode;
@@ -49,35 +51,52 @@ const CurrencyContext = createContext<CurrencyContextValue>(FALLBACK);
 export function CurrencyProvider({ children }: { children: ReactNode }) {
   const [code, setCode] = useState<CurrencyCode>(DEFAULT_CURRENCY);
   const [changed, setChanged] = useState(false);
+  const [reminderDismissed, setReminderDismissed] = useState(false);
 
   useEffect(() => {
     try {
       const stored = window.localStorage.getItem(CURRENCY_STORAGE_KEY);
       if (stored) setCode(resolveCurrencyCode(stored));
+      setReminderDismissed(window.localStorage.getItem(CURRENCY_REMINDER_DISMISSED_KEY) === 'true');
     } catch {
       /* storage unavailable (private mode, blocked cookies): keep the default */
     }
     const onStorage = (event: StorageEvent) => {
+      if (event.key === CURRENCY_REMINDER_DISMISSED_KEY) {
+        const dismissed = event.newValue === 'true';
+        setReminderDismissed(dismissed);
+        if (dismissed) setChanged(false);
+        return;
+      }
       if (event.key !== CURRENCY_STORAGE_KEY) return;
       setCode(resolveCurrencyCode(event.newValue));
-      setChanged(true);
+      if (!reminderDismissed) setChanged(true);
     };
     window.addEventListener('storage', onStorage);
     return () => window.removeEventListener('storage', onStorage);
-  }, []);
+  }, [reminderDismissed]);
 
   const selectCurrency = useCallback((next: string) => {
     const resolved = resolveCurrencyCode(next);
+    if (resolved === code) return;
     setCode(resolved);
-    setChanged(true);
+    if (!reminderDismissed) setChanged(true);
     try {
       window.localStorage.setItem(CURRENCY_STORAGE_KEY, resolved);
     } catch {
       /* the choice still applies for this page view */
     }
-  }, []);
+  }, [code, reminderDismissed]);
 
-  const acknowledgeChange = useCallback(() => setChanged(false), []);
+  const acknowledgeChange = useCallback(() => {
+    setChanged(false);
+    setReminderDismissed(true);
+    try {
+      window.localStorage.setItem(CURRENCY_REMINDER_DISMISSED_KEY, 'true');
+    } catch {
+      /* dismissal still applies for this page view */
+    }
+  }, []);
 
   const value = useMemo<CurrencyContextValue>(() => ({
     code,

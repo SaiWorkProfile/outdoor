@@ -1,14 +1,19 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
+import { CONTACT_EMAIL } from '@/lib/seo';
 
 export const metadata: Metadata = {
   title: 'Terms',
   description: 'Terms of use: estimates are planning aids, you verify quantities before purchase, and Project Mode data lives only in your browser.',
   alternates: { canonical: '/terms' },
+  openGraph: {
+    title: 'Terms',
+    description: 'Terms of use: estimates are planning aids, you verify quantities before purchase, and Project Mode data lives only in your browser.',
+    url: '/terms',
+    type: 'website',
+  },
 };
-
-const CONTACT_EMAIL = process.env.NEXT_PUBLIC_CONTACT_EMAIL;
 
 export default function TermsPage() {
   return (

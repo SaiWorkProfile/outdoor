@@ -1,0 +1,540 @@
+{
+  "generatedAt": "2026-10-01T10:03:23.452Z",
+  "base": "http://localhost:3221",
+  "origin": "https://www.measuretobuild.in",
+  "sitemapCount": 53,
+  "robotsSitemap": "https://www.measuretobuild.in/sitemap.xml",
+  "matrix": [
+    {
+      "route": "/",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in",
+      "ogUrl": "https://www.measuretobuild.in",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in",
+      "ok": true
+    },
+    {
+      "route": "/calculators",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/calculators",
+      "ogUrl": "https://www.measuretobuild.in/calculators",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/calculators",
+      "ok": true
+    },
+    {
+      "route": "/guides",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/guides",
+      "ogUrl": "https://www.measuretobuild.in/guides",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/guides",
+      "ok": true
+    },
+    {
+      "route": "/projects",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/projects",
+      "ogUrl": "https://www.measuretobuild.in/projects",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/projects",
+      "ok": true
+    },
+    {
+      "route": "/how-it-works",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/how-it-works",
+      "ogUrl": "https://www.measuretobuild.in/how-it-works",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/how-it-works",
+      "ok": true
+    },
+    {
+      "route": "/methodology",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/methodology",
+      "ogUrl": "https://www.measuretobuild.in/methodology",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/methodology",
+      "ok": true
+    },
+    {
+      "route": "/about",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/about",
+      "ogUrl": "https://www.measuretobuild.in/about",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/about",
+      "ok": true
+    },
+    {
+      "route": "/privacy",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/privacy",
+      "ogUrl": "https://www.measuretobuild.in/privacy",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/privacy",
+      "ok": true
+    },
+    {
+      "route": "/terms",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/terms",
+      "ogUrl": "https://www.measuretobuild.in/terms",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/terms",
+      "ok": true
+    },
+    {
+      "route": "/calculators/gravel-calculator",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/calculators/gravel-calculator",
+      "ogUrl": "https://www.measuretobuild.in/calculators/gravel-calculator",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/calculators/gravel-calculator",
+      "ok": true
+    },
+    {
+      "route": "/calculators/mulch-calculator",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/calculators/mulch-calculator",
+      "ogUrl": "https://www.measuretobuild.in/calculators/mulch-calculator",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/calculators/mulch-calculator",
+      "ok": true
+    },
+    {
+      "route": "/calculators/topsoil-calculator",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/calculators/topsoil-calculator",
+      "ogUrl": "https://www.measuretobuild.in/calculators/topsoil-calculator",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/calculators/topsoil-calculator",
+      "ok": true
+    },
+    {
+      "route": "/calculators/soil-calculator",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/calculators/soil-calculator",
+      "ogUrl": "https://www.measuretobuild.in/calculators/soil-calculator",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/calculators/soil-calculator",
+      "ok": true
+    },
+    {
+      "route": "/calculators/sand-calculator",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/calculators/sand-calculator",
+      "ogUrl": "https://www.measuretobuild.in/calculators/sand-calculator",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/calculators/sand-calculator",
+      "ok": true
+    },
+    {
+      "route": "/calculators/pea-gravel-calculator",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/calculators/pea-gravel-calculator",
+      "ogUrl": "https://www.measuretobuild.in/calculators/pea-gravel-calculator",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/calculators/pea-gravel-calculator",
+      "ok": true
+    },
+    {
+      "route": "/calculators/landscape-rock-calculator",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/calculators/landscape-rock-calculator",
+      "ogUrl": "https://www.measuretobuild.in/calculators/landscape-rock-calculator",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/calculators/landscape-rock-calculator",
+      "ok": true
+    },
+    {
+      "route": "/calculators/paver-base-calculator",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/calculators/paver-base-calculator",
+      "ogUrl": "https://www.measuretobuild.in/calculators/paver-base-calculator",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/calculators/paver-base-calculator",
+      "ok": true
+    },
+    {
+      "route": "/calculators/driveway-gravel-calculator",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/calculators/driveway-gravel-calculator",
+      "ogUrl": "https://www.measuretobuild.in/calculators/driveway-gravel-calculator",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/calculators/driveway-gravel-calculator",
+      "ok": true
+    },
+    {
+      "route": "/calculators/concrete-calculator",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/calculators/concrete-calculator",
+      "ogUrl": "https://www.measuretobuild.in/calculators/concrete-calculator",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/calculators/concrete-calculator",
+      "ok": true
+    },
+    {
+      "route": "/calculators/paver-calculator",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/calculators/paver-calculator",
+      "ogUrl": "https://www.measuretobuild.in/calculators/paver-calculator",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/calculators/paver-calculator",
+      "ok": true
+    },
+    {
+      "route": "/calculators/paver-patio-calculator",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/calculators/paver-patio-calculator",
+      "ogUrl": "https://www.measuretobuild.in/calculators/paver-patio-calculator",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/calculators/paver-patio-calculator",
+      "ok": true
+    },
+    {
+      "route": "/calculators/fence-calculator",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/calculators/fence-calculator",
+      "ogUrl": "https://www.measuretobuild.in/calculators/fence-calculator",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/calculators/fence-calculator",
+      "ok": true
+    },
+    {
+      "route": "/calculators/fence-cost-calculator",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/calculators/fence-cost-calculator",
+      "ogUrl": "https://www.measuretobuild.in/calculators/fence-cost-calculator",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/calculators/fence-cost-calculator",
+      "ok": true
+    },
+    {
+      "route": "/calculators/fence-post-calculator",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/calculators/fence-post-calculator",
+      "ogUrl": "https://www.measuretobuild.in/calculators/fence-post-calculator",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/calculators/fence-post-calculator",
+      "ok": true
+    },
+    {
+      "route": "/calculators/deck-material-calculator",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/calculators/deck-material-calculator",
+      "ogUrl": "https://www.measuretobuild.in/calculators/deck-material-calculator",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/calculators/deck-material-calculator",
+      "ok": true
+    },
+    {
+      "route": "/projects/how-much-gravel-do-i-need",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/projects/how-much-gravel-do-i-need",
+      "ogUrl": "https://www.measuretobuild.in/projects/how-much-gravel-do-i-need",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/projects/how-much-gravel-do-i-need",
+      "ok": true
+    },
+    {
+      "route": "/projects/how-to-calculate-mulch",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/projects/how-to-calculate-mulch",
+      "ogUrl": "https://www.measuretobuild.in/projects/how-to-calculate-mulch",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/projects/how-to-calculate-mulch",
+      "ok": true
+    },
+    {
+      "route": "/projects/how-much-topsoil-do-i-need",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/projects/how-much-topsoil-do-i-need",
+      "ogUrl": "https://www.measuretobuild.in/projects/how-much-topsoil-do-i-need",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/projects/how-much-topsoil-do-i-need",
+      "ok": true
+    },
+    {
+      "route": "/projects/how-to-calculate-landscaping-materials",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/projects/how-to-calculate-landscaping-materials",
+      "ogUrl": "https://www.measuretobuild.in/projects/how-to-calculate-landscaping-materials",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/projects/how-to-calculate-landscaping-materials",
+      "ok": true
+    },
+    {
+      "route": "/projects/how-to-plan-a-gravel-driveway",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/projects/how-to-plan-a-gravel-driveway",
+      "ogUrl": "https://www.measuretobuild.in/projects/how-to-plan-a-gravel-driveway",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/projects/how-to-plan-a-gravel-driveway",
+      "ok": true
+    },
+    {
+      "route": "/projects/how-to-plan-a-fence",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/projects/how-to-plan-a-fence",
+      "ogUrl": "https://www.measuretobuild.in/projects/how-to-plan-a-fence",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/projects/how-to-plan-a-fence",
+      "ok": true
+    },
+    {
+      "route": "/projects/how-to-calculate-fence-materials",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/projects/how-to-calculate-fence-materials",
+      "ogUrl": "https://www.measuretobuild.in/projects/how-to-calculate-fence-materials",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/projects/how-to-calculate-fence-materials",
+      "ok": true
+    },
+    {
+      "route": "/projects/how-to-plan-a-paver-patio",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/projects/how-to-plan-a-paver-patio",
+      "ogUrl": "https://www.measuretobuild.in/projects/how-to-plan-a-paver-patio",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/projects/how-to-plan-a-paver-patio",
+      "ok": true
+    },
+    {
+      "route": "/projects/how-to-calculate-paver-materials",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/projects/how-to-calculate-paver-materials",
+      "ogUrl": "https://www.measuretobuild.in/projects/how-to-calculate-paver-materials",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/projects/how-to-calculate-paver-materials",
+      "ok": true
+    },
+    {
+      "route": "/projects/how-to-calculate-concrete-for-a-slab",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/projects/how-to-calculate-concrete-for-a-slab",
+      "ogUrl": "https://www.measuretobuild.in/projects/how-to-calculate-concrete-for-a-slab",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/projects/how-to-calculate-concrete-for-a-slab",
+      "ok": true
+    },
+    {
+      "route": "/projects/how-to-estimate-deck-materials",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/projects/how-to-estimate-deck-materials",
+      "ogUrl": "https://www.measuretobuild.in/projects/how-to-estimate-deck-materials",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/projects/how-to-estimate-deck-materials",
+      "ok": true
+    },
+    {
+      "route": "/projects/outdoor-project-cost-planning",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/projects/outdoor-project-cost-planning",
+      "ogUrl": "https://www.measuretobuild.in/projects/outdoor-project-cost-planning",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/projects/outdoor-project-cost-planning",
+      "ok": true
+    },
+    {
+      "route": "/materials/gravel",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/materials/gravel",
+      "ogUrl": "https://www.measuretobuild.in/materials/gravel",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/materials/gravel",
+      "ok": true
+    },
+    {
+      "route": "/materials/pea-gravel",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/materials/pea-gravel",
+      "ogUrl": "https://www.measuretobuild.in/materials/pea-gravel",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/materials/pea-gravel",
+      "ok": true
+    },
+    {
+      "route": "/materials/mulch",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/materials/mulch",
+      "ogUrl": "https://www.measuretobuild.in/materials/mulch",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/materials/mulch",
+      "ok": true
+    },
+    {
+      "route": "/materials/topsoil",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/materials/topsoil",
+      "ogUrl": "https://www.measuretobuild.in/materials/topsoil",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/materials/topsoil",
+      "ok": true
+    },
+    {
+      "route": "/materials/sand",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/materials/sand",
+      "ogUrl": "https://www.measuretobuild.in/materials/sand",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/materials/sand",
+      "ok": true
+    },
+    {
+      "route": "/materials/paver-base",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/materials/paver-base",
+      "ogUrl": "https://www.measuretobuild.in/materials/paver-base",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/materials/paver-base",
+      "ok": true
+    },
+    {
+      "route": "/materials/concrete",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/materials/concrete",
+      "ogUrl": "https://www.measuretobuild.in/materials/concrete",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/materials/concrete",
+      "ok": true
+    },
+    {
+      "route": "/materials/fence-materials",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/materials/fence-materials",
+      "ogUrl": "https://www.measuretobuild.in/materials/fence-materials",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/materials/fence-materials",
+      "ok": true
+    },
+    {
+      "route": "/materials/decking-materials",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/materials/decking-materials",
+      "ogUrl": "https://www.measuretobuild.in/materials/decking-materials",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/materials/decking-materials",
+      "ok": true
+    },
+    {
+      "route": "/costs/gravel-cost",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/costs/gravel-cost",
+      "ogUrl": "https://www.measuretobuild.in/costs/gravel-cost",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/costs/gravel-cost",
+      "ok": true
+    },
+    {
+      "route": "/costs/mulch-cost",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/costs/mulch-cost",
+      "ogUrl": "https://www.measuretobuild.in/costs/mulch-cost",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/costs/mulch-cost",
+      "ok": true
+    },
+    {
+      "route": "/costs/fence-cost",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/costs/fence-cost",
+      "ogUrl": "https://www.measuretobuild.in/costs/fence-cost",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/costs/fence-cost",
+      "ok": true
+    },
+    {
+      "route": "/costs/paver-patio-cost",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/costs/paver-patio-cost",
+      "ogUrl": "https://www.measuretobuild.in/costs/paver-patio-cost",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/costs/paver-patio-cost",
+      "ok": true
+    },
+    {
+      "route": "/costs/gravel-driveway-cost",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/costs/gravel-driveway-cost",
+      "ogUrl": "https://www.measuretobuild.in/costs/gravel-driveway-cost",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/costs/gravel-driveway-cost",
+      "ok": true
+    },
+    {
+      "route": "/costs/deck-cost",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/costs/deck-cost",
+      "ogUrl": "https://www.measuretobuild.in/costs/deck-cost",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/costs/deck-cost",
+      "ok": true
+    },
+    {
+      "route": "/costs/landscaping-project-cost",
+      "status": 200,
+      "canonical": "https://www.measuretobuild.in/costs/landscaping-project-cost",
+      "ogUrl": "https://www.measuretobuild.in/costs/landscaping-project-cost",
+      "robots": "index, follow",
+      "sitemap": "https://www.measuretobuild.in/costs/landscaping-project-cost",
+      "ok": true
+    }
+  ],
+  "aliases": [
+    {
+      "from": "/calculators/gravel",
+      "status": 308,
+      "location": "/calculators/gravel-calculator",
+      "ok": true
+    },
+    {
+      "from": "/calculators/fence",
+      "status": 308,
+      "location": "/calculators/fence-calculator",
+      "ok": true
+    },
+    {
+      "from": "/calculators/paver",
+      "status": 308,
+      "location": "/calculators/paver-calculator",
+      "ok": true
+    },
+    {
+      "from": "/calculators/concrete",
+      "status": 308,
+      "location": "/calculators/concrete-calculator",
+      "ok": true
+    }
+  ],
+  "queryCheck": [
+    {
+      "path": "/calculators/gravel-calculator",
+      "canonical": "https://www.measuretobuild.in/calculators/gravel-calculator",
+      "ok": true
+    },
+    {
+      "path": "/",
+      "canonical": "https://www.measuretobuild.in",
+      "ok": true
+    }
+  ],
+  "variants": null,
+  "absoluteLinks": [
+    "https://extension.psu.edu/mulching-landscape-trees",
+    "https://extension.psu.edu/using-composts-to-improve-turf-performance",
+    "https://www.cement.org/cement-concrete/applications-of-cement/"
+  ],
+  "summary": {
+    "routesTested": 53,
+    "canonicalMatch": 53,
+    "jsonLdUrlsChecked": 132,
+    "absoluteLinksChecked": 9,
+    "errors": 0,
+    "warnings": 0
+  },
+  "errors": [],
+  "warnings": []
+}

@@ -1,31 +1,31 @@
 {
-  "generatedAt": "2026-10-01T06:16:15.073Z",
+  "generatedAt": "2026-10-01T10:11:43.053Z",
   "baseUrl": "http://localhost:3100",
-  "buildId": "9ogD8cvGWIBAbX7JWaCjX",
+  "buildId": "TS1H-2SmnWk_bjTtAYTKW",
   "only": [],
-  "seconds": 580,
+  "seconds": 427.9,
   "results": [
     {
       "name": "typecheck",
       "status": "PASS",
       "details": [
-        "ok in 5253ms"
+        "ok in 4984ms"
       ],
       "critical": true,
       "meta": {
-        "ms": 5253
+        "ms": 4984
       }
     },
     {
       "name": "unit tests",
       "status": "PASS",
       "details": [
-        "ℹ tests 171 ℹ suites 23 ℹ pass 171 ℹ fail 0"
+        "ℹ tests 139 ℹ suites 17 ℹ pass 139 ℹ fail 0"
       ],
       "critical": true,
       "meta": {
-        "ms": 14793,
-        "counts": "ℹ tests 171 ℹ suites 23 ℹ pass 171 ℹ fail 0"
+        "ms": 10355,
+        "counts": "ℹ tests 139 ℹ suites 17 ℹ pass 139 ℹ fail 0"
       }
     },
     {
@@ -38,23 +38,42 @@
       "meta": {}
     },
     {
-      "name": "production build",
+      "name": "production site url",
       "status": "PASS",
       "details": [
-        "BUILD_ID 9ogD8cvGWIBAbX7JWaCjX in 51218ms (site url http://localhost:3100)"
+        ".env.production NEXT_PUBLIC_SITE_URL=https://www.measuretobuild.in",
+        ".env.production NEXT_PUBLIC_SITE_URL=https://www.measuretobuild.in",
+        "src/lib/seo.ts fallback origin = https://www.measuretobuild.in",
+        "src/lib/seo.ts derives SITE_URL from NEXT_PUBLIC_SITE_URL"
       ],
       "critical": true,
       "meta": {
-        "buildId": "9ogD8cvGWIBAbX7JWaCjX",
+        "info": [
+          ".env.production NEXT_PUBLIC_SITE_URL=https://www.measuretobuild.in",
+          "src/lib/seo.ts fallback origin = https://www.measuretobuild.in",
+          "src/lib/seo.ts derives SITE_URL from NEXT_PUBLIC_SITE_URL",
+          "ambient NEXT_PUBLIC_SITE_URL is unset; releases resolve via .env.production to https://www.measuretobuild.in"
+        ]
+      }
+    },
+    {
+      "name": "production build",
+      "status": "PASS",
+      "details": [
+        "BUILD_ID TS1H-2SmnWk_bjTtAYTKW in 52458ms (site url http://localhost:3100)"
+      ],
+      "critical": true,
+      "meta": {
+        "buildId": "TS1H-2SmnWk_bjTtAYTKW",
         "siteUrl": "http://localhost:3100",
-        "ms": 51218
+        "ms": 52458
       }
     },
     {
       "name": "production server",
       "status": "PASS",
       "details": [
-        "fresh build 9ogD8cvGWIBAbX7JWaCjX serving on http://localhost:3100"
+        "fresh build TS1H-2SmnWk_bjTtAYTKW serving on http://localhost:3100"
       ],
       "critical": true,
       "meta": {}
@@ -126,15 +145,15 @@
       "name": "performance",
       "status": "PASS",
       "details": [
-        "INFO:9 \"use client\" modules vs 103 server modules",
-        "INFO:.next/static holds 22 files, 1149 kB total, largest JS/CSS chunk 219 kB",
+        "INFO:9 \"use client\" modules vs 101 server modules",
+        "INFO:.next/static holds 22 files, 1150 kB total, largest JS/CSS chunk 219 kB",
         "INFO:0 file(s) in public/"
       ],
       "critical": true,
       "meta": {
         "infos": [
-          "INFO:9 \"use client\" modules vs 103 server modules",
-          "INFO:.next/static holds 22 files, 1149 kB total, largest JS/CSS chunk 219 kB",
+          "INFO:9 \"use client\" modules vs 101 server modules",
+          "INFO:.next/static holds 22 files, 1150 kB total, largest JS/CSS chunk 219 kB",
           "INFO:0 file(s) in public/"
         ]
       }

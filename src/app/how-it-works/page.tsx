@@ -6,6 +6,12 @@ export const metadata: Metadata = {
   title: 'How It Works',
   description: 'How MeasureToBuild turns measurements into material quantities: one tested engine, visible assumptions, your own prices, and Project Mode to keep every calculation together.',
   alternates: { canonical: '/how-it-works' },
+  openGraph: {
+    title: 'How It Works',
+    description: 'How MeasureToBuild turns measurements into material quantities: one tested engine, visible assumptions, your own prices, and Project Mode to keep every calculation together.',
+    url: '/how-it-works',
+    type: 'website',
+  },
 };
 
 const SECTIONS = [
