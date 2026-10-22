@@ -61,7 +61,7 @@ export const page: ContentPage = {
           items: [
             'Measure the open bed area, then subtract obvious obstacles such as large shrub crowns or a permanent path through the middle.',
             'For a curved bed, measure the widest and narrowest width and average them, then measure the length along the middle of the bed rather than along the property line.',
-            'Tree rings are circles: measure the diameter at the outer edge of the ring you want, then enter a circle instead of a rectangle.',
+            'For a tree ring, calculate only the area you will mulch, excluding the unmulched space around the trunk. The circle input represents a full circle; subtract the centre area or enter the net ring area.',
             'Round up to the nearest half foot. Mulch is ordered to the quarter cubic yard, so further precision adds nothing.',
           ],
         },
@@ -79,7 +79,7 @@ export const page: ContentPage = {
       blocks: [
         {
           kind: 'p',
-          text: 'The calculator carries planning ranges for beds and tree rings and warns you when a number sits outside them. Two factors move you toward the thinner end of the range: soil that drains slowly, and finely textured mulch that packs down and holds moisture. Two factors move you toward the thicker end: coarse mulch that matures quickly and beds with a heavy weed seed bank.',
+          text: 'The calculator carries planning ranges for beds and tree rings and warns you when a number sits outside them. Slow-draining soil and finely textured mulch that packs down and holds moisture may call for a thinner layer. Choose depth based on the product, plants and site conditions; do not increase it solely on an assumption about how quickly mulch breaks down.',
         },
         { kind: 'table', table: depthRangeTable('mulch') },
         {

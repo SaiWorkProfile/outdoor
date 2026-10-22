@@ -12,7 +12,7 @@ export const page: ContentPage = {
   eyebrow: 'Budget planning pillar',
   crumb: 'Outdoor project cost planning',
   lede:
-    'A useful outdoor project budget is built in two halves: quantities you calculate, and prices you enter from real quotes. This page covers both — which cost categories a project actually contains, why online estimates vary so widely, and how to turn a set of calculator results into a shopping list with a running total.',
+    'Use this guide to assemble calculator results, entered quotes and non-calculator costs into a Project Mode budget. It explains how to keep quantities and prices together, record project assumptions and produce a shopping list with a running total.',
   keyFacts: [
     { label: 'Quantities', value: 'Calculated from your measurements' },
     { label: 'Prices', value: 'Entered by you, never invented here' },

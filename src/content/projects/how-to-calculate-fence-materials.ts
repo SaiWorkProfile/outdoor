@@ -59,7 +59,7 @@ export const page: ContentPage = {
       blocks: [
         {
           kind: 'p',
-          text: 'The inputs below are deliberately ordinary: a 100 ft run, one corner, two ends, one 4 ft gate, a 6 ft height and the default 8 ft post spacing. The fence type is wood picket, which is the most component-heavy option and therefore the most useful worked example.',
+          text: 'The inputs below are deliberately ordinary: a 100 ft fence made of two connected straight runs, one corner, two terminal ends, one 4 ft gate, a 6 ft height and the default 8 ft post spacing. The fence type is wood picket, which is the most component-heavy option and therefore the most useful worked example.',
         },
         { kind: 'example', id: 'fence-wood' },
       ],
@@ -168,7 +168,7 @@ export const page: ContentPage = {
       id: 'fence-wood',
       title: 'Wood picket fence: 100 ft long, 6 ft high, one 4 ft gate',
       scenario:
-        'A single straight run with one corner and two ends, one 4 ft gate, 8 ft post spacing, 5.5 in pickets and the calculator default 10% waste allowance.',
+        'A 100 ft fence made of two connected straight runs, with one corner, two terminal ends, one 4 ft gate, 8 ft post spacing, 5.5 in pickets and the calculator default 10% waste allowance.',
       conclusion:
         'Two lines surprise most people. The post-hole concrete is a delivery-sized volume rather than a bagged purchase once fifteen posts are involved, and the picket count is high because pickets are counted at their real width plus the gap, so a fence needs many more pickets than feet. Both numbers come from the same layout, which is why the layout is worth marking out on the ground first.',
       fenceLengthFt: 100,

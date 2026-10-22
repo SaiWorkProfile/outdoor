@@ -529,7 +529,7 @@ function evaluatePerformance(buildLog) {
     findings.push('WARN:.next/static not found while measuring the emitted payload');
   }
 
-  const publicDir = path.join(ROOT, 'src', 'app', 'public');
+  const publicDir = path.join(ROOT, 'public');
   const images = fs.existsSync(publicDir) ? fs.readdirSync(publicDir).length : 0;
   findings.push(`INFO:${images} file(s) in public/`);
   return findings;
@@ -827,7 +827,6 @@ module.exports = {
   evaluateA11y, evaluateContentA11y, evaluateResponsive, evaluatePerformance,
   evaluateEnvironment,
 };
-
 
 
 

@@ -1,5 +1,12 @@
 # CONTENT-QA-REPORT.md
 
+> **Current verification note — October 22, 2026:** The page-by-page counts below are
+> a snapshot from the content phase and predate the editorial corrections in the current
+> AdSense readiness audit. The latest `npm run test:content` run checked 28 pages and
+> reported 49,251 words, with no load errors, duplicate titles/descriptions/paths/
+> paragraphs, placeholders, empty sections, or missing worked-example results. These
+> automated checks validate structure and consistency, not Google's editorial judgment.
+
 Content library phase: 28 new indexable pages added to the existing 22, bringing
 the launch site to **50 indexable pages**.
 
@@ -354,4 +361,3 @@ No engine value, default, unit conversion, rounding rule or validation message
 was altered to make a content page work. Where a page needed a number the engine
 did not expose, the page shows the number the engine does expose and explains the
 difference instead of changing the engine.
-

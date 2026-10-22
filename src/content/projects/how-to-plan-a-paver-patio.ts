@@ -29,7 +29,7 @@ export const page: ContentPage = {
       blocks: [
         {
           kind: 'p',
-          text: 'A patio layout is easier to plan as a set of simple areas than as one outline. An L-shaped patio is two rectangles; a patio with a clipped corner is a rectangle plus a triangle; a circular seating area is a circle plus whatever surrounds it. The calculator adds those areas together and, where the shape allows, works out the perimeter for edging.',
+          text: 'A patio layout is easier to plan as a set of simple areas than as one outline. An L-shaped patio can be entered as two rectangles; a patio with a clipped corner can be entered as a rectangle plus a triangle; a circular seating area can be entered as a circle plus any adjoining areas. The calculator adds those areas. For joined shapes, enter the actual exposed edge length for edging, because automatically derived perimeters may count shared edges.',
         },
         {
           kind: 'ul',
@@ -175,7 +175,7 @@ export const page: ContentPage = {
       scenario:
         'Two rectangular areas measured at excavation level, 6 in × 6 in pavers with a 1/8 in joint, a 6 in base and 1 in of bedding sand using the calculator defaults.',
       conclusion:
-        'The most useful line is the base material, which is usually the largest volume on a paver job and the one most often left out of a budget. Edge restraint is the second surprise: it is measured around the whole perimeter, including the internal corner the L creates, so an awkward shape has more edge than the area alone suggests.',
+        'The most useful line is the base material, which is usually the largest volume on a paver job and the one most often left out of a budget. For this joined-shape example, check the automatically derived edge length and enter the actual exposed perimeter to avoid counting the shared edge between rectangles.',
       areas: [
         { kind: 'rectangle', length: 10, width: 14 },
         { kind: 'rectangle', length: 6, width: 8 },

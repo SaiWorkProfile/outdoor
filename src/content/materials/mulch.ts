@@ -155,7 +155,7 @@ export const page: ContentPage = {
       scenario:
         'Six circular tree rings, each 4 ft across, entered separately so the calculator adds them and the result shows the combined order. Depth is 3 in with the default 10% waste allowance.',
       conclusion:
-        'This is the case where bags compete seriously: the combined area of a handful of tree rings is small enough that a bagged purchase is a reasonable choice, and the coverage table shows exactly how few square feet each bag covers. Remember to keep the mulch clear of the trunk, which means the area you actually cover is a ring rather than a full circle.',
+        'This is the case where bags compete seriously: the combined area of a handful of tree rings is small enough that a bagged purchase is a reasonable choice. The circle inputs count full circles, so subtract each unmulched centre area or enter the net ring areas to estimate the material actually needed.',
       material: 'mulch',
       areas: [
         { kind: 'circle', diameter: 4 },

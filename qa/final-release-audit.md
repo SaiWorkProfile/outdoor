@@ -1,5 +1,17 @@
 # MeasureToBuild Final Release Audit
 
+> **Current-state correction — October 22, 2026:** This file is an earlier release snapshot.
+> Its production-origin blocker is no longer current: `npm run qa:site-url` now passes for
+> `https://www.measuretobuild.in`. Its “AdSense Readiness: PASS” was not an AdSense
+> account review; the current source and live site have no AdSense tag, and the ads.txt
+> publisher ID cannot be matched to the account without account access. Google Analytics
+> 4 is present in the app, contrary to the snapshot's “no third-party scripts” statement.
+> Its contact-email warning is also stale: contact details are configured and appear on
+> the live About/privacy pages.
+> See [the current AdSense readiness audit](../docs/ADSENSE-READINESS-AUDIT.md) for
+> verified findings and remaining actions. The material below remains as historical
+> release evidence, not a current approval or compliance determination.
+
 ## Executive Status
 READY WITH WARNINGS
 

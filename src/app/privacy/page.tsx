@@ -25,11 +25,11 @@ export default function PrivacyPage() {
         <p>
           The short version: calculator inputs are processed in your browser, Project Mode
           saves to your browser&apos;s local storage, and MeasureToBuild does not transmit
-          Project Mode data to a MeasureToBuild server. There are no accounts, and
-          advertising is not currently served on this site. Google Analytics is used to
-          measure site usage and traffic.
+          Project Mode data to a MeasureToBuild server. The site has no accounts.
+          Advertising is not currently served, and Google AdSense is not loaded. Google
+          Analytics is used to measure site usage and traffic.
         </p>
-        <p className="page-updated">Last updated: October 1, 2026</p>
+        <p className="page-updated">Last updated: October 22, 2026</p>
       </header>
 
       <div className="copy content-body">
@@ -89,6 +89,24 @@ export default function PrivacyPage() {
             provider may also keep standard technical request logs (such as IP address,
             time and requested path) for its own operational purposes, handled by the host
             under the host&apos;s policies.
+          </p>
+        </section>
+
+        <section id="advertising" aria-labelledby="advertising-heading">
+          <h2 id="advertising-heading">Advertising</h2>
+          <p>
+            This site does not currently display advertisements or load Google AdSense code.
+            The <code>/ads.txt</code> file declares Google as a direct seller for the listed
+            publisher ID; it does not itself load advertising code or send visitor
+            information to an advertising service. If advertising is enabled in a future
+            release, this policy will be updated to describe the services and data
+            practices used before ads are served.
+          </p>
+          <p>
+            No advertising consent interface is active because advertising is not currently
+            served. Before enabling Google advertising, the site operator must configure any
+            consent flow required for the site's audience and the advertising products
+            selected in AdSense.
           </p>
         </section>
 

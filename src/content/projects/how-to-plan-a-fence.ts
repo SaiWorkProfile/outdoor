@@ -173,6 +173,7 @@ export const page: ContentPage = {
             'Height decided, with local requirements checked if it is unusually tall',
             'Fence type chosen, so posts, rails and infill are counted as one system',
             'Post-hole diameter and depth decided, and a concrete quantity calculated',
+            'Before digging post holes, contact the local utility-locating service and have underground services marked',
             'Hardware list checked against the actual fence system, not just the default',
             'Property line, setbacks and any shared-boundary agreement confirmed',
           ],

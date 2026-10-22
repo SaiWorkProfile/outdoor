@@ -12,7 +12,7 @@ export const page: ContentPage = {
   eyebrow: 'Cost pillar',
   crumb: 'Landscaping project cost',
   lede:
-    'A landscaping budget is a list of categories, and most overruns come from the categories that were never on the list. This page covers all of them: material, delivery, labour, equipment, preparation, waste and complexity — and explains how to build the number yourself rather than borrowing someone else’s average.',
+    'Use this guide to identify the cost categories in a landscaping project and compare supplier or contractor quotes on the same scope. It covers materials, delivery, labour, equipment, preparation, waste and complexity; it does not walk through Project Mode.',
   keyFacts: [
     { label: 'Categories', value: 'Material, delivery, labour, equipment, preparation, waste' },
     { label: 'Most underestimated', value: 'Preparation and disposal' },

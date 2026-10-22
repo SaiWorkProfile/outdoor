@@ -109,7 +109,7 @@ export const page: ContentPage = {
       blocks: [
         {
           kind: 'p',
-          text: 'Lawn top-dressing is the one topsoil job where an independent published figure is easy to find, so it is worth checking the calculator against it. Penn State Extension publishes a table of compost volumes per unit area for surface applications from one quarter inch up to two inches. The engine output below uses the same area and depths with the waste allowance set to zero, which is the basis a published table uses.',
+          text: 'Lawn top-dressing is one topsoil-related job where published volume figures are available for comparison. Penn State Extension publishes a table of compost volumes per unit area for surface applications from one quarter inch up to two inches. The engine output below uses the same area and depths with the waste allowance set to zero. This comparison checks the area-and-depth volume arithmetic; the source table is for compost, not a recommendation to apply topsoil.',
         },
         {
           kind: 'table',
@@ -126,7 +126,7 @@ export const page: ContentPage = {
         },
         {
           kind: 'p',
-          text: 'The columns agree at every depth. That is a useful confirmation that the calculator uses the same arithmetic a land-grant extension service publishes. What a published table cannot tell you is what your own soil needs, which is why the depth setting stays in your hands.',
+          text: 'The columns agree at every depth, which is a useful arithmetic cross-check. It does not establish that topsoil is appropriate for lawn top-dressing or indicate what your soil needs; choose material and application depth for your site.',
         },
       ],
     },
